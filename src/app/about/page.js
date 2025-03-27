@@ -6,7 +6,6 @@ export default function Page() {
             <div>
                 <p>Hello World</p>
             </div>
-            <Footer />
         </>
     )
 }

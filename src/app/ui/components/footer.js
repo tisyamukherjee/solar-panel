@@ -7,36 +7,31 @@ export default function Footer() {
         <div className="bg-[#00274C] text-white py-10 px-6">
 
             {/* Wrapper for the entire footer */}
-            <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+            <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-12">
 
 
                 {/* Logo and Contact section */}
-                <div className="flex items-start gap-4">
+                <div className="flex flex-row-reverse items-start self-start lg:mb-0 lg:flex-row">
 
                     {/* Logo */}
-                    <img
-                        src="/u-m-logo.png" // Replace with actual path
+                    <Image
+                        src="/blockm.svg"
                         alt="University of Michigan"
-                        className="w-20 h-auto border p-2"
+                        width={100}
+                        height={100}
+                        className="ml-6 lg:ml-0 lg:mr-8"
                     />
 
                     {/* Contact info */}
-                    <div className="space-y-2 text-sm text-gray-300">
-                        <div className="flex items-center gap-2">
-                        <span className="text-yellow-400">📍</span> Address
-                        </div>
-                        <div className="flex items-center gap-2">
-                        <span className="text-yellow-400">📞</span> Contact info
-                        </div>
-                        <div className="flex items-center gap-2">
-                        <span className="text-yellow-400">✉️</span> Email here
-                        </div>
+                    <div>
+                        <span className="text-xl font-semibold">SFCE x EcoData</span>
+
                     </div>
                 </div>
 
                 {/* Quick links section */}
                 <div className="text-center md:text-left">
-                    <h3 className="text-yellow-400 font-bold text-lg mb-2">Quick Links</h3>
+                    <span className="text-xl font-semibold">Quick Links</span>
                     <ul className="space-y-1 text-sm text-gray-200">
                         <li><a href="/" className="hover:underline">Home</a></li>
                         <li><a href="/about" className="hover:underline">About Us</a></li>
@@ -68,8 +63,6 @@ export default function Footer() {
                 </div>
 
             </div>
-
-
 
 
 
