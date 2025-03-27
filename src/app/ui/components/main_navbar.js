@@ -1,18 +1,24 @@
+import Link from 'next/link';
+
 export default function Navbar() {
-    
-
-
     return (
-    <div class="w-full p-8 flex justify-between items-center text-white bg-blue-950">
-        <div class="flex flex-row gap-4">
-        hi
-        </div>
+        <header className="bg-[#00274C]">
+            <div className="max-w-5xl mx-auto flex items-center justify-between px-6 py-4 font-montserrat">
 
-        <div class="flex flex-col gap-2 divide-x sm:gap-4 sm:flex-row">
-        <span class="px-2">01</span>
-        <span class="px-2">02</span>
-        <span class="px-2">03</span>
-        </div>
-    </div>
-    )
+                {/* Logo */}
+                <div className="bg-yellow-400 text-[#00274C] font-semibold px-3 py-1 rounded">
+                    logo
+                </div>
+
+                {/* Nav links */}
+                <nav className="space-x-6 text-sm text-white font-medium">
+                    <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
+                    <Link href="/map" className="hover:text-yellow-400 transition">Map</Link>
+                    <Link href="/education" className="hover:text-yellow-400 transition">Education</Link>
+                    <Link href="/faq" className="hover:text-yellow-400 transition">FAQ</Link>
+                    <Link href="/team" className="hover:text-yellow-400 transition">Team</Link>
+                </nav>
+            </div>
+        </header>
+    );
 }

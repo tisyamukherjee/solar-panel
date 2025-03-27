@@ -4,10 +4,10 @@ import Image from 'next/image';
 export default function Footer() {
 
     return (
-        <div className="bg-[#00274C] text-white py-10 px-6">
+        <footer className="bg-[#00274C] text-white py-10 px-6 font-montserrat">
 
             {/* Wrapper for the entire footer */}
-            <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-12">
+            <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-12">
 
 
                 {/* Logo and Contact section */}
@@ -24,14 +24,14 @@ export default function Footer() {
 
                     {/* Contact info */}
                     <div>
-                        <span className="text-xl font-semibold">SFCE x EcoData</span>
+                        <span className="text-xl font-semibold ">SFCE x EcoData</span>
 
                     </div>
                 </div>
 
                 {/* Quick links section */}
                 <div className="text-center md:text-left">
-                    <span className="text-xl font-semibold">Quick Links</span>
+                    <span className="text-xl font-semibold text-[#FFCB05]">Quick Links</span>
                     <ul className="space-y-1 text-sm text-gray-200">
                         <li><a href="/" className="hover:underline">Home</a></li>
                         <li><a href="/about" className="hover:underline">About Us</a></li>
@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
 
                 {/* Planet Blue and Social Media section */}
-                <div className="flex flex-col items-center gap-4">
+                <div className="flex flex-col items-center gap-4 mt-1">
                     {/* Planet Blue logo */}
                     <div className="flex items-center gap-2 w-full justify-end">
                         <Image
@@ -54,7 +54,7 @@ export default function Footer() {
                     </div>
 
                     {/* Social media buttons */}
-                    <div className="flex gap-4 text-white text-xl w-full justify-end">
+                    <div className="flex gap-4 text-white text-xl w-full justify-center">
                         <FaInstagram className="hover:text-gray-400 cursor-pointer" />
                         <FaYoutube className="hover:text-gray-400 cursor-pointer" />
                         <FaTwitter className="hover:text-gray-400 cursor-pointer" />
@@ -66,6 +66,6 @@ export default function Footer() {
 
 
 
-        </div>
+        </footer>
     )
 }
