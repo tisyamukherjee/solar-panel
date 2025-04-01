@@ -1,6 +1,30 @@
-input[type=submit] {
-    width: 229px;
-    height: 80px;
-    background-color: #00274C;
+@import "tailwindcss";
+input[type ="text"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
+label{
+    font-weight: bold;
+    text-align: left;
+    font-family: "Montserrat";
+}
+
+input[type=submit] {
+    background-color: #00274c;
+    color: #f3c300;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #296cab;
+    color: #FCE480;
 }
