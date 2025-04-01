@@ -57,7 +57,7 @@ src/
 
 ---
 
-## 📦 Building for Production
+## Building for Production
 
 To build the site for production:
 
@@ -73,7 +73,7 @@ npm run start
 
 ---
 
-## ✨ Tech Stack
+## Tech Stack
 
 - [Next.js 15+](https://nextjs.org/)
 - React
@@ -81,6 +81,6 @@ npm run start
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you have questions, suggestions, or would like to contribute, feel free to [open an issue](https://github.com/tisyamukherjee/solar-panel/issues) or reach out via the contact page on the site.
