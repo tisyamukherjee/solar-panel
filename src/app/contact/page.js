@@ -1,19 +1,31 @@
 "use client";
 
 import React, { useState } from "react";
+import { sendMail } from "@/lib/send-mail";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [isSending, setIsSending] = useState(false);
+  const [resultMessage, setResultMessage] = useState("");
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would handle sending the form (e.g., API call or email)
-    console.log("Submitted:", form);
-    alert("Message sent!");
+    setIsSending(true);
+    setResultMessage("");
+
+    const res = await sendMail(form);
+    setIsSending(false);
+
+    if (res?.success) {
+      setResultMessage("Message sent successfully!");
+      setForm({ name: "", email: "", message: "" });
+    } else {
+      setResultMessage("Failed to send message. Please try again later.");
+    }
   };
 
   return (
@@ -21,7 +33,10 @@ export default function Contact() {
       <h1 className="text-3xl font-semibold mb-6 text-center text-gray-800">
         Contact Us
       </h1>
-      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-xl shadow-md border border-gray-200">
+      <form
+        onSubmit={handleSubmit}
+        className="space-y-6 bg-white p-6 rounded-xl shadow-md border border-gray-200"
+      >
         <div>
           <label htmlFor="name" className="block mb-1 text-sm font-medium text-gray-700">
             Name
@@ -69,10 +84,15 @@ export default function Contact() {
 
         <button
           type="submit"
+          disabled={isSending}
           className="w-full py-2 px-4 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200"
         >
-          Send Message
+          {isSending ? "Sending..." : "Send Message"}
         </button>
+
+        {resultMessage && (
+          <p className="text-center text-sm text-gray-700 mt-2">{resultMessage}</p>
+        )}
       </form>
     </section>
   );
