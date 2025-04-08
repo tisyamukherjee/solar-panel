@@ -1,7 +1,28 @@
-"use client"; 
+"use client";
 
 import React, { useEffect, useRef } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
+
+const markerData = [
+  {
+    title: "Duderstadt Center",
+    position: { lat: 42.2912, lng: -83.7157 },
+    address: "2281 Bonisteel Blvd, Ann Arbor, MI 48109",
+    pv: "711.15 kWDC, 0.71 MW",
+  },
+  {
+    title: "North Campus Facilities Services Building",
+    position: { lat: 42.2889, lng: -83.7168 },
+    address: "3231 Baxter Rd, Ann Arbor, MI 48109",
+    pv: "359.7 kWDC, 0.36 MW",
+  },
+  {
+    title: "NC 61",
+    position: { lat: 42.288, lng: -83.7168 },
+    address: "3231 Baxter Rd, Ann Arbor, MI 48109",
+    pv: "222.75 kWDC, 0.22 MW",
+  },
+];
 
 const GoogleMapComponent = () => {
   const mapRef = useRef(null);
@@ -9,12 +30,12 @@ const GoogleMapComponent = () => {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: "AIzaSyC9_-H-ACCJ3v3_AOdMQXY-NC5K5fRw9I8", // replace with your real API key
+        apiKey: "AIzaSyC9_-H-ACCJ3v3_AOdMQXY-NC5K5fRw9I8", // Replace with your real API key
         version: "beta",
         libraries: ["maps", "marker"],
       });
 
-      const google = await loader.load(); // old-style, or use importLibrary if you're on latest
+      const google = await loader.load();
       if (mapRef.current && window.google) {
         const map = new window.google.maps.Map(mapRef.current, {
           center: { lat: 42.2889, lng: -83.7168 },
@@ -22,67 +43,27 @@ const GoogleMapComponent = () => {
           mapId: "9d513d05b7f25516",
         });
 
-        const marker1 = new window.google.maps.marker.AdvancedMarkerElement({
-          map,
-          position: { lat: 42.2912, lng: -83.7157 },
-          title: "Duderstadt Center",
-        });
-        const infoWindow1 = new window.google.maps.InfoWindow({
-          content: `
-            <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
-              <div style="margin: 0; padding: 0;">
-                <strong style="font-size: 16px;">Duderstadt Center</strong><br/>
-                2281 Bonisteel Blvd, Ann Arbor, MI 48109<br/>
-                Rooftop PV<br/>
-                711.15 kWDC, 0.71 MW
-              </div>
-            </div>
-          `,
-        });
-        marker1.addListener("click", () => {
-          infoWindow1.open({ anchor: marker1, map });
-        });
-        
-        const marker2 = new window.google.maps.marker.AdvancedMarkerElement({
-          map,
-          position: { lat: 42.2889, lng: -83.7168 },
-          title: "North Campus Facilites Services Building",
-        });
-        const infoWindow2 = new window.google.maps.InfoWindow({
-          content: `
-            <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
-              <div style="margin: 0; padding: 0;">
-                <strong style="font-size: 16px;">North Campus Facilites Services Building</strong><br/>
-                3231 Baxter Rd, Ann Arbor, MI 48109<br/>
-                Rooftop PV<br/>
-                359.7 kWDC, 0.36 MW
-              </div>
-            </div>
-          `,
-        });
-        marker2.addListener("click", () => {
-          infoWindow2.open({ anchor: marker2, map });
-        });
+        markerData.forEach(({ title, position, address, pv }) => {
+          const marker = new window.google.maps.marker.AdvancedMarkerElement({
+            map,
+            position,
+            title,
+          });
 
-        const marker3 = new window.google.maps.marker.AdvancedMarkerElement({
-          map,
-          position: { lat: 42.288, lng: -83.7168 },
-          title: "NC 61",
-        });
-        const infoWindow3 = new window.google.maps.InfoWindow({
-          content: `
-            <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
-              <div style="margin: 0; padding: 0;">
-                <strong style="font-size: 16px;">NC 61</strong><br/>
-                3231 Baxter Rd, Ann Arbor, MI 48109<br/>
+          const infoWindow = new window.google.maps.InfoWindow({
+            content: `
+              <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
+                <strong style="font-size: 16px;">${title}</strong><br/>
+                ${address}<br/>
                 Rooftop PV<br/>
-                222.75 kWDC, 0.22 MW
+                ${pv}
               </div>
-            </div>
-          `,
-        });
-        marker3.addListener("click", () => {
-          infoWindow3.open({ anchor: marker3, map });
+            `,
+          });
+
+          marker.addListener("click", () => {
+            infoWindow.open({ anchor: marker, map });
+          });
         });
       }
     };
@@ -91,10 +72,18 @@ const GoogleMapComponent = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Solar Panel Locations</h2>
-      <div ref={mapRef} style={{ width: "100%", height: "400px" }} />
-    </div>
+    <section className="py-8 px-4 max-w-6xl mx-auto">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+        Solar Panel Locations on North Campus
+      </h2>
+      <p className="mb-6 text-gray-600">
+        Explore solar energy installations on the University of Michigan's North Campus. Click on a marker to learn more about the site and its capacity.
+      </p>
+      <div
+        ref={mapRef}
+        className="w-full h-[500px] rounded-xl shadow-md border border-gray-200"
+      />
+    </section>
   );
 };
 
