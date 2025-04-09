@@ -3,6 +3,8 @@
 import React, { useEffect, useRef } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
 
+const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API;
+
 const markerData = [
   {
     title: "Duderstadt Center",
@@ -30,7 +32,7 @@ const GoogleMapComponent = () => {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: "AIzaSyC9_-H-ACCJ3v3_AOdMQXY-NC5K5fRw9I8", // Replace with your real API key
+        apiKey: API_KEY, // Replace with your real API key
         version: "beta",
         libraries: ["maps", "marker"],
       });
@@ -39,7 +41,7 @@ const GoogleMapComponent = () => {
       if (mapRef.current && window.google) {
         const map = new window.google.maps.Map(mapRef.current, {
           center: { lat: 42.2889, lng: -83.7168 },
-          zoom: 14,
+          zoom: 15,
           mapId: "9d513d05b7f25516",
         });
 
