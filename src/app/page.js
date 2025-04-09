@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="text-white">
+    <div className="text-white font-montserrat">
       {/* Hero Section */}
       <section className="relative h-[85vh] flex items-center justify-center text-center overflow-hidden">
         {/* Background Image */}

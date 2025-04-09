@@ -29,8 +29,8 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-12 px-4 max-w-2xl mx-auto">
-      <h1 className="text-3xl font-semibold mb-6 text-center text-gray-800">
+    <section className="py-12 px-4 max-w-2xl font-montserrat mx-auto">
+      <h1 className="text-5xl font-bold mb-6 text-center text-gray-800">
         Contact Us
       </h1>
       <form

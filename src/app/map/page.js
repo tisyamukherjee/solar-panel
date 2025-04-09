@@ -74,11 +74,11 @@ const GoogleMapComponent = () => {
   }, []);
 
   return (
-    <section className="py-8 px-4 max-w-6xl mx-auto">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+    <section className="py-8 px-4 font-montserrat max-w-6xl mx-auto">
+      <h2 className="text-5xl pt-10 pb-4 mb-4 font-bold text-gray-800">
         Solar Panel Locations on North Campus
       </h2>
-      <p className="mb-6 text-gray-600">
+      <p className="mb-6 text-lg text-gray-600">
         Explore solar energy installations on the University of Michigan's North Campus. Click on a marker to learn more about the site and its capacity.
       </p>
       <div
