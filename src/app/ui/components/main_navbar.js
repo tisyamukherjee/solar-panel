@@ -1,19 +1,25 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
     return (
         <header className="bg-[#00274C]">
-            <div className="max-w-5xl mx-auto flex items-center justify-between px-6 py-4 font-montserrat">
-
+            {/* <div className="max-w-5xl flex items-center justify-between px-6 py-4 font-montserrat"> */}
+            <div className="w-full flex items-center px-6 py-4 font-montserrat">
                 {/* Logo */}
-                <Link href="/">
-                    <div className="bg-yellow-400 text-[#00274C] font-semibold px-3 py-1 rounded">   
-                        logo
-                    </div>
-                </Link>
+                <div className="flex flex-row gap-5 items-center"> 
+                    <Link href="/">
+                        <Image 
+                            src="/blockm.png"
+                            width="40"
+                            height="40"
+                        />
+                    </Link>
+                    <h1 className="text-white font-bold text-center"> EcoData x SfCE </h1>
+                </div>
 
                 {/* Nav links */}
-                <nav className="space-x-6 text-sm text-white font-medium">
+                <nav className="ml-auto space-x-6 text-sm text-white font-medium">
                     <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
                     <Link href="/about" className="hover:text-yellow-400 transition">About</Link>
                     <Link href="/map" className="hover:text-yellow-400 transition">Map</Link>

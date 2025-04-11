@@ -4,7 +4,7 @@ import ProfileCard from './ProfileCard';
 export default function Team () {
     return (
         <div className="bg-white">
-            <h1 className="text-6xl text-center font-bold pb-10 pt-15 font-montserrat" 
+            <h1 className="text-6xl text-center font-bold pb-5 pt-15 font-montserrat" 
                 style={{ color: '#00274C' }}
             >
                  Meet The Team 
