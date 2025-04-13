@@ -31,10 +31,9 @@ export default function Team () {
                 </p>
                 {/* images */}
                 <div className="flex flex-row justify-center gap-8 flex-wrap">
-                    <ProfileCard headshot="/headshots/tisya.jpeg" fullname="Tisya  Mukherjee" role="Project Lead"/>
-                    <ProfileCard headshot="/headshots/tisya.jpeg" fullname="Tisya  Mukherjee" role="Project Lead"/>
-                    <ProfileCard headshot="/headshots/tisya.jpeg" fullname="Tisya  Mukherjee" role="Project Lead"/>
-                    <ProfileCard headshot="/headshots/tisya.jpeg" fullname="Tisya  Mukherjee" role="Project Lead"/>
+                    <ProfileCard headshot="/headshots/harrison.jpg" fullname="Tisya  Mukherjee" role="Project Lead"/>
+                    <ProfileCard headshot="/headshots/torrie.jpeg" fullname="Tisya  Mukherjee" role="Project Lead"/>
+                    <ProfileCard headshot="/headshots/wilder.jpg" fullname="Tisya  Mukherjee" role="Project Lead"/>
                 </div>
             </div>
         </div>

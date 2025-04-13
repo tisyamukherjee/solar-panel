@@ -1,11 +1,4 @@
-import Navbar from "../ui/components/main_navbar";
-
-export default function Education () {
-    return (
-        <div>
-            <h1>Environmental</h1>
-            <h1>Financial</h1>
-            <h1>Science</h1>
-        </div>
-    )
-}
+export default function EducationHome() {
+    return <h2 className="text-3xl">Welcome to the Education Page!</h2>;
+  }
+  

@@ -11,6 +11,7 @@ export default function Navbar() {
                     <Link href="/">
                         <Image 
                             src="/blockm.png"
+                            alt="UM logo"
                             width="40"
                             height="40"
                         />
