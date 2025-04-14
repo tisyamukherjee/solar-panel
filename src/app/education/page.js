@@ -1,4 +1,11 @@
+import { DivideIcon } from "lucide-react";
+
 export default function EducationHome() {
-    return <h2 className="text-3xl">Welcome to the Education Page!</h2>;
+    return (
+      <div className="font-montserrat">
+        <h1 className="text-3xl">Solar Energy Education Modules</h1>
+        <h2 className="text-xl py-10"> Click the sidebar to begin!</h2>
+      </div>
+    );
   }
   

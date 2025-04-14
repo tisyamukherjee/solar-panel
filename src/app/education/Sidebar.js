@@ -41,8 +41,8 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="w-50 text-black p-6 top-0 left-0 overflow-y-auto font-montserrat">
-      <h1 className="text-2xl font-bold mb-8">Education Modules</h1>
+    <div className="w-60 text-black p-6 top-0 left-0 overflow-y-auto font-montserrat">
+      {/* <h1 className="text-2xl font-bold mb-8">Education Modules</h1> */}
 
       {sidebarData.map((lesson, index) => (
         <div className="py-5" key={index}>
