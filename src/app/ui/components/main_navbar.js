@@ -22,7 +22,7 @@ export default function Navbar() {
                 {/* Nav links */}
                 <nav className="ml-auto space-x-6 text-sm text-white font-medium">
                     <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
-                    <Link href="/about" className="hover:text-yellow-400 transition">About</Link>
+                    {/* <Link href="/about" className="hover:text-yellow-400 transition">About</Link> */}
                     <Link href="/map" className="hover:text-yellow-400 transition">Map</Link>
                     <Link href="/education" className="hover:text-yellow-400 transition">Education</Link>
                     <Link href="/team" className="hover:text-yellow-400 transition">Team</Link>

@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <section className="py-12 px-4 max-w-2xl font-montserrat mx-auto">
-      <h1 className="text-5xl font-bold mb-6 text-center text-gray-800">
+      <h1 className="text-5xl font-bold mb-6 text-center text-[#00274C]">
         Contact Us
       </h1>
       <form
@@ -38,7 +38,7 @@ export default function Contact() {
         className="space-y-6 bg-white p-6 rounded-xl shadow-md border border-gray-200"
       >
         <div>
-          <label htmlFor="name" className="block mb-1 text-sm font-medium text-gray-700">
+          <label htmlFor="name" className="block mb-1 text-md font-bold text-[#00274C]">
             Name
           </label>
           <input
@@ -53,7 +53,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <label htmlFor="email" className="block mb-1 text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="block mb-1 text-md font-bold text-[#00274C]">
             Email
           </label>
           <input
@@ -68,7 +68,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <label htmlFor="message" className="block mb-1 text-sm font-medium text-gray-700">
+          <label htmlFor="message" className="block mb-1 text-md font-bold text-[#00274C]">
             Message
           </label>
           <textarea
@@ -85,7 +85,7 @@ export default function Contact() {
         <button
           type="submit"
           disabled={isSending}
-          className="w-full py-2 px-4 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition duration-200"
+          className="w-full py-2 px-4 bg-[#00274C] text-[#F3C300] font-bold rounded-md hover:bg-[#1c5f99] transition duration-300"
         >
           {isSending ? "Sending..." : "Send Message"}
         </button>
