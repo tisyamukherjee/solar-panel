@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Environmental_1() {
   const [selected, setSelected] = useState(null);
 
-  const correctAnswer = "True";
+  const correctAnswer = "False";
 
   const handleSelect = (value) => {
     setSelected(value);

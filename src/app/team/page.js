@@ -11,7 +11,11 @@ export default function Team () {
             </h1>
             <div className="px-20">
                 <h2 className="text-black text-3xl text-bold font-montserrat py-4"> 
-                    <Link href="https://michiganecodata.org/index.html" className="hover:text-[#FFCB05]">
+                    <Link 
+                        href="https://michiganecodata.org/index.html" 
+                        className="hover:text-[#FFCB05]"
+                        target="_blank"
+                    >
                         Michigan EcoData
                     </Link>
                 </h2>
@@ -58,19 +62,19 @@ export default function Team () {
                     <ProfileCard 
                         headshot="/headshots/harrison.jpg" 
                         fullname="Harrison Rhoades" 
-                        role="Project Lead"
+                        role="Research and Development Director "
                         link="https://www.linkedin.com/in/harrison-rhoades-74167b255/"
                     />
                     <ProfileCard 
                         headshot="/headshots/torrie.jpeg" 
                         fullname="Victoria Jacobs" 
-                        role="Project Lead"
+                        role="Research and Development Co-Chair"
                         link="https://www.linkedin.com/in/victoria-jacobs-64247820a/"
                     />
                     <ProfileCard 
                         headshot="/headshots/wilder.jpg" 
                         fullname="Wilder Wetzel-Righettini" 
-                        role="Project Lead"
+                        role="Research and Development Co-Chair"
                         link="https://www.linkedin.com/in/wilder-wetzel-righettini-6a0592238/"
                     />
                 </div>

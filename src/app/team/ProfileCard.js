@@ -24,7 +24,7 @@ export default function ProfileCard({ headshot, fullname, role, link }) {
             <img
                 src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
                 alt="LinkedIn"
-                className="w-10 h-10 opacity-0 group-hover:opacity-80 z-20 pointer-events-none"
+                className="w-10 h-10 opacity-0 group-hover:opacity-100 z-20 pointer-events-none"
             />
         </a>
       </div>
