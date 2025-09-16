@@ -9,8 +9,8 @@ const sidebarData = [
     submodules: [
       { name: '1.1 - The Rise of Solar Panel', href: '/education/environmental/environmental_1' },
       { name: '1.2 - What is Sustainability?', href: '/education/environmental/environmental_2' },
-      { name: '1.3 - What Makes Solar Energy Sustainable?', href: '/lesson1/basics' },
-      { name: '1.4 - Greenhouse Gas Emissions', href: '/lesson1/basics' },
+      { name: '1.3 - What Makes Solar Energy Sustainable?', href: '/education/environmental/environmental_3' },
+      { name: '1.4 - Greenhouse Gas Emissions', href: '/education/environmental/environmental_4' },
       { name: '1.5 - The Supply Chain', href: '/lesson1/basics' },
       { name: '1.6 - Supply Chain Continued', href: '/lesson1/basics' },
       { name: '1.7 - Disposal, Recycling, and Reuse of Solar Panels', href: '/lesson1/basics' },

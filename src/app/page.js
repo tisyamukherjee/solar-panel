@@ -23,7 +23,7 @@ export default function Home() {
             className="text-4xl md:text-5xl font-bold leading-tight text-white"
             style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" }}
           >
-            University of Michigan Sustainability Initiative
+            University of Michigan Solar Initiative
           </h1>
           <p
             className="text-xl md:text-2xl mt-4 font-medium text-white"

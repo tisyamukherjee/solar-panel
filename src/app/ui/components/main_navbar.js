@@ -24,7 +24,7 @@ export default function Navbar() {
                     <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
                     {/* <Link href="/about" className="hover:text-yellow-400 transition">About</Link> */}
                     <Link href="/map" className="hover:text-yellow-400 transition">Map</Link>
-                    <Link href="/education" className="hover:text-yellow-400 transition">Education</Link>
+                    <Link href="/education" className="hover:text-yellow-400 transition">Solar Energy 101</Link>
                     <Link href="/team" className="hover:text-yellow-400 transition">Team</Link>
                     <Link href="/contact" className="hover:text-yellow-400 transition">Contact</Link>
                 </nav>
