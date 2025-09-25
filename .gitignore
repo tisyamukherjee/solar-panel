@@ -42,3 +42,5 @@ next-env.d.ts
 
 # python env
 env
+
+/generated/prisma
