@@ -7,18 +7,21 @@ const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API;
 
 const markerData = [
   {
+    img: "/locations/Duderstadt Rendering.jpg",
     title: "Duderstadt Center",
     position: { lat: 42.2912, lng: -83.7157 },
     address: "2281 Bonisteel Blvd, Ann Arbor, MI 48109",
     pv: "711.15 kWDC, 0.71 MW",
   },
   {
+    img: "/locations/Dean Road + NC 107 Rendering.jpg",
     title: "North Campus Facilities Services Building",
     position: { lat: 42.2889, lng: -83.7168 },
     address: "3231 Baxter Rd, Ann Arbor, MI 48109",
     pv: "359.7 kWDC, 0.36 MW",
   },
   {
+    img: "/locations/NCFS Bldg + NC 61 Rendering.jpg",
     title: "NC 61",
     position: { lat: 42.288, lng: -83.7168 },
     address: "3231 Baxter Rd, Ann Arbor, MI 48109",
@@ -45,7 +48,7 @@ const GoogleMapComponent = () => {
           mapId: "9d513d05b7f25516",
         });
 
-        markerData.forEach(({ title, position, address, pv }) => {
+        markerData.forEach(({ img, title, position, address, pv }) => {
           const marker = new window.google.maps.marker.AdvancedMarkerElement({
             map,
             position,
@@ -55,6 +58,11 @@ const GoogleMapComponent = () => {
           const infoWindow = new window.google.maps.InfoWindow({
             content: `
               <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
+                <img
+                  src="${img}"
+                  alt="Solar panel location img"
+                  style="width: 300px; height: 180px; object-fit: cover;"
+                />
                 <strong style="font-size: 16px;">${title}</strong><br/>
                 ${address}<br/>
                 Rooftop PV<br/>
