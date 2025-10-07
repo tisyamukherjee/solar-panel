@@ -30,7 +30,7 @@ const GoogleMapComponent = () => {
         const geocoder = new google.maps.Geocoder();
         const bounds = new google.maps.LatLngBounds();
 
-        markerData.forEach(({ title, address, pv, system }) => {
+        markerData.forEach(({ title, address, pv, system, photoUrl }) => {
           geocoder.geocode({ address }, (results, status) => {
             if (status === "OK" && results[0]) {
               const marker = new google.maps.marker.AdvancedMarkerElement({
@@ -43,6 +43,9 @@ const GoogleMapComponent = () => {
                 content: `
                   <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
                     <strong style="font-size: 16px;">${title}</strong><br/>
+                    ${photoUrl ? `<div style="margin-top:8px">
+                      <img src="${photoUrl}" alt="${title}" style="width:100%;max-width:280px;height:auto;border-radius:8px"/>
+                    </div>` : ""}
                     ${address}<br/>
                     ${system}<br/>
                     ${pv}
