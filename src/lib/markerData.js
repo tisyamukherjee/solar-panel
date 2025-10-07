@@ -4,6 +4,7 @@ export const markerData = [
     address: "2281 Bonisteel Blvd, Ann Arbor, MI 48109",
     pv: "711.15 kWDC, 0.71 MW",
     system: "Rooftop PV",
+    photoUrl: "/locations/dude.jpg"
   },
   {
     title: "North Campus Facilities Services Bldg",
@@ -16,6 +17,7 @@ export const markerData = [
     address: "3231 Baxter Rd, Ann Arbor, MI 48109",
     pv: "222.75 kWDC, 0.22 MW",
     system: "Carport PV",
+    photoUrl: "/locations/ncfs_nc61.jpg"
   },
   {
     title: "Dean Road Transportation Facility",
@@ -28,6 +30,7 @@ export const markerData = [
     address: "1665 Dean Rd., Ann Arbor, MI 48109",
     pv: "592.9 kWDC, 0.59 MW",
     system: "Carport PV",
+    photoUrl: "/locations/nc107.jpg"
   },
   {
     title: "Tony England Engineering Lab Building",
