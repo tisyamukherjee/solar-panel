@@ -11,7 +11,7 @@ export default function Home() {
         {/* Background Image */}
         <Image
           src="/solar-panels.jpg"
-          alt="Solar panels on Michigan campus"
+          alt="UM Sustainability Initiative"
           layout="fill"
           objectFit="cover"
           className="absolute inset-0 w-full h-full object-cover z-0"
@@ -34,13 +34,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mission Section */}
+      {/* Mission Section TURN INTO GRAPHS: "Our Impact?"*/}
       <section className="-mt-8 bg-white text-[#00274C] pt-32 px-6 md:px-16 shadow-xl">
-        <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
+        <h2 className="text-3xl font-bold mb-4">Our Impact</h2>
         <p className="text-lg leading-relaxed max-w-3xl">
-          We are committed to transforming the University of Michigan with clean solar energy.
-          With over 70 solar panel systems across campus, we aim to make solar energy
-          education accessible and engaging through learning modules.
+          Here are the two graphs
         </p>
       </section>
 
