@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function ProfileCard({ headshot, fullname, role, link }) {
+export default function ProfileCard({ headshot, fullname, role, link, year, major}) {
   return (
     <div className="py-10 px-15 flex flex-col text-center items-center">
       <div className="relative w-[150px] h-[150px] rounded-full overflow-hidden group shadow-lg">
@@ -9,6 +9,7 @@ export default function ProfileCard({ headshot, fullname, role, link }) {
           src={headshot}
           alt={fullname}
           fill
+          sizes="(max-width: 150px)"
           className="object-cover"
         />
 
@@ -30,6 +31,7 @@ export default function ProfileCard({ headshot, fullname, role, link }) {
       </div>
       <p className="text-black pt-2 text-lg font-montserrat">{fullname}</p>
       <p className="text-black text-sm font-montserrat">{role}</p>
+      <p className="text-black text-sm font-montserrat">{year}</p>
     </div>
   );
 }
