@@ -24,7 +24,7 @@ export default function Team() {
                     justice and ecological conservation issues through data and technology driven projects.
                 </p>
                 {/* images */}
-                <div className="flex flex-row m-10 justify-between flex-wrap">
+                <div className="flex flex-row m-10 justify-center flex-wrap">
                     <ProfileCard
                         headshot="/headshots/tisya.jpeg"
                         fullname="Tisya  Mukherjee"
@@ -53,14 +53,14 @@ export default function Team() {
                         headshot="/headshots/cecelia.jpeg"
                         fullname="Cecelia Crandall"
                         role="Team Member"
-                        link="www.linkedin.com/in/cecelia-crandall"
+                        link="https://www.linkedin.com/in/cecelia-crandall"
                     />
-                    {/* <ProfileCard
-                        headshot="/headshots/cecelia.jpeg"
+                    <ProfileCard
+                        headshot="/headshots/benjamin.jpg"
                         fullname="Benjamin Krause"
                         role="Team Member"
-                        link="www.linkedin.com/in/cecelia-crandall"
-                    /> */}
+                        link="https://www.linkedin.com/in/ben-krause-b19304390"
+                    />
                     {/* <ProfileCard 
                         headshot="/headshots/ellen.jpg" 
                         fullname="Ellen Ruan" 
