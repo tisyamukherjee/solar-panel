@@ -16,21 +16,21 @@ export default function Navbar() {
                             height="80"
                         />
                     </Link>
-                    <p>   
+                <div className="h-15 w-[2px] bg-white"></div>
+                <div className="text-center">
                     <h1 className="text-4xl text-white font-Merriweather font-bold text-center"> EcoData x SfCE </h1> 
-                    <br></br>
                     <h2 className="text-white font-Merriweather font-bold text-center"> University of Michigan</h2>
-                    </p>
+                </div>
                 </div>
 
                 {/* Nav links */}
-                <nav className="ml-auto space-x-6 text-4xl text-white font-IBM Plex Sans Devanagri">
-                    <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
+                <nav className="ml-auto space-x-6 text-4xl text-white font-['IBM Plex Sans Devanagri'] divide-x-2 divide-white/100">
+                    <Link href="/" className="hover:text-yellow-400 transition px-4">Home</Link>
                     {/* <Link href="/about" className="hover:text-yellow-400 transition">About</Link> */}
-                    <Link href="/map" className="hover:text-yellow-400 transition">Map</Link>
-                    <Link href="/education" className="hover:text-yellow-400 transition">Get Educated</Link>
-                    <Link href="/team" className="hover:text-yellow-400 transition">FAQ</Link>
-                    <Link href="/contact" className="hover:text-yellow-400 transition">Team</Link>
+                    <Link href="/map" className="hover:text-yellow-400 transition px-4">Map</Link>
+                    <Link href="/education" className="hover:text-yellow-400 transition px-4">Get Educated</Link>
+                    <Link href="/team" className="hover:text-yellow-400 transition px-4">FAQ</Link>
+                    <Link href="/contact" className="hover:text-yellow-400 transition px-4">Team</Link>
                 </nav>
             </div>
         </header>
