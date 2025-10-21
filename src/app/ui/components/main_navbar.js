@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import {LoginLogoutButton} from "@/components/ui/LoginLogout";
 
 export default function Navbar() {
     return (
@@ -27,6 +28,7 @@ export default function Navbar() {
                     <Link href="/education" className="hover:text-yellow-400 transition">Solar Energy 101</Link>
                     <Link href="/team" className="hover:text-yellow-400 transition">Team</Link>
                     <Link href="/contact" className="hover:text-yellow-400 transition">Contact</Link>
+                    <LoginLogoutButton />
                 </nav>
             </div>
         </header>
