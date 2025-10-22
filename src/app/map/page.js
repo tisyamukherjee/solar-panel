@@ -5,9 +5,18 @@ import { Loader } from "@googlemaps/js-api-loader";
 
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API;
 
-import { markerData } from "@/lib/markerData";
+import { AAmarkerData } from "@/lib/AAmarkerData";
+import { DBmarkerData } from "@/lib/DBmarkerData";
 
-const GoogleMapComponent = () => {
+// Reusable Google Map Component
+const GoogleMapComponent = ({ 
+  markerData, 
+  center, 
+  zoom = 15, 
+  title, 
+  description,
+  mapId = "9d513d05b7f25516" 
+}) => {
   const mapRef = useRef(null);
 
   useEffect(() => {
@@ -22,9 +31,9 @@ const GoogleMapComponent = () => {
 
       if (mapRef.current) {
         const map = new google.maps.Map(mapRef.current, {
-          center: { lat: 42.2889, lng: -83.7168 },
-          zoom: 15,
-          mapId: "9d513d05b7f25516",
+          center,
+          zoom,
+          mapId,
         });
 
         const geocoder = new google.maps.Geocoder();
@@ -69,17 +78,15 @@ const GoogleMapComponent = () => {
     };
 
     initMap();
-  }, []);
+  }, [markerData, center, zoom, mapId]);
 
   return (
     <section className="py-8 px-4 font-montserrat max-w-6xl mx-auto">
       <h2 className="text-5xl pt-10 pb-4 mb-4 font-bold text-gray-800">
-        Solar Panel Locations on North Campus
+        {title}
       </h2>
       <p className="mb-6 text-lg text-gray-600">
-        Explore solar energy installations on the University of Michigan's North
-        Campus. Click on a marker to learn more about the site, system type, and
-        capacity.
+        {description}
       </p>
       <div
         ref={mapRef}
@@ -89,4 +96,29 @@ const GoogleMapComponent = () => {
   );
 };
 
-export default GoogleMapComponent;
+// main component that renders both maps
+const MapPage = () => {
+  return (
+    <div>
+      {/* Ann Arbor Map */}
+      <GoogleMapComponent
+        markerData={AAmarkerData}
+        center={{ lat: 42.2889, lng: -83.7168 }}
+        zoom={13}
+        title="Solar Panel Locations in Ann Arbor"
+        description="Explore solar energy installations on the University of Michigan's Ann Arbor campus. Click on a marker to learn more about the site, system type, and capacity."
+      />
+      
+      {/* Dearborn Map */}
+      <GoogleMapComponent
+        markerData={DBmarkerData}
+        center={{ lat: 42.3223, lng: -83.2312 }}
+        zoom={5}
+        title="Solar Panel Locations in Dearborn"
+        description="Explore solar energy installations on the University of Michigan's Dearborn campus. Click on a marker to learn more about the site, system type, and capacity."
+      />
+    </div>
+  );
+};
+
+export default MapPage;
