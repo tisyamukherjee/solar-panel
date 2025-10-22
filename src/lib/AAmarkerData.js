@@ -1,4 +1,4 @@
-export const markerData = [
+export const AAmarkerData = [
   {
     title: "Duderstadt Center",
     address: "2281 Bonisteel Blvd, Ann Arbor, MI 48109",
@@ -31,12 +31,6 @@ export const markerData = [
     pv: "592.9 kWDC, 0.59 MW",
     system: "Carport PV",
     photoUrl: "/locations/nc107.jpg"
-  },
-  {
-    title: "Tony England Engineering Lab Building",
-    address: "2383 Richard Dr, Dearborn, MI 48128",
-    pv: "204.18 kWDC, 0.2 MW",
-    system: "Rooftop PV",
   },
   {
     title: "Indoor Track Building",
