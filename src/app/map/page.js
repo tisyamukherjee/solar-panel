@@ -81,8 +81,13 @@ const GoogleMapComponent = ({
   }, [markerData, center, zoom, mapId]);
 
   return (
+<<<<<<< HEAD
     <section className="py-8 px-4 font-anek max-w-6xl mx-auto">
       <h2 className="text-5xl pt-10 pb-4 mb-4 font-anek text-gray-800">
+=======
+    <section className="py-8 px-4 font-montserrat max-w-6xl mx-auto">
+      <h2 className="text-5xl pt-10 pb-4 mb-4 font-bold text-gray-800">
+>>>>>>> cf11d72 (working on dual maps)
         {title}
       </h2>
       <p className="mb-6 text-lg text-gray-600">
