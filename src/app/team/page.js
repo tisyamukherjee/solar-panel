@@ -63,12 +63,24 @@ export default function Team() {
               role="Team Member"
               link="https://www.linkedin.com/in/connor-davis-a51aa5294/"
             />
-            <ProfileCard
-              headshot="/headshots/cecelia.jpeg"
-              fullname="Benjamin Krause"
-              role="Team Member"
-              link="https://www.linkedin.com/in/ben-krause-b19304390"
-          />
+            {/* <ProfileCard
+                        headshot="/headshots/cecelia.jpeg"
+                        fullname="Benjamin Krause"
+                        role="Team Member"
+                        link="https://www.linkedin.com/in/ben-krause-b19304390"
+                    />
+                    <ProfileCard
+                        // headshot="/headshots/benjamin.jpg"
+                        fullname="Connor Davis"
+                        role="Team Member"
+                        link="https://www.linkedin.com/in/ben-krause-b19304390"
+                    />
+                    {/* <ProfileCard 
+                        headshot="/headshots/ellen.jpg" 
+                        fullname="Ellen Ruan" 
+                        role="Team Member" 
+                        link="https://www.linkedin.com/in/ellenruan/"
+                    /> */}
           </div>
           <h2 className="text-black text-3xl text-bold font-montserrat">
             {" "}
