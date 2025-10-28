@@ -24,13 +24,13 @@ export default function Navbar() {
                 </div>
 
                 {/* Nav links */}
-                <nav className="ml-auto space-x-6 text-4xl text-white font-['IBM Plex Sans Devanagri'] divide-x-2 divide-white/100">
-                    <Link href="/" className="hover:text-yellow-400 transition px-4">Home</Link>
+                <nav className="ml-auto space-x-2 text-4xl text-white font-['IBM Plex Sans Devanagri'] divide-x divide-white/100">
+                    <Link href="/" className="hover:text-yellow-400 transition px-6">Home</Link>
                     {/* <Link href="/about" className="hover:text-yellow-400 transition">About</Link> */}
-                    <Link href="/map" className="hover:text-yellow-400 transition px-4">Map</Link>
-                    <Link href="/education" className="hover:text-yellow-400 transition px-4">Get Educated</Link>
-                    <Link href="/team" className="hover:text-yellow-400 transition px-4">FAQ</Link>
-                    <Link href="/contact" className="hover:text-yellow-400 transition px-4">Team</Link>
+                    <Link href="/map" className="hover:text-yellow-400 transition px-6">Map</Link>
+                    <Link href="/education" className="hover:text-yellow-400 transition px-6">Get Educated</Link>
+                    <Link href="/team" className="hover:text-yellow-400 transition px-6">FAQ</Link>
+                    <Link href="/contact" className="hover:text-yellow-400 transition px-6">Team</Link>
                 </nav>
             </div>
         </header>
