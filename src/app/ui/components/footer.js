@@ -14,28 +14,73 @@ export default function Footer() {
                 <div className="flex flex-row-reverse items-start self-start lg:mb-0 lg:flex-row">
 
                     {/* Logo */}
-                    <Image
+                    
+
+                    {/* Three Tabs */}
+                    <div>
+                        <Image
                         src="/blockm.svg"
                         alt="University of Michigan"
                         width={100}
                         height={100}
                         className="ml-6 lg:ml-0 lg:mr-8"
-                    />
+                        />
+                        
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
 
                     {/* Contact info */}
                     <div>
-                        <span className="text-xl font-semibold ">SFCE x EcoData</span>
+                    <span className="text-xl font-semibold">SFCE x EcoData</span>
+    
+                    <link
+                         rel="stylesheet"
+                         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                    />
+                
+            
+                    
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot" ></i>
+                        <p>Address</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i className="fa-solid fa-phone"></i>
+                        <p>Contact info</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email here</p>
+                    </div>
 
                     </div>
                 </div>
+
+                
 
                 {/* Quick links section */}
                 <div className="text-center md:text-left">
                     <span className="text-xl font-semibold text-[#FFCB05]">Quick Links</span>
                     <ul className="space-y-1 text-sm text-gray-200">
                         <li><a href="/" className="hover:underline">Home</a></li>
+                        <br></br>
                         <li><a href="/about" className="hover:underline">About Us</a></li>
+                        <br></br>
                         <li><a href="/contact" className="hover:underline">Contact</a></li>
+                        <br></br>
                         <li><a href="/quiz" className="hover:underline">Quiz?</a></li>
                     </ul>
                 </div>
