@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { LoginLogoutButton } from '@/components/ui/LoginLogout';
 
 export default function Navbar() {
     return (
@@ -16,21 +17,21 @@ export default function Navbar() {
                             height="80"
                         />
                     </Link>
-                <div className="h-15 w-[2px] bg-white"></div>
-                <div className="text-center">
-                    <h1 className="text-4xl text-white font-Merriweather font-bold text-center"> EcoData x SfCE </h1> 
-                    <h2 className="text-white font-Merriweather font-bold text-center"> University of Michigan</h2>
-                </div>
+                    <div className="h-15 w-[2px] bg-white"></div>
+                    <div className="text-center">
+                        <h1 className="text-4xl text-white font-Merriweather font-bold text-center"> EcoData x SfCE </h1> 
+                        <h2 className="text-white font-Merriweather font-bold text-center"> University of Michigan</h2>
+                    </div>
                 </div>
 
                 {/* Nav links */}
-                <nav className="ml-auto space-x-2 text-[1.45rem] text-white font-['IBM Plex Sans Devanagri'] divide-x divide-white/100">
+                <nav className="ml-auto text-lg text-white font-['IBM Plex Sans Devanagri'] divide-x divide-white/100 flex flex-row">
                     <Link href="/" className="hover:text-yellow-400 transition px-6">Home</Link>
-                    {/* <Link href="/about" className="hover:text-yellow-400 transition">About</Link> */}
                     <Link href="/map" className="hover:text-yellow-400 transition px-6">Map</Link>
                     <Link href="/education" className="hover:text-yellow-400 transition px-6">Get Educated</Link>
-                    <Link href="/team" className="hover:text-yellow-400 transition px-6">FAQ</Link>
-                    <Link href="/contact" className="hover:text-yellow-400 transition px-6">Team</Link>
+                    <Link href="/contact" className="hover:text-yellow-400 transition px-6">Contact</Link>
+                    <Link href="/team" className="hover:text-yellow-400 transition px-6">Team</Link>
+                    <LoginLogoutButton/>
                 </nav>
             </div>
         </header>
