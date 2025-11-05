@@ -29,7 +29,7 @@ export default function Navbar() {
                     <Link href="/" className="hover:text-yellow-400 transition px-6">Home</Link>
                     <Link href="/map" className="hover:text-yellow-400 transition px-6">Map</Link>
                     <Link href="/education" className="hover:text-yellow-400 transition px-6">Get Educated</Link>
-                    <Link href="/contact" className="hover:text-yellow-400 transition px-6">Contact</Link>
+                    {/* <Link href="/contact" className="hover:text-yellow-400 transition px-6">Contact</Link> */}
                     <Link href="/team" className="hover:text-yellow-400 transition px-6">Team</Link>
                     <LoginLogoutButton/>
                 </nav>

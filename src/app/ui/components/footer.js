@@ -4,18 +4,14 @@ import Image from 'next/image';
 export default function Footer() {
 
     return (
-        <footer className="bg-[#00274C] text-white py-16 px-6 font-montserrat">
+        <footer className="bg-[#00274C] text-white py-10 font-montserrat">
 
             {/* Wrapper for the entire footer */}
             <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-start justify-between gap-12">
-
-
                 {/* Logo and Contact section */}
-                <div className="flex flex-row-reverse items-start self-start lg:mb-0 lg:flex-row">
+                <div className="flex flex-row-reverse items-start justify-between self-start lg:mb-0 lg:flex-row">
 
-                    {/* Logo */}
-                    
-
+                    {/* Logo */}     
                     {/* Three Tabs */}
                     <div>
                         <Image
@@ -25,54 +21,35 @@ export default function Footer() {
                         height={100}
                         className="ml-6 lg:ml-0 lg:mr-8"
                         />
-                        
-
-
-
-
                     </div>
-
-
-
-
-
-
-
 
 
                     {/* Contact info */}
-                    <div>
-                    <span className="text-xl font-semibold">SFCE x EcoData</span>
-    
-                    <link
-                         rel="stylesheet"
-                         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-                    />
-                
-            
-                    
-                    <div class="contact-item">
-                        <i class="fa-solid fa-location-dot" ></i>
-                        <p>Address</p>
-                    </div>
+                    <div className="space-y-4">
+                        <span className="text-xl font-semibold flex flex-col">SFCE x EcoData</span>
+                        <link
+                            rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                        />
+                        <div className="contact-item flex flex-row gap-5 items-center">
+                            <i className="fa-solid fa-location-dot" ></i>
+                            <p>109 E Madison St, Ann Arbor, MI 48104</p>
+                        </div>
 
-                    <div class="contact-item">
-                        <i className="fa-solid fa-phone"></i>
-                        <p>Contact info</p>
-                    </div>
+                        {/* <div className="contact-item">
+                            <i className="fa-solid fa-phone"></i>
+                            <p>Contact info</p>
+                        </div> */}
 
-                    <div class="contact-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>Email here</p>
-                    </div>
-
+                        <div className="contact-item flex flex-row items-center gap-5">
+                            <i className="fa-solid fa-envelope"></i>
+                            <p> <a href="mailto:ocs_contact@umich.edu">ocs_contact@umich.edu</a> </p>
+                        </div>
                     </div>
                 </div>
 
-                
-
                 {/* Quick links section */}
-                <div className="text-center md:text-left">
+                {/* <div className="text-center md:text-left">
                     <span className="text-xl font-semibold text-[#FFCB05]">Quick Links</span>
                     <ul className="space-y-1 text-sm text-gray-200">
                         <li><a href="/" className="hover:underline">Home</a></li>
@@ -83,7 +60,7 @@ export default function Footer() {
                         <br></br>
                         <li><a href="/quiz" className="hover:underline">Quiz?</a></li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* Planet Blue and Social Media section */}
                 <div className="flex flex-col items-center gap-4 mt-1">
