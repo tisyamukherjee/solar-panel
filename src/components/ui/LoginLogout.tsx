@@ -43,9 +43,9 @@ export function LoginLogoutButton() {
     } = authClient.useSession()
 
     if (!session) {
-        return <p className="hover:text-yellow-400 transition" onClick={signInWithGoogle}>Login</p>
+        return <p className="px-6 hover:text-yellow-400 transition" onClick={signInWithGoogle}>Login</p>
     }
     else {
-        return <p className="hover:text-yellow-400 transition" onClick={handleSignOut}>Logout</p>
+        return <p className="px-6 hover:text-yellow-400 transition" onClick={handleSignOut}>Logout</p>
     }
 }

@@ -29,16 +29,17 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-12 px-4 max-w-2xl font-montserrat mx-auto">
+    <section className="py-12 px-4 max-w-2xl font-montserrat mx-auto flex flex-col">
       <h1 className="text-5xl font-bold mb-6 text-center text-[#00274C]">
         Contact Us
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="space-y-6 bg-white p-6 rounded-xl shadow-md border border-gray-200"
+        // className="space-y-6 bg-white p-6 rounded-xl shadow-md border border-gray-200"
+        className="space-y-6 bg-white p-6 rounded-xl"
       >
         <div>
-          <label htmlFor="name" className="block mb-1 text-md font-bold text-[#00274C]">
+          <label htmlFor="name" className="block mb-1 text-lg font-bold text-[#00274C]">
             Name
           </label>
           <input
@@ -48,12 +49,12 @@ export default function Contact() {
             value={form.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border rounded-md focus:ring focus:ring-blue-200 focus:outline-none"
+            className="w-full px-4 py-2 border rounded-md bg-[#D9D9D9]focus:ring focus:ring-blue-200 focus:outline-none focus:bg-none"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block mb-1 text-md font-bold text-[#00274C]">
+          <label htmlFor="email" className="block mb-1 text-lg font-bold text-[#00274C]">
             Email
           </label>
           <input
@@ -68,7 +69,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <label htmlFor="message" className="block mb-1 text-md font-bold text-[#00274C]">
+          <label htmlFor="message" className="block mb-1 text-lg font-bold text-[#00274C]">
             Message
           </label>
           <textarea
@@ -85,7 +86,7 @@ export default function Contact() {
         <button
           type="submit"
           disabled={isSending}
-          className="w-full py-2 px-4 bg-[#00274C] text-[#F3C300] font-bold rounded-md hover:bg-[#1c5f99] transition duration-300"
+          className="h-10 w-40 py-2 px-4 self-center bg-[#00274C] text-[#F3C300] font-bold rounded-lg hover:bg-[#1c5f99] transition duration-300 cursor-pointer"
         >
           {isSending ? "Sending..." : "Send Message"}
         </button>
