@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const sidebarData = [
   {
-    title: 'Environmental Sustainability of Solar Energy',
+    title: 'Environmental Sustainability',
     submodules: [
       { name: '1.1 - The Rise of Solar Panel', href: '/education/environmental/environmental_1' },
       { name: '1.2 - What is Sustainability?', href: '/education/environmental/environmental_2' },
@@ -18,14 +18,14 @@ const sidebarData = [
     ],
   },
   {
-    title: 'Science of Solar Energy',
+    title: 'Science',
     submodules: [
       { name: 'Concepts', href: '/lesson2/concepts' },
       { name: 'Examples', href: '/lesson2/examples' },
     ],
   },
   {
-    title: 'Economics of Solar Energy',
+    title: 'Economics',
     submodules: [
       { name: 'Advanced', href: '/lesson3/advanced' },
       { name: 'Quiz', href: '/lesson3/quiz' },
@@ -44,11 +44,19 @@ export default function Sidebar() {
     <div className="w-60 text-black p-6 top-0 left-0 overflow-y-auto font-montserrat">
       {/* <h1 className="text-2xl font-bold mb-8">Education Modules</h1> */}
 
+      {/* prequiz */}
+      <div>
+        <Link href="/education/prequiz">
+          <button className='text-left font-semibold py-1 hover:text-yellow-400 flex justify-between items-center cursor-pointer'>
+            Pre-Quiz
+          </button>
+        </Link>
+      </div>
       {sidebarData.map((lesson, index) => (
         <div className="py-5" key={index}>
           <button
             onClick={() => toggleLesson(index)}
-            className="w-full text-left font-semibold hover:text-yellow-400 flex justify-between items-center"
+            className="w-full text-left font-semibold hover:text-yellow-400 flex justify-between items-center cursor-pointer"
           >
             {lesson.title}
             <span>{openLesson === index ? '▼' : '▶'}</span>
@@ -65,6 +73,14 @@ export default function Sidebar() {
           )}
         </div>
       ))}
+      {/* post quiz */}
+      <div>
+        <Link href="/education/postquiz">
+          <button className='text-left font-semibold py-1 hover:text-yellow-400 flex justify-between items-center cursor-pointer'>
+            Post-Quiz
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }
