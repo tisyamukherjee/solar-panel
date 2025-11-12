@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import styles from './Home.module.css';
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
             className="text-xl md:text-2xl mt-4 font-medium text-white"
             style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" }}
           >
-            Insert slogan
+            Transforming UM with Solar Power
           </p>
         </div>
       </section>
@@ -89,6 +90,49 @@ export default function Home() {
               </CardContent>
             </Card>
           ))}
+        </div>
+      </section>
+
+      {/* Partners Section */}
+      <section className="bg-[#FFCB05] py-12 px-6 md:px-16">
+
+        <h1 className={styles.partnerTitle}>PARTNERS</h1>
+        <div className={styles.partnerRow}>
+          <Image
+          className={styles.PRB}
+          src="/studForClean.png"
+          alt="Students for Clean Energy Logo"
+          width={115}
+          height={115}
+          />
+          <Image
+          className={styles.PRB}
+          src="/EcodataLogo.png"
+          alt="EcoData Logo"
+          width={120}
+          height={120}
+          />
+          <Image
+          className={styles.PRB}
+          src="/PlanetBlue.png"
+          alt="Planet Blue Logo"
+          width={150}
+          height={150}
+          />
+          <Image
+          className={styles.PRB}
+          src="/RadialPower.png"
+          alt="Radial Power Logo"
+          width={120}
+          height={140}
+          />
+          <Image
+          className={styles.PRB}
+          src="/SSC.png"
+          alt="Student for Sustainability Coalition Logo"
+          width={120}
+          height={120}
+          />
         </div>
       </section>
 
