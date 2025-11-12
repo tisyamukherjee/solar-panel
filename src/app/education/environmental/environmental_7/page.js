@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Environmental_1() {
   const [selected, setSelected] = useState(null);
 
-  const correctAnswer = "Carbon dioxide";
+  const correctAnswer = "75%";
 
   const handleSelect = (value) => {
     setSelected(value);
@@ -15,31 +15,31 @@ export default function Environmental_1() {
   return (
     <div className="font-montserrat">
       <h1 className="text-5xl mt-10"> Environmental Sustainability of Solar Energy</h1>
-      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.4 - Greenhouse Gas Emissions</h2>
+      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.7 - Disposal, Recycling, and Reuse of Solar Panels</h2>
 
       {/* content */}
       <div className="flex flex-row gap-8">
           {/* text */}
           <div className="w-150">
               <p className="mb-10">
-                  <strong>Greenhouse gases (GHGs)</strong>: Greenhouse gases are gases in the Earth's atmosphere that trap heat (the greenhouse effect), causing climate change. 
-                  <strong> Carbon dioxide</strong> is the greenhouse gas that has been the leading driver of human-caused climate change, and <strong>methane</strong> is the second largest.
+                  <strong>Disposal</strong>: Solar panels can be safely recycled at end-of-life (typically after 25–30 years), with processes recovering up to <strong>95%</strong> of materials like glass, aluminum, and silicon. The EPA regulates disposal to prevent toxic leaching, though recycling rates must improve globally.
               </p>
               <p className="mb-10">
-                  <strong>Anthropogenic emissions</strong>: Carbon emissions are a natural part of the Earth's carbon cycle; however, human activities are upsetting the balance of this natural cycle. 
-                  Since the industrial revolution, humans have emitted millions of tons of CO₂ into the atmosphere through the burning of fossil fuels for electricity, transportation, heat, and more.
+                  <strong>Recycling</strong>: Many components of solar panels can be recycled, such as glass (which is <strong>75%</strong> of the panel), inverters, racking, battery backup systems, and more. Some critical materials and toxic metals can be more difficult to recycle. Panels are disassembled and undergo thermal, mechanical, or chemical processes to separate materials (EPA).
               </p>
-              <p className="mb-10">
-                  <strong>Decades of warning, delayed action</strong>: Scientific evidence linking fossil fuels to climate change has been clear since at least the 1950s (e.g., the Keeling Curve, 1958) and became unequivocal by the 1988 formation of the IPCC—yet global CO₂ emissions have risen more than 60% since 1990. 
-                  <strong>Solar</strong>, by contrast, offers immediate decarbonization.
-              </p>
+              <div className="mb-10 text-sm">
+                <div><strong>Reuse</strong>: Second-life applications extend usefulness:</div>
+                <div className="ml-4">• Repurposed panels power off-grid projects (e.g., rural schools, LED lighting).</div>
+                <div className="ml-4">• Refurbished systems are sold at lower cost for developing communities.</div>
+                <div className="ml-4">• Silicon recycling reduces demand for new mining, cutting upstream emissions.</div>
+                <div className="ml-4">• The U.S. solar recycling industry is projected to grow 30% annually as retirements rise (SEIA).</div>
+              </div>
           </div>
 
           {/* graphic */}
           <div className="flex flex-col">
             <Image
-              src="/enviornmental/1-4.png"
-              alt="Solar energy growth"
+              src="/enviornmental/1-7.png"
               width={1240}
               height={840}
               className="w-[450px] h-auto" // controls size, keeps proportions
@@ -48,7 +48,7 @@ export default function Environmental_1() {
             {/* quiz */}
             <div className="flex mt-5 flex-col items-start w-full max-w-xl mx-auto">
               <div className="mt-4 text-lg font-medium">
-                Which greenhouse gas is the leading driver of human-caused climate change?
+                What percentage of a solar panel’s weight is recyclable glass?
               </div>
 
               <div className="mt-3 space-y-2">
@@ -56,55 +56,55 @@ export default function Environmental_1() {
                   <input
                     type="radio"
                     name="answer"
-                    value="Methane"
-                    checked={selected === "Methane"}
-                    onChange={() => handleSelect("Methane")}
+                    value="25%"
+                    checked={selected === "25%"}
+                    onChange={() => handleSelect("25%")}
                     className="accent-blue-500"
                   />
-                  A. Methane
+                  A. 25%
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Carbon dioxide"
-                    checked={selected === "Carbon dioxide"}
-                    onChange={() => handleSelect("Carbon dioxide")}
+                    value="50%"
+                    checked={selected === "50%"}
+                    onChange={() => handleSelect("50%")}
                     className="accent-blue-500"
                   />
-                  B. Carbon dioxide
+                  B. 50%
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Nitrous oxide"
-                    checked={selected === "Nitrous oxide"}
-                    onChange={() => handleSelect("Nitrous oxide")}
+                    value="75%"
+                    checked={selected === "75%"}
+                    onChange={() => handleSelect("75%")}
                     className="accent-blue-500"
                   />
-                  C. Nitrous oxide
+                  C. 75%
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Ozone"
-                    checked={selected === "Ozone"}
-                    onChange={() => handleSelect("Ozone")}
+                    value="90%"
+                    checked={selected === "90%"}
+                    onChange={() => handleSelect("90%")}
                     className="accent-blue-500"
                   />
-                  D. Ozone
+                  D. 90%
                 </label>
               </div>
 
               {selected && (
                 <div className="mt-3 text-sm font-semibold">
                   {selected === correctAnswer
-                    ? "✅ Correct — B is the correct answer"
+                    ? "✅ Correct — C is the correct answer"
                     : "❌ Incorrect"}
                 </div>
               )}
@@ -114,3 +114,4 @@ export default function Environmental_1() {
     </div>
   );
 }
+

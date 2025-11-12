@@ -3,10 +3,10 @@
 import Image from 'next/image'; 
 import { useState } from "react";
 
-export default function Environmental_1() {
+export default function Economics_1() {
   const [selected, setSelected] = useState(null);
 
-  const correctAnswer = "True";
+  const correctAnswer = "False";
 
   const handleSelect = (value) => {
     setSelected(value);
@@ -14,46 +14,29 @@ export default function Environmental_1() {
 
   return (
     <div className="font-montserrat">
-      <h1 className="text-5xl mt-10"> Environmental Sustainability of Solar Energy</h1>
-      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.2 - What is Sustainability?</h2>
+      <h1 className="text-5xl mt-10"> Economics of Solar Energy</h1>
+      <h2 className="text-3xl mt-10 pb-10 font-semibold">3.1 - The Rise of Solar Power</h2>
 
       {/* content */}
       <div className="flex flex-row gap-8">
           {/* text */}
           <div className="w-150">
               <p className="mb-10">
-                  <strong>Planet Blue Definition</strong>: Sustainability is a mindset and 
-                  framework for ensuring that current and future generations have equitable
-                   access to the resources for a full and vibrant life without the exploitation
-                    of people, society, or the environment. 
-                  <a className="text-blue-500 underline"
-                      href="https://planetblue.umich.edu/campus/about/">
-                      (Planet Blue)
-                  </a>
+                  <strong>Fringe to forefront</strong>: In the past 10 years, the manufacturing and deployment of solar energy around the world has increased exponentially. While solar was a fringe technology with niche applications 20 years ago, it is now being implemented at a rate greater than any other energy source. <strong>In 2024 there were 50 gigawatts of solar capacity added to the US energy grid</strong>—the most of any energy source and the largest annual capacity addition in over two decades. (SEIA)
               </p>
               <p className="mb-10">
-                  <strong>The Triple Bottom Line (TBL)</strong>: is a framework that evaluates
-                   an organization's performance based on three dimensions: social, environmental, 
-                   and financial outcomes. It emphasizes that businesses should focus not 
-                   only on profit (the traditional "bottom line") but also on their impact 
-                   on people and the planet. 
-                  <a className="text-blue-500 underline"
-                      href="https://online.hbs.edu/blog/post/what-is-the-triple-bottom-line">
-                      (Harvard Business School)
-                  </a>
+                  <strong>Fossil fuels</strong>: New capacity for <span className="text-red-500">fossil fuel–based</span> electricity has stagnated. In 2024 there were <strong>2.5 gigawatts</strong> of natural gas capacity added to the grid—the lowest in 25 years—in large part because of solar. (EIA)
               </p>
               <p className="mb-10">
-                  <strong>Three Pillars of TBL</strong>: While solar energy supports all 
-                    three pillars of the TBL, this crash course will focus primarily on the
-                    third pillar, environmental sustainability, and how solar energy is one
-                    of most important solutions that we have in the face of worsening climate change
+                  <strong>Big picture</strong>: Despite solar’s momentum, it still makes up <strong>less than 5%</strong> of total electricity generation in the US, while coal and natural gas together account for over <strong>50%</strong>. There’s still a long way to decarbonize the US electricity grid. (EIA)
               </p>
           </div>
 
           {/* graphic */}
           <div className="flex flex-col">
             <Image
-              src="/enviornmental/1-2.jpeg"
+              src="/enviornmental/solar_energy_growth.png"
+              alt="Solar energy growth"
               width={1240}
               height={840}
               className="w-[450px] h-auto" // controls size, keeps proportions
@@ -104,3 +87,4 @@ export default function Environmental_1() {
     </div>
   );
 }
+

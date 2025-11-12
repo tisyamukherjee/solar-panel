@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Environmental_1() {
   const [selected, setSelected] = useState(null);
 
-  const correctAnswer = "Carbon dioxide";
+  const correctAnswer = "Decentralize";
 
   const handleSelect = (value) => {
     setSelected(value);
@@ -15,31 +15,27 @@ export default function Environmental_1() {
   return (
     <div className="font-montserrat">
       <h1 className="text-5xl mt-10"> Environmental Sustainability of Solar Energy</h1>
-      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.4 - Greenhouse Gas Emissions</h2>
+      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.8 - Climate Resilience</h2>
 
       {/* content */}
       <div className="flex flex-row gap-8">
           {/* text */}
           <div className="w-150">
               <p className="mb-10">
-                  <strong>Greenhouse gases (GHGs)</strong>: Greenhouse gases are gases in the Earth's atmosphere that trap heat (the greenhouse effect), causing climate change. 
-                  <strong> Carbon dioxide</strong> is the greenhouse gas that has been the leading driver of human-caused climate change, and <strong>methane</strong> is the second largest.
+                  <strong>Definition</strong>: The Union of Concerned Scientists defines climate resilience as “successfully coping with and managing the impacts of climate change while preventing those impacts from growing worse. A climate-resilient society would be low-carbon and equipped to deal with the realities of a warmer world.” (UCS)
               </p>
               <p className="mb-10">
-                  <strong>Anthropogenic emissions</strong>: Carbon emissions are a natural part of the Earth's carbon cycle; however, human activities are upsetting the balance of this natural cycle. 
-                  Since the industrial revolution, humans have emitted millions of tons of CO₂ into the atmosphere through the burning of fossil fuels for electricity, transportation, heat, and more.
+                  <strong>Current system faults</strong>: The US grid is vulnerable to natural disasters like the Texas Winter Storm in 2021 and the California wildfires of 2019, which both left millions without power for weeks. These disasters are expected to worsen due to climate change.
               </p>
               <p className="mb-10">
-                  <strong>Decades of warning, delayed action</strong>: Scientific evidence linking fossil fuels to climate change has been clear since at least the 1950s (e.g., the Keeling Curve, 1958) and became unequivocal by the 1988 formation of the IPCC—yet global CO₂ emissions have risen more than 60% since 1990. 
-                  <strong>Solar</strong>, by contrast, offers immediate decarbonization.
+                  <strong>Solar decentralization</strong>: Because solar can be deployed from utility-scale farms to commercial buildings to homes, it decentralizes electricity generation and can lessen the impact of disasters. With solar and battery storage, communities or buildings can maintain electricity access during utility outages, potentially saving lives.
               </p>
           </div>
 
           {/* graphic */}
           <div className="flex flex-col">
             <Image
-              src="/enviornmental/1-4.png"
-              alt="Solar energy growth"
+              src="/enviornmental/1-8.png"
               width={1240}
               height={840}
               className="w-[450px] h-auto" // controls size, keeps proportions
@@ -48,7 +44,7 @@ export default function Environmental_1() {
             {/* quiz */}
             <div className="flex mt-5 flex-col items-start w-full max-w-xl mx-auto">
               <div className="mt-4 text-lg font-medium">
-                Which greenhouse gas is the leading driver of human-caused climate change?
+                Solar and other renewable sources improve climate resilience because they essentially ________ the grid.
               </div>
 
               <div className="mt-3 space-y-2">
@@ -56,55 +52,55 @@ export default function Environmental_1() {
                   <input
                     type="radio"
                     name="answer"
-                    value="Methane"
-                    checked={selected === "Methane"}
-                    onChange={() => handleSelect("Methane")}
+                    value="Consolidate"
+                    checked={selected === "Consolidate"}
+                    onChange={() => handleSelect("Consolidate")}
                     className="accent-blue-500"
                   />
-                  A. Methane
+                  a. Consolidate
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Carbon dioxide"
-                    checked={selected === "Carbon dioxide"}
-                    onChange={() => handleSelect("Carbon dioxide")}
+                    value="Overload"
+                    checked={selected === "Overload"}
+                    onChange={() => handleSelect("Overload")}
                     className="accent-blue-500"
                   />
-                  B. Carbon dioxide
+                  b. Overload
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Nitrous oxide"
-                    checked={selected === "Nitrous oxide"}
-                    onChange={() => handleSelect("Nitrous oxide")}
+                    value="Supply"
+                    checked={selected === "Supply"}
+                    onChange={() => handleSelect("Supply")}
                     className="accent-blue-500"
                   />
-                  C. Nitrous oxide
+                  c. Supply
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Ozone"
-                    checked={selected === "Ozone"}
-                    onChange={() => handleSelect("Ozone")}
+                    value="Decentralize"
+                    checked={selected === "Decentralize"}
+                    onChange={() => handleSelect("Decentralize")}
                     className="accent-blue-500"
                   />
-                  D. Ozone
+                  d. Decentralize
                 </label>
               </div>
 
               {selected && (
                 <div className="mt-3 text-sm font-semibold">
                   {selected === correctAnswer
-                    ? "✅ Correct — B is the correct answer"
+                    ? "✅ Correct — d is the correct answer"
                     : "❌ Incorrect"}
                 </div>
               )}
@@ -114,3 +110,4 @@ export default function Environmental_1() {
     </div>
   );
 }
+

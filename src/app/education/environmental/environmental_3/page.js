@@ -52,8 +52,7 @@ export default function Environmental_1() {
           {/* graphic */}
           <div className="flex flex-col">
             <Image
-              src="/enviornmental/solar_energy_growth.png"
-              alt="Solar energy growth"
+              src="/enviornmental/1-3.png"
               width={1240}
               height={840}
               className="w-[450px] h-auto" // controls size, keeps proportions

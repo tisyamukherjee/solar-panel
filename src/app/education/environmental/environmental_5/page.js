@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Environmental_1() {
   const [selected, setSelected] = useState(null);
 
-  const correctAnswer = "Carbon dioxide";
+  const correctAnswer = "Lead";
 
   const handleSelect = (value) => {
     setSelected(value);
@@ -15,31 +15,31 @@ export default function Environmental_1() {
   return (
     <div className="font-montserrat">
       <h1 className="text-5xl mt-10"> Environmental Sustainability of Solar Energy</h1>
-      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.4 - Greenhouse Gas Emissions</h2>
+      <h2 className="text-3xl mt-10 pb-10 font-semibold">1.5 - The Supply Chain</h2>
 
       {/* content */}
       <div className="flex flex-row gap-8">
           {/* text */}
           <div className="w-150">
               <p className="mb-10">
-                  <strong>Greenhouse gases (GHGs)</strong>: Greenhouse gases are gases in the Earth's atmosphere that trap heat (the greenhouse effect), causing climate change. 
-                  <strong> Carbon dioxide</strong> is the greenhouse gas that has been the leading driver of human-caused climate change, and <strong>methane</strong> is the second largest.
+                  <strong>Common Materials in Solar Panels</strong>: Aluminum, copper, silicon, silver, and zinc are some of the most common minerals used in solar panels—each one abundant on Earth. 
+                  <strong>Polysilicon</strong> is another common material used in the production of solar panels. Large amounts of polysilicon can be found in China, making China the leading producer of solar panels. (Earth.org)
               </p>
               <p className="mb-10">
-                  <strong>Anthropogenic emissions</strong>: Carbon emissions are a natural part of the Earth's carbon cycle; however, human activities are upsetting the balance of this natural cycle. 
-                  Since the industrial revolution, humans have emitted millions of tons of CO₂ into the atmosphere through the burning of fossil fuels for electricity, transportation, heat, and more.
+                  <strong>Manufacturing</strong>: The manufacturing of solar panels requires many energy-intensive processes that emit greenhouse gases. However, when comparing the carbon footprint of solar panels to other energy sources like coal mining, oil drilling, and fracking, solar panels are much better long-term alternatives.
               </p>
-              <p className="mb-10">
-                  <strong>Decades of warning, delayed action</strong>: Scientific evidence linking fossil fuels to climate change has been clear since at least the 1950s (e.g., the Keeling Curve, 1958) and became unequivocal by the 1988 formation of the IPCC—yet global CO₂ emissions have risen more than 60% since 1990. 
-                  <strong>Solar</strong>, by contrast, offers immediate decarbonization.
-              </p>
+              <div className="mb-10 text-sm">
+                <div>• Solar panels: 0.110231 lbs of CO₂ during manufacturing</div>
+                <div>• Natural gas: 117 lbs of CO₂ per MMBtu (extraction and production)</div>
+                <div>• Oil (petroleum): 160 lbs of CO₂ per MMBtu</div>
+                <div>• Coal mining: 200 lbs of CO₂ per MMBtu (solaris)</div>
+              </div>
           </div>
 
           {/* graphic */}
           <div className="flex flex-col">
             <Image
-              src="/enviornmental/1-4.png"
-              alt="Solar energy growth"
+              src="/enviornmental/1-5.png"
               width={1240}
               height={840}
               className="w-[450px] h-auto" // controls size, keeps proportions
@@ -48,7 +48,7 @@ export default function Environmental_1() {
             {/* quiz */}
             <div className="flex mt-5 flex-col items-start w-full max-w-xl mx-auto">
               <div className="mt-4 text-lg font-medium">
-                Which greenhouse gas is the leading driver of human-caused climate change?
+                Which of the following is NOT a common element in solar panels?
               </div>
 
               <div className="mt-3 space-y-2">
@@ -56,55 +56,55 @@ export default function Environmental_1() {
                   <input
                     type="radio"
                     name="answer"
-                    value="Methane"
-                    checked={selected === "Methane"}
-                    onChange={() => handleSelect("Methane")}
+                    value="Aluminum"
+                    checked={selected === "Aluminum"}
+                    onChange={() => handleSelect("Aluminum")}
                     className="accent-blue-500"
                   />
-                  A. Methane
+                  A. Aluminum
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Carbon dioxide"
-                    checked={selected === "Carbon dioxide"}
-                    onChange={() => handleSelect("Carbon dioxide")}
+                    value="Copper"
+                    checked={selected === "Copper"}
+                    onChange={() => handleSelect("Copper")}
                     className="accent-blue-500"
                   />
-                  B. Carbon dioxide
+                  B. Copper
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Nitrous oxide"
-                    checked={selected === "Nitrous oxide"}
-                    onChange={() => handleSelect("Nitrous oxide")}
+                    value="Lead"
+                    checked={selected === "Lead"}
+                    onChange={() => handleSelect("Lead")}
                     className="accent-blue-500"
                   />
-                  C. Nitrous oxide
+                  C. Lead
                 </label>
 
                 <label className="flex items-center gap-2">
                   <input
                     type="radio"
                     name="answer"
-                    value="Ozone"
-                    checked={selected === "Ozone"}
-                    onChange={() => handleSelect("Ozone")}
+                    value="Silicon"
+                    checked={selected === "Silicon"}
+                    onChange={() => handleSelect("Silicon")}
                     className="accent-blue-500"
                   />
-                  D. Ozone
+                  D. Silicon
                 </label>
               </div>
 
               {selected && (
                 <div className="mt-3 text-sm font-semibold">
                   {selected === correctAnswer
-                    ? "✅ Correct — B is the correct answer"
+                    ? "✅ Correct — C is the correct answer"
                     : "❌ Incorrect"}
                 </div>
               )}
@@ -114,3 +114,4 @@ export default function Environmental_1() {
     </div>
   );
 }
+
