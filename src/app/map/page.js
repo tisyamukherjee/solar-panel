@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
+import styles from "./GoogleMapComponent.module.css";
 
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API;
 
@@ -9,13 +10,13 @@ import { AAmarkerData } from "@/lib/AAmarkerData";
 import { DBmarkerData } from "@/lib/DBmarkerData";
 
 // Reusable Google Map Component
-const GoogleMapComponent = ({ 
-  markerData, 
-  center, 
-  zoom = 15, 
-  title, 
+const GoogleMapComponent = ({
+  markerData,
+  center,
+  zoom = 15,
+  title,
   description,
-  mapId = "9d513d05b7f25516" 
+  mapId = "9d513d05b7f25516",
 }) => {
   const mapRef = useRef(null);
 
@@ -50,16 +51,20 @@ const GoogleMapComponent = ({
 
               const infoWindow = new google.maps.InfoWindow({
                 content: `
-                  <div style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 12px; min-width: 400px; max-width: 600px; padding: 24px 20px; box-sizing: content-box;">
+                  <div className = "" style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 12px; min-width: 400px; max-width: 600px; padding: 24px 20px; box-sizing: content-box;">
                     <div style="flex: 1; margin-right: 24px;">
                       <span style="font-family: 'montserrat'; font-weight:650; font-size: 38px; line-height: 100%; letter-spacing: 0%; color: #F3C300; display: block;">${title}</span>
                       <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 12px;">${address}</span>
                       <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${system}</span>
                       <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${pv}</span>
                     </div>
-                    ${photoUrl ? `<div style="flex: none;">
+                    ${
+                      photoUrl
+                        ? `<div style="flex: none;">
                       <img src="${photoUrl}" alt="${title}" style="width:300px; height:auto; border-radius:8px; display:block; background:#00274C;" />
-                    </div>` : ""}
+                    </div>`
+                        : ""
+                    }
                   </div>
                 `,
               });
@@ -83,17 +88,21 @@ const GoogleMapComponent = ({
   }, [markerData, center, zoom, mapId]);
 
   return (
-    <section className="py-8 px-4 font-anek max-w-6xl mx-auto">
-      <h2 className="text-5xl pt-10 pb-4 mb-4 font-family: 'Anek Gurmukhi' text-gray-800">
+    <section className="py-4 px-4 font-montserrat max-w-6xl mx-auto">
+      <h2
+        className="text-5xl text-left font-bold pb-5 pt-5 font-montserrat"
+        style={{ color: "rgb(0, 39, 76)" }}
+      >
         {title}
       </h2>
-      <p className="mb-6 text-lg text-gray-600">
-        {description}
+      <p className="mb-6 text-lg text-gray-600 text-left">
+        9 sites | 5,000+ kWDC generated | 5+ MW generated
       </p>
       <div
         ref={mapRef}
         className="w-full h-[500px] rounded-xl shadow-md border border-gray-200"
       />
+      <div className="mb-3 pt-3 text-lg text-gray-600">{description}</div>
     </section>
   );
 };
@@ -107,10 +116,11 @@ const MapPage = () => {
         markerData={AAmarkerData}
         center={{ lat: 42.2889, lng: -83.7168 }}
         zoom={13}
-        title="Solar Panel Locations in Ann Arbor"
-        description="Explore solar energy installations on the University of Michigan's Ann Arbor campus. Click on a marker to learn more about the site, system type, and capacity."
+        title="Solar Locations: North Campus"
+        description="Using the interactive map above, explore the solar facilities on The University of Michigan’s North Campus!
+ Click on each marker to learn more about the site, system type, and capacity"
       />
-      
+
       {/* Dearborn Map */}
       {/*
       <GoogleMapComponent
