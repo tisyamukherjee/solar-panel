@@ -50,14 +50,16 @@ const GoogleMapComponent = ({
 
               const infoWindow = new google.maps.InfoWindow({
                 content: `
-                  <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
-                    <strong style="font-size: 16px;">${title}</strong><br/>
-                    ${photoUrl ? `<div style="margin-top:8px">
-                      <img src="${photoUrl}" alt="${title}" style="width:100%;max-width:280px;height:auto;border-radius:8px"/>
+                  <div style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 12px; min-width: 400px; max-width: 600px; padding: 24px 20px; box-sizing: content-box;">
+                    <div style="flex: 1; margin-right: 24px;">
+                      <span style="font-family: 'montserrat'; font-weight:650; font-size: 38px; line-height: 100%; letter-spacing: 0%; color: #F3C300; display: block;">${title}</span>
+                      <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 12px;">${address}</span>
+                      <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${system}</span>
+                      <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${pv}</span>
+                    </div>
+                    ${photoUrl ? `<div style="flex: none;">
+                      <img src="${photoUrl}" alt="${title}" style="width:300px; height:auto; border-radius:8px; display:block; background:#00274C;" />
                     </div>` : ""}
-                    ${address}<br/>
-                    ${system}<br/>
-                    ${pv}
                   </div>
                 `,
               });
@@ -115,6 +117,7 @@ const MapPage = () => {
       />
       
       {/* Dearborn Map */}
+      {/*
       <GoogleMapComponent
         markerData={DBmarkerData}
         center={{ lat: 42.3223, lng: -83.2312 }}
@@ -122,6 +125,7 @@ const MapPage = () => {
         title="Solar Panel Locations in Dearborn"
         description="Explore solar energy installations on the University of Michigan's Dearborn campus. Click on a marker to learn more about the site, system type, and capacity."
       />
+      */}
     </div>
   );
 };
