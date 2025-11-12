@@ -90,12 +90,12 @@ const GoogleMapComponent = ({
   return (
     <section className="py-4 px-4 font-montserrat max-w-6xl mx-auto">
       <h2
-        className="text-5xl text-left font-bold pb-5 pt-5 font-montserrat"
+        className="text-5xl text-center font-bold pb-5 pt-5 font-montserrat"
         style={{ color: "rgb(0, 39, 76)" }}
       >
         {title}
       </h2>
-      <p className="mb-6 text-lg text-gray-600 text-left">
+      <p className="mb-6 text-lg text-gray-600 text-center">
         9 sites | 5,000+ kWDC generated | 5+ MW generated
       </p>
       <div
