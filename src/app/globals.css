@@ -1,3 +1,10 @@
+/* Custom Google Maps InfoWindow background override for testing */
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
+.gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-t::after {
+  background: #00274C !important;
+}
 @import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@400;700&display=swap');
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -119,3 +126,34 @@
     @apply border-border outline-ring/50;}
   body {
     @apply bg-background text-foreground;}}
+
+/* Make the InfoWindow chrome (top bar) smaller but keep the X button visible */
+.gm-style-iw-chr {
+  min-height: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+}
+
+.gm-style-iw-ch {
+  min-height: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+}
+
+.gm-ui-hover-effect {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 12px !important;
+  right: 12px !important;
+}
+.gm-ui-hover-effect > span {
+  display: block !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0 !important;
+}
