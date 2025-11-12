@@ -97,7 +97,7 @@ const GoogleMapComponent = ({
 >>>>>>> cf11d72 (working on dual maps)
         {title}
       </h2>
-      <p className="mb-6 text-lg text-gray-600 text-left">
+      <p className="mb-6 text-lg text-gray-600 text-center">
         9 sites | 5,000+ kWDC generated | 5+ MW generated
       </p>
       <div
