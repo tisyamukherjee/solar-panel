@@ -41,22 +41,22 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="w-60 text-black p-6 top-0 left-0 overflow-y-auto font-montserrat">
+    <div className="w-60 text-black p-10 top-0 left-0 overflow-y-auto font-montserrat bg-[#FFCB05]">
       {/* <h1 className="text-2xl font-bold mb-8">Education Modules</h1> */}
 
       {/* prequiz */}
       <div>
         <Link href="/education/prequiz">
-          <button className='text-left font-semibold py-1 hover:text-yellow-400 flex justify-between items-center cursor-pointer'>
+          <button className='text-left font-semibold py-4 hover:text-white flex justify-between items-center cursor-pointer'>
             Pre-Quiz
           </button>
         </Link>
       </div>
       {sidebarData.map((lesson, index) => (
-        <div className="py-5" key={index}>
+        <div className="py-4" key={index}>
           <button
             onClick={() => toggleLesson(index)}
-            className="w-full text-left font-semibold hover:text-yellow-400 flex justify-between items-center cursor-pointer"
+            className="w-full text-left font-semibold hover:text-white flex justify-between items-center cursor-pointer"
           >
             {lesson.title}
             <span>{openLesson === index ? '▼' : '▶'}</span>
@@ -65,7 +65,7 @@ export default function Sidebar() {
           {openLesson === index && (
             <div className="ml-4 mt-2 space-y-1">
               {lesson.submodules.map((sub, subIndex) => (
-                <Link key={subIndex} href={sub.href} className="block py-1 text-sm hover:text-yellow-300">
+                <Link key={subIndex} href={sub.href} className="block py-1 text-sm hover:text-white">
                   {sub.name}
                 </Link>
               ))}
@@ -76,7 +76,7 @@ export default function Sidebar() {
       {/* post quiz */}
       <div>
         <Link href="/education/postquiz">
-          <button className='text-left font-semibold py-1 hover:text-yellow-400 flex justify-between items-center cursor-pointer'>
+          <button className='text-left font-semibold py-4 hover:text-yellow-400 flex justify-between items-center cursor-pointer'>
             Post-Quiz
           </button>
         </Link>

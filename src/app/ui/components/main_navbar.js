@@ -28,7 +28,7 @@ export default function Navbar() {
                 <nav className="ml-auto text-lg text-white font-['IBM Plex Sans Devanagri'] font-semibold divide-x divide-white/100 flex flex-row">
                     <Link href="/" className="hover:text-yellow-400 transition px-5">Home</Link>
                     <Link href="/map" className="hover:text-yellow-400 transition px-5">Map</Link>
-                    <Link href="/education" className="hover:text-yellow-400 transition px-5">Get Educated</Link>
+                    <Link href="/education/prequiz" className="hover:text-yellow-400 transition px-5">Get Educated</Link>
                     {/* <Link href="/contact" className="hover:text-yellow-400 transition px-6">Contact</Link> */}
                     <Link href="/team" className="hover:text-yellow-400 transition px-5">Team</Link>
                     <LoginLogoutButton/>
