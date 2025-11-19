@@ -51,19 +51,21 @@ const GoogleMapComponent = ({
 
               const infoWindow = new google.maps.InfoWindow({
                 content: `
-                  <div style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 12px; min-width: 400px; max-width: 600px; padding: 24px 20px; box-sizing: content-box;">
+                  <div style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 10px; min-width: 340px; max-width: 500px; padding: 18px 14px; box-sizing: content-box;">
                     <div style="${
-                      photoUrl ? "flex: 1; margin-right: 24px;" : "width: 100%;"
+                      photoUrl
+                        ? "flex: 1; margin-right: 12px;"
+                        : "width: 100%; display: block;"
                     }">
-                      <span style="font-family: 'montserrat'; font-weight:650; font-size: 38px; line-height: 100%; letter-spacing: 0%; color: #F3C300; display: block;">${title}</span>
-                      <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 12px;">${address}</span>
-                      <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${system}</span>
-                      <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${pv}</span>
+                      <span style="font-family: 'montserrat'; font-weight:650; font-size: 32px; line-height: 100%; letter-spacing: 0%; color: #F3C300; display: block;">${title}</span>
+                      <span style="font-family: 'montserrat'; font-size: 18px; color: #fff; display: block; margin-top: 10px;">${address}</span>
+                      <span style="font-family: 'montserrat'; font-size: 18px; color: #fff; display: block; margin-top: 7px;">${system}</span>
+                      <span style="font-family: 'montserrat'; font-size: 18px; color: #fff; display: block; margin-top: 7px;">${pv}</span>
                     </div>
                     ${
                       photoUrl
                         ? `<div style="flex: none;">
-                      <img src="${photoUrl}" alt="${title}" style="width:300px; height:auto; border-radius:8px; display:block; background:#00274C;" />
+                      <img src="${photoUrl}" alt="${title}" style="width:220px; height:auto; border-radius:7px; display:block; background:#00274C; object-fit:cover;" />
                     </div>`
                         : ""
                     }
@@ -123,8 +125,8 @@ const MapPage = () => {
         markerData={AAmarkerData}
         center={{ lat: 42.2889, lng: -83.7168 }}
         zoom={13}
-        title="Solar Locations: North Campus"
-        description="Using the interactive map above, explore the solar facilities on The University of Michigan’s North Campus!
+        title="Solar Panel Locations in Ann Arbor"
+        description="Using the interactive map above, explore the solar facilities at The University of Michigan, Ann Arbor!
  Click on each marker to learn more about the site, system type, and capacity."
       />
 
