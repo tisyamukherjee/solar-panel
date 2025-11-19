@@ -1,0 +1,30 @@
+.partnerTitle {
+    font-size: 60px;
+    text-decoration: underline;
+    color: #00274C;
+}
+
+.partnerRow {
+    display: flex;        /* ✅ ensure flexbox is active */
+    flex-direction: row;             /* ✅ horizontal alignment */
+    justify-content: center;         /* center horizontally */
+    align-items: center;         /* align images by top edge */
+    gap: 40px;                       /* space between images */
+    flex-wrap: nowrap;               /* prevent wrapping */
+    margin-top: 40px;
+}
+.partnerRow img:nth-child(odd) {
+  margin-top: 80px;
+}
+
+.partnerRow img:nth-child(even) {
+  margin-top: 0;
+}
+
+.partnerRow img:hover {
+  transform: scale(1.05);
+}
+
+.PRB {
+    border: 2px solid #00274C;
+}
