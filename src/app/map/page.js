@@ -51,8 +51,10 @@ const GoogleMapComponent = ({
 
               const infoWindow = new google.maps.InfoWindow({
                 content: `
-                  <div className = "" style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 12px; min-width: 400px; max-width: 600px; padding: 24px 20px; box-sizing: content-box;">
-                    <div style="flex: 1; margin-right: 24px;">
+                  <div style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 12px; min-width: 400px; max-width: 600px; padding: 24px 20px; box-sizing: content-box;">
+                    <div style="${
+                      photoUrl ? "flex: 1; margin-right: 24px;" : "width: 100%;"
+                    }">
                       <span style="font-family: 'montserrat'; font-weight:650; font-size: 38px; line-height: 100%; letter-spacing: 0%; color: #F3C300; display: block;">${title}</span>
                       <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 12px;">${address}</span>
                       <span style="font-family: 'montserrat'; font-size: 20px; color: #fff; display: block; margin-top: 8px;">${system}</span>
@@ -104,7 +106,10 @@ const GoogleMapComponent = ({
         ref={mapRef}
         className="w-full h-[500px] rounded-xl shadow-md border border-gray-200"
       />
-      <div className="mb-3 pt-3 text-lg text-gray-600">{description}</div>
+      <div className="pt-6" />
+      <div className="flex items-center justify-center w-full mb-3 border-3 border-[#000080] rounded-3xl text-lg text-gray-600 text-center font-montserrat">
+        {description}
+      </div>
     </section>
   );
 };
@@ -120,7 +125,7 @@ const MapPage = () => {
         zoom={13}
         title="Solar Locations: North Campus"
         description="Using the interactive map above, explore the solar facilities on The University of Michigan’s North Campus!
- Click on each marker to learn more about the site, system type, and capacity"
+ Click on each marker to learn more about the site, system type, and capacity."
       />
 
       {/* Dearborn Map */}
