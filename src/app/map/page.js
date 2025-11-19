@@ -106,8 +106,8 @@ const GoogleMapComponent = ({
         ref={mapRef}
         className="w-full h-[500px] rounded-xl shadow-md border border-gray-200"
       />
-      <div className="pt-6" />
-      <div className="flex items-center justify-center w-full mb-3 border-3 border-[#000080] rounded-3xl text-lg text-gray-600 text-center font-montserrat">
+      <div className="pt-7" />
+      <div className="flex items-center justify-center w-full mb-3 border-3 border-[#000080] rounded-3xl text-lg text-gray-600 text-center font-montserrat p-3">
         {description}
       </div>
     </section>
