@@ -34,7 +34,14 @@ export default function Home() {
           </p>
         </div>
       </section>
+      
 
+      
+      
+      
+      
+      
+      
       {/* Mission Section */}
       <section className="-mt-8 bg-white text-[#00274C] pt-32 px-6 md:px-16 shadow-xl">
         <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
@@ -45,6 +52,7 @@ export default function Home() {
         </p>
       </section>
 
+  
 
       {/* Stats Section */}
       <section className="px-6 pb-32 pt-16 md:px-16 bg-white text-[#00274C]">
@@ -68,6 +76,37 @@ export default function Home() {
               <p>Survey responses on energy habits</p>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Graph Section */}
+      <section className="bg-[#00274C] py-12 px-6 md:px-16">
+        <h2 className={styles.graphHeader}>Greenhouse Gas Reductions</h2>
+        <p>The Ann Arbor campus achieved its 25% emissions reduction goal in 2022—three years ahead of schedule. Since then, we have made further strides towards our 2040 goal of a carbon-neutral campus, with the help of solar energy infrastructure.</p>
+        <div className={styles.graphs}>
+          <figure>
+            <a href="https://ocs.umich.edu/goals-priorities/2025-goals/greenhouse-gas-reduction/">
+              <Image
+                className={styles.graph1}
+                src="/greenGas.png"
+                alt="Greenhouse Gas Reduction Graph"
+                width={600}
+                height={600}
+                />
+            </a>
+            <figcaption class="text-sm text-gray-300 mt-2">
+              Source: Office of Campus Sustainability - 2025 Goals
+            </figcaption>
+          </figure>
+          <a href="https://ocs.umich.edu/goals-priorities/2025-goals/greenhouse-gas-reduction/">
+            <Image
+              className={styles.graph2}
+              src="/emissions.png"
+              alt="Emissions Per Square Foot Graph"
+              width={600}
+              height={600}
+            />
+          </a>
         </div>
       </section>
 
