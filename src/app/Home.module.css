@@ -28,3 +28,22 @@
 .PRB {
     border: 2px solid #00274C;
 }
+
+.graph1 {
+  border: 6px solid #FFCB05;
+}
+
+.graph2 {
+  border: 6px solid #FFCB05;
+}
+
+.graphHeader {
+  font-size: 45px;
+}
+
+.graphs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;       /* spacing */
+  margin-top: 20px;
+}
