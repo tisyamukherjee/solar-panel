@@ -28,7 +28,7 @@ export default function Home() {
             className="text-xl md:text-2xl mt-4 font-medium text-white"
             style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" }}
           >
-            Transforming UM with Solar Power
+      
           </p>
         </div>
       </section>
