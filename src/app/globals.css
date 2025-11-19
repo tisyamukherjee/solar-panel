@@ -1,10 +1,3 @@
-/* Custom Google Maps InfoWindow background override for testing */
-.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
-.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
-.gm-style .gm-style-iw-c,
-.gm-style .gm-style-iw-t::after {
-  background: #00274C !important;
-}
 @import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@400;700&display=swap');
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -127,7 +120,7 @@
   body {
     @apply bg-background text-foreground;}}
 
-/* Make the InfoWindow chrome (top bar) smaller but keep the X button visible */
+/* Connor - had to do a bunch of custom styling to override google infowindow api */
 .gm-style-iw-chr {
   min-height: 24px !important;
   height: 24px !important;
@@ -163,4 +156,15 @@
 
 .gm-ui-hover-effect img {
   filter: brightness(0) invert(1) !important;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
+.gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-t::after {
+  background: #00274C !important;
+}
+
+.gm-ui-hover-effect span {
+  filter: invert(1) brightness(5) !important;
 }
