@@ -116,7 +116,7 @@ const GoogleMapComponent = ({
   );
 };
 
-// main component that renders both maps
+// main component that renders map
 const MapPage = () => {
   return (
     <div>
