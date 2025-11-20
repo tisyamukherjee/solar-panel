@@ -76,7 +76,7 @@ export default function Sidebar() {
       {/* post quiz */}
       <div>
         <Link href="/education/postquiz">
-          <button className='text-left font-semibold py-4 hover:text-yellow-400 flex justify-between items-center cursor-pointer'>
+          <button className='text-left font-semibold py-4 hover:text-white flex justify-between items-center cursor-pointer'>
             Post-Quiz
           </button>
         </Link>
