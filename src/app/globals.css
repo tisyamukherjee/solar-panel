@@ -119,3 +119,52 @@
     @apply border-border outline-ring/50;}
   body {
     @apply bg-background text-foreground;}}
+
+/* Connor - had to do a bunch of custom styling to override google infowindow api */
+.gm-style-iw-chr {
+  min-height: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+  color: #fff !important;
+}
+
+.gm-style-iw-ch {
+  min-height: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+   color: #fff !important;
+}
+
+.gm-ui-hover-effect {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 12px !important;
+  right: 12px !important;
+  color: #fff !important;
+}
+.gm-ui-hover-effect > span {
+  display: block !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin: 0 !important;
+}
+
+.gm-ui-hover-effect img {
+  filter: brightness(0) invert(1) !important;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
+.gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-t::after {
+  background: #00274C !important;
+}
+
+.gm-ui-hover-effect span {
+  filter: invert(1) brightness(5) !important;
+}

@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
+import styles from "./GoogleMapComponent.module.css";
 
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API;
 
@@ -9,13 +10,13 @@ import { AAmarkerData } from "@/lib/AAmarkerData";
 import { DBmarkerData } from "@/lib/DBmarkerData";
 
 // Reusable Google Map Component
-const GoogleMapComponent = ({ 
-  markerData, 
-  center, 
-  zoom = 15, 
-  title, 
+const GoogleMapComponent = ({
+  markerData,
+  center,
+  zoom = 15,
+  title,
   description,
-  mapId = "9d513d05b7f25516" 
+  mapId = "9d513d05b7f25516",
 }) => {
   const mapRef = useRef(null);
 
@@ -50,14 +51,24 @@ const GoogleMapComponent = ({
 
               const infoWindow = new google.maps.InfoWindow({
                 content: `
-                  <div style="margin: 0; padding: 0; color: #2c3e50; font-family: Arial, sans-serif; line-height: 1.4;">
-                    <strong style="font-size: 16px;">${title}</strong><br/>
-                    ${photoUrl ? `<div style="margin-top:8px">
-                      <img src="${photoUrl}" alt="${title}" style="width:100%;max-width:280px;height:auto;border-radius:8px"/>
-                    </div>` : ""}
-                    ${address}<br/>
-                    ${system}<br/>
-                    ${pv}
+                  <div style="display: flex; align-items: flex-start; background: #00274C; color: #fff; font-family: 'montserrat', Arial, sans-serif; border-radius: 10px; min-width: 340px; max-width: 500px; padding: 18px 14px; box-sizing: content-box;">
+                    <div style="${
+                      photoUrl
+                        ? "flex: 1; margin-right: 12px;"
+                        : "width: 100%; display: block;"
+                    }">
+                      <span style="font-family: 'montserrat'; font-weight:650; font-size: 32px; line-height: 100%; letter-spacing: 0%; color: #F3C300; display: block;">${title}</span>
+                      <span style="font-family: 'montserrat'; font-size: 18px; color: #fff; display: block; margin-top: 10px;">${address}</span>
+                      <span style="font-family: 'montserrat'; font-size: 18px; color: #fff; display: block; margin-top: 7px;">${system}</span>
+                      <span style="font-family: 'montserrat'; font-size: 18px; color: #fff; display: block; margin-top: 7px;">${pv}</span>
+                    </div>
+                    ${
+                      photoUrl
+                        ? `<div style="flex: none;">
+                      <img src="${photoUrl}" alt="${title}" style="width:220px; height:auto; border-radius:7px; display:block; background:#00274C; object-fit:cover;" />
+                    </div>`
+                        : ""
+                    }
                   </div>
                 `,
               });
@@ -81,22 +92,29 @@ const GoogleMapComponent = ({
   }, [markerData, center, zoom, mapId]);
 
   return (
-    <section className="py-8 px-4 font-anek max-w-6xl mx-auto">
-      <h2 className="text-5xl pt-10 pb-4 mb-4 font-anek text-gray-800">
+    <section className="py-4 px-4 font-montserrat max-w-6xl mx-auto">
+      <h2
+        className="text-5xl text-center font-bold pb-5 pt-5 font-montserrat"
+        style={{ color: "rgb(0, 39, 76)" }}
+      >
         {title}
       </h2>
-      <p className="mb-6 text-lg text-gray-600">
-        {description}
+      <p className="mb-6 text-lg text-gray-600 text-center">
+        9 sites | 5,000+ kWDC generated | 5+ MW generated
       </p>
       <div
         ref={mapRef}
         className="w-full h-[500px] rounded-xl shadow-md border border-gray-200"
       />
+      <div className="pt-7" />
+      <div className="flex items-center justify-center w-full mb-3 border-3 border-[#000080] rounded-3xl text-lg text-gray-600 text-center font-montserrat p-3">
+        {description}
+      </div>
     </section>
   );
 };
 
-// main component that renders both maps
+// main component that renders map
 const MapPage = () => {
   return (
     <div>
@@ -106,10 +124,12 @@ const MapPage = () => {
         center={{ lat: 42.2889, lng: -83.7168 }}
         zoom={13}
         title="Solar Panel Locations in Ann Arbor"
-        description="Explore solar energy installations on the University of Michigan's Ann Arbor campus. Click on a marker to learn more about the site, system type, and capacity."
+        description="Using the interactive map above, explore the solar facilities at The University of Michigan, Ann Arbor!
+ Click on each marker to learn more about the site, system type, and capacity."
       />
-      
+
       {/* Dearborn Map */}
+      {/*
       <GoogleMapComponent
         markerData={DBmarkerData}
         center={{ lat: 42.3223, lng: -83.2312 }}
@@ -117,6 +137,7 @@ const MapPage = () => {
         title="Solar Panel Locations in Dearborn"
         description="Explore solar energy installations on the University of Michigan's Dearborn campus. Click on a marker to learn more about the site, system type, and capacity."
       />
+      */}
     </div>
   );
 };
