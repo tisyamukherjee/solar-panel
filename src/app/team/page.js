@@ -73,12 +73,6 @@ export default function Team() {
                 link="https://www.linkedin.com/in/ben-krause-b19304390"
               />
             </div>
-            {/* <ProfileCard 
-                headshot="/headshots/ellen.jpg" 
-                fullname="Ellen Ruan" 
-                role="Team Member" 
-                link="https://www.linkedin.com/in/ellenruan/"
-            /> */}
           </div>
           <h2 className="text-black text-3xl text-bold font-montserrat">
             {" "}
@@ -92,18 +86,6 @@ export default function Team() {
           </p>
           {/* images */}
           <div className="flex flex-row justify-center gap-8 flex-wrap">
-            {/* <ProfileCard 
-                        headshot="/headshots/harrison.jpg" 
-                        fullname="Harrison Rhoades" 
-                        role="Research and Development Director "
-                        link="https://www.linkedin.com/in/harrison-rhoades-74167b255/"
-                    />
-                    <ProfileCard 
-                        headshot="/headshots/torrie.jpeg" 
-                        fullname="Victoria Jacobs" 
-                        role="Research and Development Co-Chair"
-                        link="https://www.linkedin.com/in/victoria-jacobs-64247820a/"
-                    /> */}
             <ProfileCard
               headshot="/headshots/wilder.jpg"
               fullname="Wilder Wetzel-Righettini"
