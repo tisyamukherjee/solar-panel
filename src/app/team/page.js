@@ -23,10 +23,12 @@ export default function Team() {
           <p className="text-black font-montserrat">
             Michigan EcoData is a home for students seeking exploration of
             environmental justice and ecological conservation issues through
-            data and technology driven projects.
+            data and technology driven projects. Members persue and design semester
+            to year long projects that address community needs, solve environmental 
+            issues, and generate new knowledge and conversations.
           </p>
           {/* images */}
-          <div className="flex flex-row m-10 justify-between flex-wrap">
+          <div className="flex flex-row ml-10 justify-between flex-wrap">
             <ProfileCard
               headshot="/headshots/tisya.jpeg"
               fullname="Tisya  Mukherjee"
@@ -51,36 +53,32 @@ export default function Team() {
               role="Team Member"
               link="https://www.linkedin.com/in/mia-tursman"
             />
-            <ProfileCard
-              headshot="/headshots/cecelia.jpeg"
-              fullname="Cecelia Crandall"
-              role="Team Member"
-              link="www.linkedin.com/in/cecelia-crandall"
-            />
-            <ProfileCard
-              headshot="/headshots/connor.jpeg"
-              fullname="Connor Davis"
-              role="Team Member"
-              link="https://www.linkedin.com/in/connor-davis-a51aa5294/"
-            />
-            {/* <ProfileCard
-                        headshot="/headshots/cecelia.jpeg"
-                        fullname="Benjamin Krause"
-                        role="Team Member"
-                        link="https://www.linkedin.com/in/ben-krause-b19304390"
-                    />
-                    <ProfileCard
-                        // headshot="/headshots/benjamin.jpg"
-                        fullname="Connor Davis"
-                        role="Team Member"
-                        link="https://www.linkedin.com/in/ben-krause-b19304390"
-                    />
-                    {/* <ProfileCard 
-                        headshot="/headshots/ellen.jpg" 
-                        fullname="Ellen Ruan" 
-                        role="Team Member" 
-                        link="https://www.linkedin.com/in/ellenruan/"
-                    /> */}
+            <div className="flex flex-row ml-40 gap-15">
+              <ProfileCard
+                headshot="/headshots/cecelia.jpeg"
+                fullname="Cecelia Crandall"
+                role="Team Member"
+                link="www.linkedin.com/in/cecelia-crandall"
+              />
+              <ProfileCard
+                headshot="/headshots/connor.jpeg"
+                fullname="Connor Davis"
+                role="Team Member"
+                link="https://www.linkedin.com/in/connor-davis-a51aa5294/"
+              />
+              <ProfileCard
+                headshot="/headshots/benjamin.jpg"
+                fullname="Benjamin Krause"
+                role="Team Member"
+                link="https://www.linkedin.com/in/ben-krause-b19304390"
+              />
+            </div>
+            {/* <ProfileCard 
+                headshot="/headshots/ellen.jpg" 
+                fullname="Ellen Ruan" 
+                role="Team Member" 
+                link="https://www.linkedin.com/in/ellenruan/"
+            /> */}
           </div>
           <h2 className="text-black text-3xl text-bold font-montserrat">
             {" "}
