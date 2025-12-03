@@ -16,19 +16,30 @@ export default function Home() {
           fill
           className="absolute inset-0 w-full h-full object-cover z-0"
         />
+        <div className="absolute inset-0 bg-[#6A5FA2]/25 z-[1]" />
 
         <div className="z-20 px-6">
-          <h1
-            className="text-4xl md:text-5xl font-bold leading-tight text-white"
-            style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" }}
-          >
-            University of Michigan Solar Initiative
-          </h1>
+          <a className={styles.title}>
+            <h1
+              className="text-4xl md:text-5xl font-bold leading-tight text-white"
+              style={{
+                fontSize: "65px",
+                textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" 
+              }}
+            >
+              University of Michigan Solar Initiative
+            </h1>
+          </a>
           <p
-            className="text-xl md:text-2xl mt-4 font-medium text-white"
-            style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" }}
+            className="text-xl md:text-2xl mt-4 font-medium text-white mt-16"
+            style={{ 
+              fontSize: "25px",
+              textShadow: "0 2px 4px rgba(0, 0, 0, 0.6)" 
+            }}
           >
-      
+            <span className="bg-[#FFCB05] px-6 py-2 rounded-md text-white-900 inline-block drop-shadow-md">
+              Transforming UM with Solar Power
+            </span>
           </p>
         </div>
       </section>
@@ -40,33 +51,51 @@ export default function Home() {
       
       
       
-      {/* Mission Section */}
-      <section className="-mt-8 bg-white text-[#00274C] pt-32 px-6 md:px-16 shadow-xl">
-        <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
-        <p className="text-lg leading-relaxed max-w-3xl">
-          We are committed to transforming the University of Michigan with clean solar energy.
-          With over 70 solar panel systems across campus, we aim to make solar energy
-          education accessible and engaging through learning modules.
-        </p>
-      </section>
+  <section className="-mt-8 bg-white text-[#00274C] pt-32 px-6 md:px-16 shadow-xl">
+  <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
+    
+    {/* LEFT: text */}
+    <div className="md:w-1/2">
+      <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
+      <p className="text-xl leading-relaxed max-w-3xl">
+        We are committed to transforming the University of Michigan with clean solar energy.
+        With over 70 solar panel systems across campus, we aim to make solar energy
+        education accessible and engaging through learning modules.
+      </p>
+    </div>
+
+    {/* RIGHT: image */}
+    <div className="md:w-1/2 flex justify-center md:justify-end">
+      <Image
+        className={styles.missionGraph}
+        src="/locations/dude.jpg"
+        alt="Aerial View of Panels"
+        width={375}
+        height={100}
+      />
+    </div>
+
+  </div>
+</section>
+  
 
       {/* Stats Section */}
       <section className="px-6 pb-32 pt-16 md:px-16 bg-white text-[#00274C]">
         <h2 className="text-2xl font-semibold mb-6">By the Numbers</h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <Card>
+          <Card className={styles.card}>
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2">70+</h3>
               <p>Solar installations on campus</p>
             </CardContent>
           </Card>
-          <Card>
+          <Card className={styles.card}>
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2">43.6%</h3>
               <p>Students trust solar reliability</p>
             </CardContent>
           </Card>
-          <Card>
+          <Card className={styles.card}>
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2">117</h3>
               <p>Survey responses on energy habits</p>
@@ -90,7 +119,7 @@ export default function Home() {
                 height={600}
                 />
             </a>
-            <figcaption class="text-sm text-gray-300 mt-2">
+            <figcaption className="text-sm text-gray-300 mt-2">
               Source: Office of Campus Sustainability - 2025 Goals
             </figcaption>
           </figure>
@@ -112,6 +141,8 @@ export default function Home() {
     Featured News
   </h2>
 
+      {/* Partners Section */}
+      <section className="bg-[#00274C] py-12 px-6 md:px-16">
   <div className="grid md:grid-cols-4 gap-4">
     {[
       {
