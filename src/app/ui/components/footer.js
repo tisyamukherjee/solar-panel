@@ -26,7 +26,7 @@ export default function Footer() {
 
                     {/* Contact info */}
                     <div className="space-y-4">
-                        <span className="text-xl font-semibold flex flex-col">SFCE x EcoData</span>
+                        <span className="text-xl font-semibold flex flex-col">Maize Rays</span>
                         <link
                             rel="stylesheet"
                             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"

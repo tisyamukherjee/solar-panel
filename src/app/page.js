@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import styles from './Home.module.css';
 
 export default function Home() {
@@ -9,17 +10,14 @@ export default function Home() {
     <div className="text-white font-montserrat">
       {/* Hero Section */}
       <section className="relative h-[85vh] flex items-center justify-center text-center overflow-hidden">
-        {/* Background Image */}
         <Image
-          src="/solar-panels.jpg"
-          alt="Solar panels on Michigan campus"
-          layout="fill"
-          objectFit="cover"
+          src="/images/solarpanels.jpg"
+          alt="Solar panels"
+          fill
           className="absolute inset-0 w-full h-full object-cover z-0"
         />
         <div className="absolute inset-0 bg-[#6A5FA2]/25 z-[1]" />
 
-        {/* Content */}
         <div className="z-20 px-6">
           <a className={styles.title}>
             <h1
@@ -137,86 +135,92 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Updates Section */}
-      <section className="bg-[#FFCB05] py-12 px-6 md:px-16">
-        <h2 className="text-2xl font-semibold text-[#00274C] mb-6">Latest Updates</h2>
-        <div className="grid md:grid-cols-4 gap-4">
-          {[1, 2, 3, 4].map((item) => (
-            <Card key={item} className="overflow-hidden">
-              <Image
-                src={`/update-${item}.jpg`}
-                alt="Update image"
-                width={400}
-                height={200}
-                className="w-full object-cover"
-              />
-              <CardContent className="p-4">
-                <h3 className="font-semibold">Update Title</h3>
-                <p className="text-sm text-[#00274C]/80">Short update summary goes here.</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+      {/* Featured News Section */}
+<section className="bg-[#00274C] py-12 px-6 md:px-16">
+  <h2 className="text-2xl font-semibold text-[#FFCB05] mb-6">
+    Featured News
+  </h2>
 
       {/* Partners Section */}
       <section className="bg-[#00274C] py-12 px-6 md:px-16">
+  <div className="grid md:grid-cols-4 gap-4">
+    {[
+      {
+        id: 1,
+        title: "Campus Solar Project",
+        text: "The University of Michigan has launched the Maize Rays solar expansion, adding 25 megawatts of renewable energy—enough to power 3,000 homes.",
+        image: "/images/solarpanels.jpg",
+        link: "https://record.umich.edu/articles/university-to-begin-installing-solar-power-sites-on-campus/",
+      },
+      {
+        id: 2,
+        title: "Annual Climate Summit",
+        text: "U-M’s FY 2024 Sustainability and Climate Action report highlights an 8% drop in emissions and new sustainability leadership initiatives.",
+        image: "/images/climatesummit.jpg",
+        link: "https://seas.umich.edu/events/2024-michigan-climate-summit",
+      },
+      {
+        id: 3,
+        title: "Maize Rays",
+        text: "As part of our commitment to renewable energy, U-M has launched a $71 million long-term plan to install solar panels across campus.",
+        image: "/images/solarenergy.jpg",
+        link: "https://news.umich.edu/first-two-maize-rays-solar-arrays-now-operating-on-north-campus/",
+      },
+      {
+        id: 4,
+        title: "Solar Power Sites",
+        text: "Flint and Dearborn campuses will have a 25-megawatt capacity of renewable electricity after installations conclude.",
+        image: "/images/umich.jpg",
+        link: "https://record.umich.edu/articles/university-to-begin-installing-solar-power-sites-on-campus/",
+      },
+    ].map((card) => (
+      <Link
+        key={card.id}
+        href={card.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block h-full"
+      >
+        <Card className="h-full flex flex-col overflow-hidden cursor-pointer hover:shadow-xl transition-shadow">
+          <div className="relative w-full h-40">
+            <Image
+              src={card.image}
+              alt={card.title}
+              fill
+              className="object-cover"
+            />
+          </div>
 
-        <h1 className={styles.partnerTitle}>PARTNERS</h1>
-        <div className={styles.partnerRow}>
-          <Image
-          className={styles.PRB}
-          src="/studForClean.png"
-          alt="Students for Clean Energy Logo"
-          width={115}
-          height={115}
-          />
-          <Image
-          className={styles.PRB}
-          src="/EcodataLogo.png"
-          alt="EcoData Logo"
-          width={120}
-          height={120}
-          />
-          <Image
-          className={styles.PRB}
-          src="/PlanetBlue.png"
-          alt="Planet Blue Logo"
-          width={150}
-          height={150}
-          />
-          <Image
-          className={styles.PRB}
-          src="/RadialPower.png"
-          alt="Radial Power Logo"
-          width={120}
-          height={140}
-          />
-          <Image
-          className={styles.PRB}
-          src="/SSC.png"
-          alt="Student for Sustainability Coalition Logo"
-          width={120}
-          height={120}
-          />
-        </div>
-      </section>
+          <CardContent className="p-4 flex flex-col flex-grow">
+            <h3 className="font-semibold mb-2">{card.title}</h3>
 
-      {/* Action Section with Image */}
+            <p className="text-sm text-[#00274C]/80 flex-grow">
+              {card.text}
+            </p>
+
+            {/* Push link area to bottom */}
+            <div className="mt-4 text-[#00274C] font-medium underline">
+              Read More →
+            </div>
+          </CardContent>
+        </Card>
+      </Link>
+    ))}
+  </div>
+</section>
+
+      {/* Action Section */}
       <section className="bg-white text-[#00274C]">
         <div className="grid md:grid-cols-2 h-[600px]">
-          {/* Left Side Full Image */}
           <div className="relative w-full h-full hidden md:block">
             <Image
               src="/sfce.jpg"
               alt="Students for clean energy solar table"
-              layout="fill"
-              objectFit="cover"
+              fill
               className="w-full h-full object-cover"
             />
           </div>
 
-          {/* Right Side CTA Centered */}
           <div className="flex flex-col justify-center items-center px-6 md:px-16 text-center">
             <h2 className="text-3xl font-bold mb-4">Join the Movement</h2>
             <p className="text-lg mb-6 max-w-md">
@@ -229,7 +233,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Slim Maize Divider */}
       <div className="h-1 w-full bg-[#FFCB05]" />
     </div>
   );
