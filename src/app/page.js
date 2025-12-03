@@ -136,78 +136,75 @@ export default function Home() {
       </section>
 
       {/* Featured News Section */}
-<section className="bg-[#00274C] py-12 px-6 md:px-16">
-  <h2 className="text-2xl font-semibold text-[#FFCB05] mb-6">
-    Featured News
-  </h2>
-
-      {/* Partners Section */}
       <section className="bg-[#00274C] py-12 px-6 md:px-16">
-  <div className="grid md:grid-cols-4 gap-4">
-    {[
-      {
-        id: 1,
-        title: "Campus Solar Project",
-        text: "The University of Michigan has launched the Maize Rays solar expansion, adding 25 megawatts of renewable energy—enough to power 3,000 homes.",
-        image: "/images/solarpanels.jpg",
-        link: "https://record.umich.edu/articles/university-to-begin-installing-solar-power-sites-on-campus/",
-      },
-      {
-        id: 2,
-        title: "Annual Climate Summit",
-        text: "U-M’s FY 2024 Sustainability and Climate Action report highlights an 8% drop in emissions and new sustainability leadership initiatives.",
-        image: "/images/climatesummit.jpg",
-        link: "https://seas.umich.edu/events/2024-michigan-climate-summit",
-      },
-      {
-        id: 3,
-        title: "Maize Rays",
-        text: "As part of our commitment to renewable energy, U-M has launched a $71 million long-term plan to install solar panels across campus.",
-        image: "/images/solarenergy.jpg",
-        link: "https://news.umich.edu/first-two-maize-rays-solar-arrays-now-operating-on-north-campus/",
-      },
-      {
-        id: 4,
-        title: "Solar Power Sites",
-        text: "Flint and Dearborn campuses will have a 25-megawatt capacity of renewable electricity after installations conclude.",
-        image: "/images/umich.jpg",
-        link: "https://record.umich.edu/articles/university-to-begin-installing-solar-power-sites-on-campus/",
-      },
-    ].map((card) => (
-      <Link
-        key={card.id}
-        href={card.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block h-full"
-      >
-        <Card className="h-full flex flex-col overflow-hidden cursor-pointer hover:shadow-xl transition-shadow">
-          <div className="relative w-full h-40">
-            <Image
-              src={card.image}
-              alt={card.title}
-              fill
-              className="object-cover"
-            />
-          </div>
+        <h2 className="text-2xl font-semibold text-[#FFCB05] mb-6">
+          Featured News
+        </h2>
+        <div className="grid md:grid-cols-4 gap-4">
+          {[
+            {
+              id: 1,
+              title: "Campus Solar Project",
+              text: "The University of Michigan has launched the Maize Rays solar expansion, adding 25 megawatts of renewable energy—enough to power 3,000 homes.",
+              image: "/images/solarpanels.jpg",
+              link: "https://record.umich.edu/articles/university-to-begin-installing-solar-power-sites-on-campus/",
+            },
+            {
+              id: 2,
+              title: "Annual Climate Summit",
+              text: "U-M’s FY 2024 Sustainability and Climate Action report highlights an 8% drop in emissions and new sustainability leadership initiatives.",
+              image: "/images/climatesummit.jpg",
+              link: "https://seas.umich.edu/events/2024-michigan-climate-summit",
+            },
+            {
+              id: 3,
+              title: "Maize Rays",
+              text: "As part of our commitment to renewable energy, U-M has launched a $71 million long-term plan to install solar panels across campus.",
+              image: "/images/solarenergy.jpg",
+              link: "https://news.umich.edu/first-two-maize-rays-solar-arrays-now-operating-on-north-campus/",
+            },
+            {
+              id: 4,
+              title: "Solar Power Sites",
+              text: "Flint and Dearborn campuses will have a 25-megawatt capacity of renewable electricity after installations conclude.",
+              image: "/images/umich.jpg",
+              link: "https://record.umich.edu/articles/university-to-begin-installing-solar-power-sites-on-campus/",
+            },
+          ].map((card) => (
+            <Link
+              key={card.id}
+              href={card.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block h-full"
+            >
+              <Card className="h-full flex flex-col overflow-hidden cursor-pointer hover:shadow-xl transition-shadow">
+                <div className="relative w-full h-40">
+                  <Image
+                    src={card.image}
+                    alt={card.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
 
-          <CardContent className="p-4 flex flex-col flex-grow">
-            <h3 className="font-semibold mb-2">{card.title}</h3>
+                <CardContent className="p-4 flex flex-col flex-grow">
+                  <h3 className="font-semibold mb-2">{card.title}</h3>
 
-            <p className="text-sm text-[#00274C]/80 flex-grow">
-              {card.text}
-            </p>
+                  <p className="text-sm text-[#00274C]/80 flex-grow">
+                    {card.text}
+                  </p>
 
-            {/* Push link area to bottom */}
-            <div className="mt-4 text-[#00274C] font-medium underline">
-              Read More →
-            </div>
-          </CardContent>
-        </Card>
-      </Link>
-    ))}
-  </div>
-</section>
+                  {/* Push link area to bottom */}
+                  <div className="mt-4 text-[#00274C] font-medium underline">
+                    Read More →
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       {/* Action Section */}
       <section className="bg-white text-[#00274C]">
