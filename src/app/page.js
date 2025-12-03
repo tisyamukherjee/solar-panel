@@ -135,6 +135,49 @@ export default function Home() {
         </div>
       </section>
 
+       {/* Partners Section */}
+      <section className="bg-[#FFCB05] py-12 px-6 md:px-16">
+
+        <h1 className={styles.partnerTitle}>PARTNERS</h1>
+        <div className={styles.partnerRow}>
+          <Image
+          className={styles.PRB}
+          src="/studForClean.png"
+          alt="Students for Clean Energy Logo"
+          width={115}
+          height={115}
+          />
+          <Image
+          className={styles.PRB}
+          src="/EcodataLogo.png"
+          alt="EcoData Logo"
+          width={120}
+          height={120}
+          />
+          <Image
+          className={styles.PRB}
+          src="/PlanetBlue.png"
+          alt="Planet Blue Logo"
+          width={150}
+          height={150}
+          />
+          <Image
+          className={styles.PRB}
+          src="/RadialPower.png"
+          alt="Radial Power Logo"
+          width={120}
+          height={140}
+          />
+          <Image
+          className={styles.PRB}
+          src="/SSC.png"
+          alt="Student for Sustainability Coalition Logo"
+          width={120}
+          height={120}
+          />
+        </div>
+      </section>
+
       {/* Featured News Section */}
       <section className="bg-[#00274C] py-12 px-6 md:px-16">
         <h2 className="text-2xl font-semibold text-[#FFCB05] mb-6">
