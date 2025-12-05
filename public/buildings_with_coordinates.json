@@ -1,0 +1,2918 @@
+[
+ {
+   "Address": "105 E Main Street - 5409",
+   "Cost_Electric": "3000.46",
+   "GSF": 2400,
+   "Reading_Total_Electric": "15820.900000000001",
+   "building_id": 5409,
+   "latitude": "42.4570698",
+   "longitude": "-83.9461747"
+ },
+ {
+   "Address": "109 East Madison Building - 0858",
+   "Cost_Electric": "36145.380000000005",
+   "GSF": 22318,
+   "Reading_Total_Electric": "223754.68",
+   "building_id": 858,
+   "latitude": "42.2743479",
+   "longitude": "-83.7478809"
+ },
+ {
+   "Address": "1100 North University Building (aka NUB) - 0188",
+   "Cost_Electric": "593338.62",
+   "GSF": 187154,
+   "Reading_Total_Electric": "5159466.0",
+   "building_id": 188,
+   "latitude": "42.2776451",
+   "longitude": "-83.73540589999999"
+ },
+ {
+   "Address": "1443 Washtenaw Ave Building (aka Old Trotter House) - 0886",
+   "Cost_Electric": "8821.48",
+   "GSF": 13799,
+   "Reading_Total_Electric": "45114.67",
+   "building_id": 886,
+   "latitude": "42.2747411",
+   "longitude": "-83.7297092"
+ },
+ {
+   "Address": "1580 Ellsworth Road - 5209",
+   "Cost_Electric": "10252.36",
+   "GSF": 11823,
+   "Reading_Total_Electric": "53786.51",
+   "building_id": 5209,
+   "latitude": "42.2292997",
+   "longitude": "-83.7215368"
+ },
+ {
+   "Address": "1736 Broadway - 0885",
+   "Cost_Electric": "880.9499999999999",
+   "GSF": 2970,
+   "Reading_Total_Electric": "3850.3100000000004",
+   "building_id": 885,
+   "latitude": "42.2967825",
+   "longitude": "-83.7223684"
+ },
+ {
+   "Address": "1776 Ellsworth Rd - 5374",
+   "Cost_Electric": "4504.72",
+   "GSF": 10190,
+   "Reading_Total_Electric": "22640.54",
+   "building_id": 5374,
+   "latitude": "42.2293102",
+   "longitude": "-83.72102129999999"
+ },
+ {
+   "Address": "1910 E Ellsworth Rd - 5505",
+   "Cost_Electric": "75803.08",
+   "GSF": 12112,
+   "Reading_Total_Electric": "477877.9699999999",
+   "building_id": 5505,
+   "latitude": "42.2293039",
+   "longitude": "-83.7201516"
+ },
+ {
+   "Address": "202 South Thayer (aka  Thayer) - 5179",
+   "Cost_Electric": "46092.005",
+   "GSF": 59825,
+   "Reading_Total_Electric": "400800.0",
+   "building_id": 5179,
+   "latitude": "42.2800926",
+   "longitude": "-83.7399659"
+ },
+ {
+   "Address": "210-212 S. Fifth Ave - 5497",
+   "Cost_Electric": "39545.54",
+   "GSF": 13711,
+   "Reading_Total_Electric": "243286.99000000002",
+   "building_id": 5497,
+   "latitude": "42.279903",
+   "longitude": "-83.7464628"
+ },
+ {
+   "Address": "214 S State St - 5351",
+   "Cost_Electric": "4838.72",
+   "GSF": 4119,
+   "Reading_Total_Electric": "24889.58",
+   "building_id": 5351,
+   "latitude": "42.27967",
+   "longitude": "-83.74096630000001"
+ },
+ {
+   "Address": "300 North Ingalls Building (aka 300 NIB) - 0332",
+   "Cost_Electric": "200368.11000000002",
+   "GSF": 325677,
+   "Reading_Total_Electric": "1973620.48",
+   "building_id": 332,
+   "latitude": "42.2834839",
+   "longitude": "-83.7378367"
+ },
+ {
+   "Address": "305 W Liberty - 5324",
+   "Cost_Electric": "19888.22",
+   "GSF": 19000,
+   "Reading_Total_Electric": "116938.28000000001",
+   "building_id": 5324,
+   "latitude": "42.2790058",
+   "longitude": "-83.7516192"
+ },
+ {
+   "Address": "317 Maynard St - 5516",
+   "Cost_Electric": "137592.84",
+   "GSF": 42204,
+   "Reading_Total_Electric": "1039872.0",
+   "building_id": 5516,
+   "latitude": "42.2787513",
+   "longitude": "-83.7418801"
+ },
+ {
+   "Address": "320 W Ann - 8157",
+   "Cost_Electric": "599.4",
+   "GSF": 3000,
+   "Reading_Total_Electric": "2461.93",
+   "building_id": 8157,
+   "latitude": "42.2826484",
+   "longitude": "-83.75110409999999"
+ },
+ {
+   "Address": "3520 Green Court - 5574",
+   "Cost_Electric": "214194.24",
+   "GSF": 112145,
+   "Reading_Total_Electric": "1362692.62",
+   "building_id": 5574,
+   "latitude": "42.3006287",
+   "longitude": "-83.69142579999999"
+ },
+ {
+   "Address": "3915 Research Park Drive - 5352",
+   "Cost_Electric": "1200.45",
+   "GSF": 2680,
+   "Reading_Total_Electric": "6237.650000000001",
+   "building_id": 5352,
+   "latitude": "42.23636440000001",
+   "longitude": "-83.7323038"
+ },
+ {
+   "Address": "439 S Division Street - 5327",
+   "Cost_Electric": "278.46000000000004",
+   "GSF": 3210,
+   "Reading_Total_Electric": "195.72",
+   "building_id": 5327,
+   "latitude": "42.27648240000001",
+   "longitude": "-83.74392209999999"
+ },
+ {
+   "Address": "555 SOUTH FOREST BUILDING - 0879",
+   "Cost_Electric": "10110.24",
+   "GSF": 3850,
+   "Reading_Total_Electric": "53820.17999999999",
+   "building_id": 879,
+   "latitude": "42.2752767",
+   "longitude": "-83.73286829999999"
+ },
+ {
+   "Address": "617 E HURON - 5622",
+   "Cost_Electric": "824.77",
+   "GSF": 8532,
+   "Reading_Total_Electric": "4047.1400000000003",
+   "building_id": 5622,
+   "latitude": "42.28143",
+   "longitude": "-83.74112939999999"
+ },
+ {
+   "Address": "725 State Circle - 5372",
+   "Cost_Electric": "20516.45",
+   "GSF": 24582,
+   "Reading_Total_Electric": "121530.40000000001",
+   "building_id": 5372,
+   "latitude": "42.2341563",
+   "longitude": "-83.74371169999999"
+ },
+ {
+   "Address": "7300 W Joy Road - 5506",
+   "Cost_Electric": "166884.26",
+   "GSF": 147152,
+   "Reading_Total_Electric": "1263304.0",
+   "building_id": 5506,
+   "latitude": "42.3428577",
+   "longitude": "-83.875711"
+ },
+ {
+   "Address": "802 MONROE RENTAL PROPERTY - 5577",
+   "Cost_Electric": "2922.49",
+   "GSF": 3010,
+   "Reading_Total_Electric": "15076.249999999998",
+   "building_id": 5577,
+   "latitude": "42.27312",
+   "longitude": "-83.73920849999999"
+ },
+ {
+   "Address": "804 MONROE RENTAL PROPERTY - 5578",
+   "Cost_Electric": "1263.53",
+   "GSF": 2717,
+   "Reading_Total_Electric": "2934.88",
+   "building_id": 5578,
+   "latitude": "42.2731164",
+   "longitude": "-83.7390556"
+ },
+ {
+   "Address": "Administrative Services - 0815",
+   "Cost_Electric": "336504.72500000003",
+   "GSF": 91653,
+   "Reading_Total_Electric": "2926128.0",
+   "building_id": 815,
+   "latitude": "42.2690582",
+   "longitude": "-83.7471453"
+ },
+ {
+   "Address": "Alice Lloyd Hall (aka ALH) - 0059",
+   "Cost_Electric": "157822.78499999997",
+   "GSF": 176615,
+   "Reading_Total_Electric": "1372372.0",
+   "building_id": 59,
+   "latitude": "42.2812445",
+   "longitude": "-83.73179879999999"
+ },
+ {
+   "Address": "Alumni Center - 0192",
+   "Cost_Electric": "31532.075000000004",
+   "GSF": 35315,
+   "Reading_Total_Electric": "274192.0",
+   "building_id": 192,
+   "latitude": "42.2801585",
+   "longitude": "-83.7376019"
+ },
+ {
+   "Address": "Alumni Field At Carol Hutchins Stadium - 5123",
+   "Cost_Electric": "20911.14",
+   "GSF": 12209,
+   "Reading_Total_Electric": "181836.0",
+   "building_id": 5123,
+   "latitude": "42.2667552",
+   "longitude": "-83.74055059999999"
+ },
+ {
+   "Address": "Angell & Tisch Halls - 0152",
+   "Cost_Electric": "200853.36",
+   "GSF": 238549,
+   "Reading_Total_Electric": "1746551.0",
+   "building_id": 152,
+   "latitude": "42.276754",
+   "longitude": "-83.7407538"
+ },
+ {
+   "Address": "Animal Research Facility (aka ARF) - 0168",
+   "Cost_Electric": "5460.910000000002",
+   "GSF": 15591,
+   "Reading_Total_Electric": "47486.280000000006",
+   "building_id": 168,
+   "latitude": "42.2836483",
+   "longitude": "-83.73378579999999"
+ },
+ {
+   "Address": "Ann Arbor Plaza - 5081",
+   "Cost_Electric": "3626.75",
+   "GSF": 1000,
+   "Reading_Total_Electric": "18734.33",
+   "building_id": 5081,
+   "latitude": "42.2747799",
+   "longitude": "-83.7334323"
+ },
+ {
+   "Address": "Arbor Lakes 1 - 8079",
+   "Cost_Electric": "153960.42",
+   "GSF": 39867,
+   "Reading_Total_Electric": "1592361.47",
+   "building_id": 8079,
+   "latitude": "42.3117412",
+   "longitude": "-83.6736627"
+ },
+ {
+   "Address": "Arbor Lakes 2 - 8080",
+   "Cost_Electric": "325534.97",
+   "GSF": 89277,
+   "Reading_Total_Electric": "3366899.9000000004",
+   "building_id": 8080,
+   "latitude": "42.3096531",
+   "longitude": "-83.6765812"
+ },
+ {
+   "Address": "Arbor Lakes 3 - 8081",
+   "Cost_Electric": "335972.95",
+   "GSF": 84893,
+   "Reading_Total_Electric": "3474856.63",
+   "building_id": 8081,
+   "latitude": "42.3096372",
+   "longitude": "-83.6766354"
+ },
+ {
+   "Address": "Argus I - 0830",
+   "Cost_Electric": "36214.14",
+   "GSF": 36038,
+   "Reading_Total_Electric": "203684.97",
+   "building_id": 830,
+   "latitude": "42.277385",
+   "longitude": "-83.754115"
+ },
+ {
+   "Address": "Argus II - 0831",
+   "Cost_Electric": "72594.68",
+   "GSF": 69214,
+   "Reading_Total_Electric": "349132.0",
+   "building_id": 831,
+   "latitude": "42.2778073",
+   "longitude": "-83.75543329999999"
+ },
+ {
+   "Address": "Art & Architecture (aka A&A) - 0432",
+   "Cost_Electric": "367241.47",
+   "GSF": 264419,
+   "Reading_Total_Electric": "3193404.0",
+   "building_id": 432,
+   "latitude": "42.2899012",
+   "longitude": "-83.71729839999999"
+ },
+ {
+   "Address": "Ath Crew Boathouse Facility - 3546",
+   "Cost_Electric": "8112.080000000001",
+   "GSF": 7454,
+   "Reading_Total_Electric": "38991.79",
+   "building_id": 3546,
+   "latitude": "42.2046785",
+   "longitude": "-83.492821"
+ },
+ {
+   "Address": "Athletic Department Operations Center - 5371",
+   "Cost_Electric": "50423.509999999995",
+   "GSF": 18674,
+   "Reading_Total_Electric": "317721.39",
+   "building_id": 5371,
+   "latitude": "42.2622328",
+   "longitude": "-83.7407393"
+ },
+ {
+   "Address": "Atrium IV Office Center - 5447",
+   "Cost_Electric": "5685.19",
+   "GSF": 4753,
+   "Reading_Total_Electric": "28543.46",
+   "building_id": 5447,
+   "latitude": "42.2394045",
+   "longitude": "-83.7332784"
+ },
+ {
+   "Address": "Aux Services - 2501",
+   "Cost_Electric": "260339.85",
+   "GSF": 80622,
+   "Reading_Total_Electric": "2287136.0",
+   "building_id": 2501,
+   "latitude": "42.2993966",
+   "longitude": "-83.6939366"
+ },
+ {
+   "Address": "Bahna Wrestling  Center - 5236",
+   "Cost_Electric": "49568.079999999994",
+   "GSF": 22072,
+   "Reading_Total_Electric": "312037.21",
+   "building_id": 5236,
+   "latitude": "42.2521181",
+   "longitude": "-83.7430608"
+ },
+ {
+   "Address": "Baits I Complex - 0510",
+   "Cost_Electric": "43126.72",
+   "GSF": 165366,
+   "Reading_Total_Electric": "375015.0",
+   "building_id": 510,
+   "latitude": "42.2928711",
+   "longitude": "-83.7244666"
+ },
+ {
+   "Address": "Baits II Complex - 0515",
+   "Cost_Electric": "79483.40000000001",
+   "GSF": 169800,
+   "Reading_Total_Electric": "691160.0",
+   "building_id": 515,
+   "latitude": "42.2937065",
+   "longitude": "-83.7238639"
+ },
+ {
+   "Address": "Base Lake Farm Storage & Shop - 3511",
+   "Cost_Electric": "943.31",
+   "GSF": 5630,
+   "Reading_Total_Electric": "3242.96",
+   "building_id": 3511,
+   "latitude": "42.416465",
+   "longitude": "-83.89976899999999"
+ },
+ {
+   "Address": "Bentley Historical Library (aka Bentley) - 0439",
+   "Cost_Electric": "128064.09999999999",
+   "GSF": 66537,
+   "Reading_Total_Electric": "1113601.0",
+   "building_id": 439,
+   "latitude": "42.2895809",
+   "longitude": "-83.7125093"
+ },
+ {
+   "Address": "Betsy Barbour - 0051",
+   "Cost_Electric": "18295.8",
+   "GSF": 33925,
+   "Reading_Total_Electric": "159094.0",
+   "building_id": 51,
+   "latitude": "42.2772778",
+   "longitude": "-83.741557"
+ },
+ {
+   "Address": "Biological Science Building (aka BSB) - 5169",
+   "Cost_Electric": "930615.2700000001",
+   "GSF": 312211,
+   "Reading_Total_Electric": "8092307.0",
+   "building_id": 5169,
+   "latitude": "42.2789121",
+   "longitude": "-83.7344404"
+ },
+ {
+   "Address": "Biomedical Science Research Building (aka BSRB) - 5037",
+   "Cost_Electric": "2474506.5700000003",
+   "GSF": 593717,
+   "Reading_Total_Electric": "21517448.0",
+   "building_id": 5037,
+   "latitude": "42.2817049",
+   "longitude": "-83.73405360000001"
+ },
+ {
+   "Address": "Biostation (aka Pellston Biological Station) - 4001",
+   "Cost_Electric": "70073.85999999999",
+   "GSF": 127255,
+   "Reading_Total_Electric": "432117.0",
+   "building_id": 4001,
+   "latitude": "45.558653",
+   "longitude": "-84.67759769999999"
+ },
+ {
+   "Address": "Blau Hall - 5370",
+   "Cost_Electric": "236317.32",
+   "GSF": 106172,
+   "Reading_Total_Electric": "2054933.0",
+   "building_id": 5370,
+   "latitude": "42.2731115",
+   "longitude": "-83.736071"
+ },
+ {
+   "Address": "Bob and Betty Beyster Building (aka BBBB, CSE, Computer Science Engineering Building) - 5092",
+   "Cost_Electric": "250847.65000000002",
+   "GSF": 104132,
+   "Reading_Total_Electric": "2181283.82",
+   "building_id": 5092,
+   "latitude": "42.2930138",
+   "longitude": "-83.71637199999999"
+ },
+ {
+   "Address": "Bonisteel Interdisciplinary Research (aka BIRB) - 0402",
+   "Cost_Electric": "261553.69999999998",
+   "GSF": 21993,
+   "Reading_Total_Electric": "2274380.0",
+   "building_id": 402,
+   "latitude": "42.2899384",
+   "longitude": "-83.7135256"
+ },
+ {
+   "Address": "Boyer Building (aka Boyer) - 0880",
+   "Cost_Electric": "13627.68",
+   "GSF": 15472,
+   "Reading_Total_Electric": "72142.26999999999",
+   "building_id": 880,
+   "latitude": "42.2697402",
+   "longitude": "-83.7470137"
+ },
+ {
+   "Address": "Brehm Tower (aka Kellogg Expansion, BT, Kellogg Eye Center) - 5102",
+   "Cost_Electric": "1094893.045",
+   "GSF": 252234,
+   "Reading_Total_Electric": "9520809.0",
+   "building_id": 5102,
+   "latitude": "42.2882581",
+   "longitude": "-83.7372608"
+ },
+ {
+   "Address": "Briarwood 1 - 8076",
+   "Cost_Electric": "90654.85",
+   "GSF": 17857,
+   "Reading_Total_Electric": "580626.8799999999",
+   "building_id": 8076,
+   "latitude": "42.2431",
+   "longitude": "-83.74190999999999"
+ },
+ {
+   "Address": "Briarwood 10 - 8130",
+   "Cost_Electric": "66714.04999999999",
+   "GSF": 17299,
+   "Reading_Total_Electric": "423428.0",
+   "building_id": 8130,
+   "latitude": "42.2428573",
+   "longitude": "-83.7508309"
+ },
+ {
+   "Address": "Briarwood 2 - 8030",
+   "Cost_Electric": "66090.05",
+   "GSF": 15924,
+   "Reading_Total_Electric": "419127.1",
+   "building_id": 8030,
+   "latitude": "42.24304559999999",
+   "longitude": "-83.7428599"
+ },
+ {
+   "Address": "Briarwood 3 - 8065",
+   "Cost_Electric": "27363.870000000003",
+   "GSF": 10262,
+   "Reading_Total_Electric": "144393.30000000002",
+   "building_id": 8065,
+   "latitude": "42.2427663",
+   "longitude": "-83.7442337"
+ },
+ {
+   "Address": "Briarwood 4 - 8042",
+   "Cost_Electric": "44148.32",
+   "GSF": 14063,
+   "Reading_Total_Electric": "262968.85",
+   "building_id": 8042,
+   "latitude": "42.2431547",
+   "longitude": "-83.7450221"
+ },
+ {
+   "Address": "Briarwood 5 - 8016",
+   "Cost_Electric": "33477.46000000001",
+   "GSF": 9378,
+   "Reading_Total_Electric": "205790.5",
+   "building_id": 8016,
+   "latitude": "42.24312320000001",
+   "longitude": "-83.74585189999999"
+ },
+ {
+   "Address": "Briarwood 9 - 8142",
+   "Cost_Electric": "27834.16",
+   "GSF": 5324,
+   "Reading_Total_Electric": "169203.93000000002",
+   "building_id": 8142,
+   "latitude": "42.243101",
+   "longitude": "-83.7496692"
+ },
+ {
+   "Address": "Brighton Center for Specialty Care (aka BCSC) - 5239",
+   "Cost_Electric": "767917.4099999999",
+   "GSF": 299610,
+   "Reading_Total_Electric": "7033460.0",
+   "building_id": 5239,
+   "latitude": "42.5420501",
+   "longitude": "-83.80155160000001"
+ },
+ {
+   "Address": "Brighton Health Center (aka BHC) - 5029",
+   "Cost_Electric": "121040.31",
+   "GSF": 40865,
+   "Reading_Total_Electric": "782004.4247999999",
+   "building_id": 5029,
+   "latitude": "42.5447814",
+   "longitude": "-83.7952794"
+ },
+ {
+   "Address": "Buhl - 0210",
+   "Cost_Electric": "21005.42",
+   "GSF": 18971,
+   "Reading_Total_Electric": "182655.90000000002",
+   "building_id": 210,
+   "latitude": "42.2836608",
+   "longitude": "-83.73377219999999"
+ },
+ {
+   "Address": "Buhr Library (aka Buhr Building) - 0799",
+   "Cost_Electric": "221139.66",
+   "GSF": 187245,
+   "Reading_Total_Electric": "1959672.0",
+   "building_id": 799,
+   "latitude": "42.2713366",
+   "longitude": "-83.7473569"
+ },
+ {
+   "Address": "Burlington Spine Program - 5011",
+   "Cost_Electric": "176012.94",
+   "GSF": 84280,
+   "Reading_Total_Electric": "880492.7399999998",
+   "building_id": 5011,
+   "latitude": "42.2446375",
+   "longitude": "-83.74489849999999"
+ },
+ {
+   "Address": "Burnam House - 0010",
+   "Cost_Electric": "2624.64",
+   "GSF": 3482,
+   "Reading_Total_Electric": "13774.210000000001",
+   "building_id": 10,
+   "latitude": "42.2799544",
+   "longitude": "-83.7212419"
+ },
+ {
+   "Address": "Bursley Hall (aka Burlodge) - 0555",
+   "Cost_Electric": "289733.41",
+   "GSF": 341601,
+   "Reading_Total_Electric": "2519421.0",
+   "building_id": 555,
+   "latitude": "42.2937497",
+   "longitude": "-83.720873"
+ },
+ {
+   "Address": "Burton Tower - 0155",
+   "Cost_Electric": "16306.869999999999",
+   "GSF": 20103,
+   "Reading_Total_Electric": "141799.0",
+   "building_id": 155,
+   "latitude": "42.2795088",
+   "longitude": "-83.7383413"
+ },
+ {
+   "Address": "CAMP DAVIS COMPLEX - 4572",
+   "Cost_Electric": "4939.15",
+   "GSF": 28321,
+   "Reading_Total_Electric": "62083.0",
+   "building_id": 4572,
+   "latitude": "43.286",
+   "longitude": "-110.661"
+ },
+ {
+   "Address": "CENTRAL CAMPUS RESIDENTIAL DEVELOPMENT COMPLEX - 5618",
+   "Cost_Electric": "37405.240000000005",
+   "GSF": 0,
+   "Reading_Total_Electric": "325263.0",
+   "building_id": 5618,
+   "latitude": "42.2695762",
+   "longitude": "-83.7451346"
+ },
+ {
+   "Address": "Campus Safety Services Building (aka CSSB) - 0742",
+   "Cost_Electric": "157340.24",
+   "GSF": 108063,
+   "Reading_Total_Electric": "1368176.0",
+   "building_id": 742,
+   "latitude": "42.265239",
+   "longitude": "-83.74395539999999"
+ },
+ {
+   "Address": "Canham Natatorium - 0718",
+   "Cost_Electric": "213868.365",
+   "GSF": 77639,
+   "Reading_Total_Electric": "1859725.0",
+   "building_id": 718,
+   "latitude": "42.2694901",
+   "longitude": "-83.7433517"
+ },
+ {
+   "Address": "Canton Health Center - 5019",
+   "Cost_Electric": "113561.70999999999",
+   "GSF": 51552,
+   "Reading_Total_Electric": "732653.49",
+   "building_id": 5019,
+   "latitude": "42.314004",
+   "longitude": "-83.48882909999999"
+ },
+ {
+   "Address": "Cardiovascular Center (aka CVC) - 5109",
+   "Cost_Electric": "1353926.4619999998",
+   "GSF": 414649,
+   "Reading_Total_Electric": "14716592.0",
+   "building_id": 5109,
+   "latitude": "42.2831396",
+   "longitude": "-83.7310911"
+ },
+ {
+   "Address": "Carver Building - 0854",
+   "Cost_Electric": "14078.77",
+   "GSF": 12184,
+   "Reading_Total_Electric": "71564.17",
+   "building_id": 854,
+   "latitude": "42.2792571",
+   "longitude": "-83.7428644"
+ },
+ {
+   "Address": "Central Campus Classroom Building (aka CCCB) - 5451",
+   "Cost_Electric": "81168.38",
+   "GSF": 108758,
+   "Reading_Total_Electric": "705812.0",
+   "building_id": 5451,
+   "latitude": "42.2780469",
+   "longitude": "-83.733998"
+ },
+ {
+   "Address": "Chelsea Family Practice - 0348",
+   "Cost_Electric": "53787.340000000004",
+   "GSF": 25136,
+   "Reading_Total_Electric": "424240.0",
+   "building_id": 348,
+   "latitude": "42.3083837",
+   "longitude": "-84.01680850000001"
+ },
+ {
+   "Address": "Chemistry Building (aka Dow Laboratory) - 0158",
+   "Cost_Electric": "2141927.885",
+   "GSF": 545112,
+   "Reading_Total_Electric": "18625460.0",
+   "building_id": 158,
+   "latitude": "42.2780097",
+   "longitude": "-83.73657089999999"
+ },
+ {
+   "Address": "Child Care Center (aka CCC) - 0390",
+   "Cost_Electric": "18405.14",
+   "GSF": 14850,
+   "Reading_Total_Electric": "107426.20000000001",
+   "building_id": 390,
+   "latitude": "42.2884118",
+   "longitude": "-83.70777129999999"
+ },
+ {
+   "Address": "Children's & Women's (aka C & W) - 5173",
+   "Cost_Electric": "2839611.498",
+   "GSF": 1126305,
+   "Reading_Total_Electric": "30865343.0",
+   "building_id": 5173,
+   "latitude": "42.28203389999999",
+   "longitude": "-83.72728819999999"
+ },
+ {
+   "Address": "Chrysler Center for Continuing Education (aka Chrysler Center) - 0443",
+   "Cost_Electric": "53087.57",
+   "GSF": 45310,
+   "Reading_Total_Electric": "461631.0",
+   "building_id": 443,
+   "latitude": "42.2906273",
+   "longitude": "-83.7166981"
+ },
+ {
+   "Address": "Clements Library - 0159",
+   "Cost_Electric": "32394.920000000006",
+   "GSF": 27257,
+   "Reading_Total_Electric": "281695.0",
+   "building_id": 159,
+   "latitude": "42.2754392",
+   "longitude": "-83.73799180000002"
+ },
+ {
+   "Address": "Climate and Space Research (aka Space Research, CSRB) - 0441",
+   "Cost_Electric": "165853.38999999998",
+   "GSF": 105521,
+   "Reading_Total_Electric": "1442203.3800000001",
+   "building_id": 441,
+   "latitude": "42.2943931",
+   "longitude": "-83.7115146"
+ },
+ {
+   "Address": "Coliseum (aka Sports Coliseum) - 0710",
+   "Cost_Electric": "27975.35",
+   "GSF": 38404,
+   "Reading_Total_Electric": "171243.45",
+   "building_id": 710,
+   "latitude": "42.2720226",
+   "longitude": "-83.74596199999999"
+ },
+ {
+   "Address": "Commonwealth - MCARE Psych - 8100",
+   "Cost_Electric": "66563.95999999999",
+   "GSF": 43423,
+   "Reading_Total_Electric": "389743.11000000004",
+   "building_id": 8100,
+   "latitude": "42.3063254",
+   "longitude": "-83.6969149"
+ },
+ {
+   "Address": "Cook Legal Research (aka Smith Underground) - 0184",
+   "Cost_Electric": "180632.31499999997",
+   "GSF": 212255,
+   "Reading_Total_Electric": "1570716.0",
+   "building_id": 184,
+   "latitude": "42.273756",
+   "longitude": "-83.7390719"
+ },
+ {
+   "Address": "Cooley (aka Cooley) - 0403",
+   "Cost_Electric": "69054.26000000001",
+   "GSF": 45717,
+   "Reading_Total_Electric": "600472.0700000001",
+   "building_id": 403,
+   "latitude": "42.2906213",
+   "longitude": "-83.7136452"
+ },
+ {
+   "Address": "Couzens Hall - 0053",
+   "Cost_Electric": "138138.005",
+   "GSF": 185523,
+   "Reading_Total_Electric": "1201200.0",
+   "building_id": 53,
+   "latitude": "42.282037",
+   "longitude": "-83.73292909999999"
+ },
+ {
+   "Address": "Crisler Center Complex - 0700",
+   "Cost_Electric": "416969.57499999995",
+   "GSF": 347619,
+   "Reading_Total_Electric": "3589624.0",
+   "building_id": 700,
+   "latitude": "42.2650311",
+   "longitude": "-83.74666839999999"
+ },
+ {
+   "Address": "Dana Building (aka School for Environment and Sustainability, SEAS) - 0189",
+   "Cost_Electric": "164762.19999999998",
+   "GSF": 117139,
+   "Reading_Total_Electric": "1432715.0",
+   "building_id": 189,
+   "latitude": "42.2773318",
+   "longitude": "-83.73661229999999"
+ },
+ {
+   "Address": "Dean Road Transportation Facility - 5491",
+   "Cost_Electric": "130289.0",
+   "GSF": 74018,
+   "Reading_Total_Electric": "1132948.0",
+   "building_id": 5491,
+   "latitude": "42.2968109",
+   "longitude": "-83.6960302"
+ },
+ {
+   "Address": "Dental School (aka Kellogg Institute) - 0162",
+   "Cost_Electric": "1016041.22",
+   "GSF": 428748,
+   "Reading_Total_Electric": "8835141.0",
+   "building_id": 162,
+   "latitude": "42.2789274",
+   "longitude": "-83.7364252"
+ },
+ {
+   "Address": "Detroit Observatory (aka Judy & Stanley Frankel Detroit Observatory) - 0198",
+   "Cost_Electric": "8621.9",
+   "GSF": 12785,
+   "Reading_Total_Electric": "74973.0",
+   "building_id": 198,
+   "latitude": "42.2819717",
+   "longitude": "-83.7316558"
+ },
+ {
+   "Address": "Dexter Family Practice - 8149",
+   "Cost_Electric": "17174.329999999998",
+   "GSF": 10065,
+   "Reading_Total_Electric": "95019.89",
+   "building_id": 8149,
+   "latitude": "42.3305939",
+   "longitude": "-83.8760406"
+ },
+ {
+   "Address": "Dow Building (aka HH Dow) - 0447",
+   "Cost_Electric": "413597.04",
+   "GSF": 154365,
+   "Reading_Total_Electric": "3596496.14",
+   "building_id": 447,
+   "latitude": "42.2930227",
+   "longitude": "-83.7153666"
+ },
+ {
+   "Address": "E8 Church Street Parking Structure - 0257",
+   "Cost_Electric": "43094.31",
+   "GSF": 228214,
+   "Reading_Total_Electric": "374733.0",
+   "building_id": 257,
+   "latitude": "42.275909",
+   "longitude": "-83.73419319999999"
+ },
+ {
+   "Address": "Earl V Moore Building (aka School of Music) - 0440",
+   "Cost_Electric": "264224.22",
+   "GSF": 172639,
+   "Reading_Total_Electric": "2297601.9",
+   "building_id": 440,
+   "latitude": "42.28973999999999",
+   "longitude": "-83.7210724"
+ },
+ {
+   "Address": "East Ann Arbor Health Center (aka EAHC) - 0350",
+   "Cost_Electric": "926261.9799999999",
+   "GSF": 99932,
+   "Reading_Total_Electric": "8475572.0",
+   "building_id": 350,
+   "latitude": "42.3079851",
+   "longitude": "-83.67398270000001"
+ },
+ {
+   "Address": "East Hall (aka East Engineering) - 0166",
+   "Cost_Electric": "518697.74",
+   "GSF": 338897,
+   "Reading_Total_Electric": "4510415.0",
+   "building_id": 166,
+   "latitude": "42.2757212",
+   "longitude": "-83.7351922"
+ },
+ {
+   "Address": "East Mechanical Building (aka EMB) - 0306",
+   "Cost_Electric": "291372.19",
+   "GSF": 8182,
+   "Reading_Total_Electric": "2533671.0",
+   "building_id": 306,
+   "latitude": "42.2829492",
+   "longitude": "-83.73016969999999"
+ },
+ {
+   "Address": "East Quad (aka EQ) - 0054",
+   "Cost_Electric": "434985.11000000004",
+   "GSF": 333036,
+   "Reading_Total_Electric": "3782479.0000000005",
+   "building_id": 54,
+   "latitude": "42.2729285",
+   "longitude": "-83.73514589999999"
+ },
+ {
+   "Address": "Eisenhower Corporate Park West (aka ECPW) - 8072",
+   "Cost_Electric": "341063.98",
+   "GSF": 76726,
+   "Reading_Total_Electric": "2145439.45",
+   "building_id": 8072,
+   "latitude": "42.2452975",
+   "longitude": "-83.7311198"
+ },
+ {
+   "Address": "Eisenhower Cp - 5070",
+   "Cost_Electric": "42121.44",
+   "GSF": 37606,
+   "Reading_Total_Electric": "228451.47999999995",
+   "building_id": 5070,
+   "latitude": "42.2481398",
+   "longitude": "-83.7302959"
+ },
+ {
+   "Address": "Electrical Engineering and Computer Science (aka EECS) - 0448",
+   "Cost_Electric": "1826487.02",
+   "GSF": 305134,
+   "Reading_Total_Electric": "15882495.4",
+   "building_id": 448,
+   "latitude": "42.2923152",
+   "longitude": "-83.7136376"
+ },
+ {
+   "Address": "Engineering Research Building 1 (aka ERB1) - 0435",
+   "Cost_Electric": "112766.51000000001",
+   "GSF": 36033,
+   "Reading_Total_Electric": "980578.3200000001",
+   "building_id": 435,
+   "latitude": "42.2895553",
+   "longitude": "-83.71522809999999"
+ },
+ {
+   "Address": "Engineering Research Building 2 (aka ERB2) - 0436",
+   "Cost_Electric": "88665.64",
+   "GSF": 28332,
+   "Reading_Total_Electric": "771005.73",
+   "building_id": 436,
+   "latitude": "42.2895553",
+   "longitude": "-83.71522809999999"
+ },
+ {
+   "Address": "Engineering Research Support Building - 2505",
+   "Cost_Electric": "5444.77",
+   "GSF": 1432,
+   "Reading_Total_Electric": "27494.15",
+   "building_id": 2505,
+   "latitude": "42.3024222",
+   "longitude": "-83.692639"
+ },
+ {
+   "Address": "Environmental and Water Resources (aka EWRE) - 0414",
+   "Cost_Electric": "121313.51999999999",
+   "GSF": 37129,
+   "Reading_Total_Electric": "1054900.0899999999",
+   "building_id": 414,
+   "latitude": "42.2936579",
+   "longitude": "-83.7129868"
+ },
+ {
+   "Address": "Executive Residence (aka Exec Res) - 0139",
+   "Cost_Electric": "56734.44",
+   "GSF": 50853,
+   "Reading_Total_Electric": "493343.0",
+   "building_id": 139,
+   "latitude": "42.2730792",
+   "longitude": "-83.7362461"
+ },
+ {
+   "Address": "Fgrl Bldg 5 - 5454",
+   "Cost_Electric": "7943.719999999999",
+   "GSF": 4886,
+   "Reading_Total_Electric": "38635.12",
+   "building_id": 5454,
+   "latitude": "42.2739378",
+   "longitude": "-83.7467544"
+ },
+ {
+   "Address": "Field Hockey Complex - 5357",
+   "Cost_Electric": "41631.19",
+   "GSF": 18907,
+   "Reading_Total_Electric": "259498.07000000004",
+   "building_id": 5357,
+   "latitude": "42.2631228",
+   "longitude": "-83.7408607"
+ },
+ {
+   "Address": "Fire Station - 0409",
+   "Cost_Electric": "10341.49",
+   "GSF": 21528,
+   "Reading_Total_Electric": "89926.0",
+   "building_id": 409,
+   "latitude": "42.3003781",
+   "longitude": "-83.7126892"
+ },
+ {
+   "Address": "First National Building - 5502",
+   "Cost_Electric": "2391.5099999999998",
+   "GSF": 1747,
+   "Reading_Total_Electric": "11912.98",
+   "building_id": 5502,
+   "latitude": "42.2802779",
+   "longitude": "-83.748217"
+ },
+ {
+   "Address": "Fisher Baseball Stadium - 0733",
+   "Cost_Electric": "60433.299999999996",
+   "GSF": 30275,
+   "Reading_Total_Electric": "525507.0",
+   "building_id": 733,
+   "latitude": "42.2680112",
+   "longitude": "-83.74185159999999"
+ },
+ {
+   "Address": "Flecher Hall - 0055",
+   "Cost_Electric": "12044.95",
+   "GSF": 17985,
+   "Reading_Total_Electric": "66224.77",
+   "building_id": 55,
+   "latitude": "42.2701781",
+   "longitude": "-83.74276689999999"
+ },
+ {
+   "Address": "Ford Nuclear Reactor (aka NEL) - 0405",
+   "Cost_Electric": "64803.27",
+   "GSF": 20565,
+   "Reading_Total_Electric": "563507.0",
+   "building_id": 405,
+   "latitude": "42.2910896",
+   "longitude": "-83.7142918"
+ },
+ {
+   "Address": "Ford Robotics Building - 5418",
+   "Cost_Electric": "252239.93000000002",
+   "GSF": 144117,
+   "Reading_Total_Electric": "2193390.84",
+   "building_id": 5418,
+   "latitude": "42.29462669999999",
+   "longitude": "-83.7094824"
+ },
+ {
+   "Address": "Francois-Xavier Bagnoud Building (aka FXB) - 0395",
+   "Cost_Electric": "292167.4199999999",
+   "GSF": 101812,
+   "Reading_Total_Electric": "2540586.13",
+   "building_id": 395,
+   "latitude": "42.2936991",
+   "longitude": "-83.7119203"
+ },
+ {
+   "Address": "GG Brown Laboratory - 0407",
+   "Cost_Electric": "928857.32",
+   "GSF": 290555,
+   "Reading_Total_Electric": "8077019.890000001",
+   "building_id": 407,
+   "latitude": "42.2931762",
+   "longitude": "-83.71372869999999"
+ },
+ {
+   "Address": "GINSBERG EDWARD AND ROSALIE BUILDING - 5507",
+   "Cost_Electric": "6067.24",
+   "GSF": 0,
+   "Reading_Total_Electric": "29990.4",
+   "building_id": 5507,
+   "latitude": "42.27180329999999",
+   "longitude": "-83.7360391"
+ },
+ {
+   "Address": "Galleria Building - 5060",
+   "Cost_Electric": "34601.38",
+   "GSF": 17744,
+   "Reading_Total_Electric": "172748.25",
+   "building_id": 5060,
+   "latitude": "42.2748133",
+   "longitude": "-83.73388829999999"
+ },
+ {
+   "Address": "George Edwin S. Reserve Complex (aka ES George) - 4401",
+   "Cost_Electric": "4555.53",
+   "GSF": 21227,
+   "Reading_Total_Electric": "16643.131",
+   "building_id": 4401,
+   "latitude": "42.4456458",
+   "longitude": "-84.0181247"
+ },
+ {
+   "Address": "Gerald R Ford Library - 0446",
+   "Cost_Electric": "104358.72",
+   "GSF": 47077,
+   "Reading_Total_Electric": "907467.0",
+   "building_id": 446,
+   "latitude": "42.2885973",
+   "longitude": "-83.7122827"
+ },
+ {
+   "Address": "Gerstacker - 0437",
+   "Cost_Electric": "288399.62",
+   "GSF": 61387,
+   "Reading_Total_Electric": "2507822.56",
+   "building_id": 437,
+   "latitude": "42.2895553",
+   "longitude": "-83.71522809999999"
+ },
+ {
+   "Address": "Glick Al Field House - 5121",
+   "Cost_Electric": "157865.11",
+   "GSF": 107253,
+   "Reading_Total_Electric": "1372740.0",
+   "building_id": 5121,
+   "latitude": "42.2652171",
+   "longitude": "-83.74111669999999"
+ },
+ {
+   "Address": "Golf Course Practice Range Bldg - 0749",
+   "Cost_Electric": "15725.0",
+   "GSF": 720,
+   "Reading_Total_Electric": "90858.53",
+   "building_id": 749,
+   "latitude": "42.2548175",
+   "longitude": "-83.7495012"
+ },
+ {
+   "Address": "Gorguze Family Laboratory (aka Engineering Programs Building, EPB, Gorguze) - 0424",
+   "Cost_Electric": "143874.49",
+   "GSF": 80487,
+   "Reading_Total_Electric": "1251082.7000000002",
+   "building_id": 424,
+   "latitude": "42.2936042",
+   "longitude": "-83.7108286"
+ },
+ {
+   "Address": "Hamilton Square - 8054",
+   "Cost_Electric": "8796.07",
+   "GSF": 2460,
+   "Reading_Total_Electric": "44904.549999999996",
+   "building_id": 8054,
+   "latitude": "42.2788942",
+   "longitude": "-83.74000629999999"
+ },
+ {
+   "Address": "Hartwig Administration Building - 0201",
+   "Cost_Electric": "10798.84",
+   "GSF": 14649,
+   "Reading_Total_Electric": "93903.0",
+   "building_id": 201,
+   "latitude": "42.2688407",
+   "longitude": "-83.7409342"
+ },
+ {
+   "Address": "Hatcher Library North (aka Graduate Library South) - 0185",
+   "Cost_Electric": "124514.08000000002",
+   "GSF": 195323,
+   "Reading_Total_Electric": "1082731.0",
+   "building_id": 185,
+   "latitude": "42.2763342",
+   "longitude": "-83.7379811"
+ },
+ {
+   "Address": "Hatcher Library South (aka Graduate Library South) - 0181",
+   "Cost_Electric": "203441.31500000003",
+   "GSF": 147674,
+   "Reading_Total_Electric": "1769055.0",
+   "building_id": 181,
+   "latitude": "42.2763342",
+   "longitude": "-83.7379811"
+ },
+ {
+   "Address": "Haven Hall - 0175",
+   "Cost_Electric": "131454.44",
+   "GSF": 123488,
+   "Reading_Total_Electric": "1143082.0",
+   "building_id": 175,
+   "latitude": "42.2762833",
+   "longitude": "-83.7396129"
+ },
+ {
+   "Address": "Health Service (aka UHS, HS) - 0176",
+   "Cost_Electric": "125683.51000000001",
+   "GSF": 79177,
+   "Reading_Total_Electric": "1092900.0",
+   "building_id": 176,
+   "latitude": "42.2796645",
+   "longitude": "-83.7365693"
+ },
+ {
+   "Address": "Helen Newberry - 0062",
+   "Cost_Electric": "12042.68",
+   "GSF": 31304,
+   "Reading_Total_Electric": "104719.0",
+   "building_id": 62,
+   "latitude": "42.2769295",
+   "longitude": "-83.74155929999999"
+ },
+ {
+   "Address": "Henderson House - 0057",
+   "Cost_Electric": "8693.419999999998",
+   "GSF": 9329,
+   "Reading_Total_Electric": "44322.1",
+   "building_id": 57,
+   "latitude": "42.2718445",
+   "longitude": "-83.7318051"
+ },
+ {
+   "Address": "Hill Auditorium - 0177",
+   "Cost_Electric": "161855.25",
+   "GSF": 105565,
+   "Reading_Total_Electric": "1407437.0",
+   "building_id": 177,
+   "latitude": "42.279076",
+   "longitude": "-83.7390391"
+ },
+ {
+   "Address": "Hoover Ave Complex (aka Plant Complex) - 0800",
+   "Cost_Electric": "232306.21",
+   "GSF": 187585,
+   "Reading_Total_Electric": "2020054.0",
+   "building_id": 800,
+   "latitude": "42.26720299999999",
+   "longitude": "-83.7460942"
+ },
+ {
+   "Address": "Huron Bank - 0837",
+   "Cost_Electric": "8282.89",
+   "GSF": 4301,
+   "Reading_Total_Electric": "41624.36",
+   "building_id": 837,
+   "latitude": "42.2788178",
+   "longitude": "-83.7397979"
+ },
+ {
+   "Address": "Hutchins Hall - 0179",
+   "Cost_Electric": "130090.05999999998",
+   "GSF": 119856,
+   "Reading_Total_Electric": "1131218.0",
+   "building_id": 179,
+   "latitude": "42.2741841",
+   "longitude": "-83.7391713"
+ },
+ {
+   "Address": "Indoor Track Building - 0703",
+   "Cost_Electric": "27740.75",
+   "GSF": 69183,
+   "Reading_Total_Electric": "241224.0",
+   "building_id": 703,
+   "latitude": "42.26701670000001",
+   "longitude": "-83.7436211"
+ },
+ {
+   "Address": "Industrial & Operation Engineering (aka IOE) - 0429",
+   "Cost_Electric": "87692.36",
+   "GSF": 50214,
+   "Reading_Total_Electric": "762542.3899999999",
+   "building_id": 429,
+   "latitude": "42.2910706",
+   "longitude": "-83.7137245"
+ },
+ {
+   "Address": "Institute for Social Research (aka ISR Thompson) - 0145",
+   "Cost_Electric": "307666.63999999996",
+   "GSF": 226082,
+   "Reading_Total_Electric": "2675362.0",
+   "building_id": 145,
+   "latitude": "42.2768586",
+   "longitude": "-83.7435738"
+ },
+ {
+   "Address": "Institute of Continuing Legal Education (aka ICLE) - 0814",
+   "Cost_Electric": "24358.97",
+   "GSF": 12592,
+   "Reading_Total_Electric": "146727.72",
+   "building_id": 814,
+   "latitude": "42.2685624",
+   "longitude": "-83.74792649999999"
+ },
+ {
+   "Address": "Intercollegiate Soccer Stadium - 5247",
+   "Cost_Electric": "27599.66",
+   "GSF": 17382,
+   "Reading_Total_Electric": "168095.72999999998",
+   "building_id": 5247,
+   "latitude": "42.2527222",
+   "longitude": "-83.747253"
+ },
+ {
+   "Address": "Intramural Sports Building (aka IM Building, IMSB, Recreation) - 0719",
+   "Cost_Electric": "136836.54",
+   "GSF": 108676,
+   "Reading_Total_Electric": "1189883.0",
+   "building_id": 719,
+   "latitude": "42.2694673",
+   "longitude": "-83.7422564"
+ },
+ {
+   "Address": "James and Anne Duderstadt Center (aka Dude, ITC, Library) - 0396",
+   "Cost_Electric": "579829.085",
+   "GSF": 240256,
+   "Reading_Total_Electric": "5041992.13",
+   "building_id": 396,
+   "latitude": "42.2912754",
+   "longitude": "-83.7156345"
+ },
+ {
+   "Address": "Jeffries Hall (aka South Hall , Law School) - 5235",
+   "Cost_Electric": "133214.4",
+   "GSF": 103128,
+   "Reading_Total_Electric": "1158386.0",
+   "building_id": 5235,
+   "latitude": "42.2729116",
+   "longitude": "-83.7397522"
+ },
+ {
+   "Address": "John Cook Law Quad Complex - 0109",
+   "Cost_Electric": "110658.29",
+   "GSF": 157711,
+   "Reading_Total_Electric": "962246.0",
+   "building_id": 109,
+   "latitude": "42.2746485",
+   "longitude": "-83.73944469999999"
+ },
+ {
+   "Address": "KMS Fusion Building - 8126",
+   "Cost_Electric": "142541.54000000004",
+   "GSF": 125908,
+   "Reading_Total_Electric": "1077016.5",
+   "building_id": 8126,
+   "latitude": "42.2344473",
+   "longitude": "-83.7384865"
+ },
+ {
+   "Address": "Kahn Health Care Pavilion - 5440",
+   "Cost_Electric": "829040.77",
+   "GSF": 2296,
+   "Reading_Total_Electric": "7202950.5200000005",
+   "building_id": 5440,
+   "latitude": "42.28233160000001",
+   "longitude": "-83.73236159999999"
+ },
+ {
+   "Address": "Keen Arena - 0732",
+   "Cost_Electric": "40343.51",
+   "GSF": 37261,
+   "Reading_Total_Electric": "350813.0",
+   "building_id": 732,
+   "latitude": "42.2695209",
+   "longitude": "-83.7410979"
+ },
+ {
+   "Address": "Kellogg Eye Center (aka KEC) - 0324",
+   "Cost_Electric": "248236.35",
+   "GSF": 81670,
+   "Reading_Total_Electric": "2158577.0",
+   "building_id": 324,
+   "latitude": "42.2882581",
+   "longitude": "-83.7372608"
+ },
+ {
+   "Address": "Kellogg Eye Center - Grand Blanc - 5393",
+   "Cost_Electric": "16999.07",
+   "GSF": 8021,
+   "Reading_Total_Electric": "83777.0",
+   "building_id": 5393,
+   "latitude": "42.9178751",
+   "longitude": "-83.645966"
+ },
+ {
+   "Address": "Kelsey Museum (aka Archeology Museum) - 0178",
+   "Cost_Electric": "56499.37",
+   "GSF": 40574,
+   "Reading_Total_Electric": "491299.0",
+   "building_id": 178,
+   "latitude": "42.2767298",
+   "longitude": "-83.7413737"
+ },
+ {
+   "Address": "Kresge Hall (aka KBL, Business Library) - 0137",
+   "Cost_Electric": "145090.1",
+   "GSF": 76731,
+   "Reading_Total_Electric": "1261653.0",
+   "building_id": 137,
+   "latitude": "42.2731115",
+   "longitude": "-83.736071"
+ },
+ {
+   "Address": "LSA Building (aka Literature Science and the Arts) - 0150",
+   "Cost_Electric": "325947.935",
+   "GSF": 156119,
+   "Reading_Total_Electric": "2834330.0",
+   "building_id": 150,
+   "latitude": "42.27648689999999",
+   "longitude": "-83.74143889999999"
+ },
+ {
+   "Address": "Lane Hall - 0183",
+   "Cost_Electric": "49278.649999999994",
+   "GSF": 39993,
+   "Reading_Total_Electric": "310251.66",
+   "building_id": 183,
+   "latitude": "42.2799135",
+   "longitude": "-83.74125839999999"
+ },
+ {
+   "Address": "Lay Automotive Lab (aka Lay Auto) - 0400",
+   "Cost_Electric": "206263.33",
+   "GSF": 63286,
+   "Reading_Total_Electric": "1793594.3399999999",
+   "building_id": 400,
+   "latitude": "42.2918673",
+   "longitude": "-83.7138942"
+ },
+ {
+   "Address": "Leinweber - 5504",
+   "Cost_Electric": "99548.70000000001",
+   "GSF": 1200,
+   "Reading_Total_Electric": "865640.89",
+   "building_id": 5504,
+   "latitude": "42.29301110000001",
+   "longitude": "-83.71728900000001"
+ },
+ {
+   "Address": "Liberty Centre - 0887",
+   "Cost_Electric": "26606.7",
+   "GSF": 19388,
+   "Reading_Total_Electric": "112014.04000000001",
+   "building_id": 887,
+   "latitude": "42.2792429",
+   "longitude": "-83.7421514"
+ },
+ {
+   "Address": "Lipsey Student Publications Building - 0105",
+   "Cost_Electric": "9749.93",
+   "GSF": 14829,
+   "Reading_Total_Electric": "84782.0",
+   "building_id": 105,
+   "latitude": "42.2770771",
+   "longitude": "-83.7423207"
+ },
+ {
+   "Address": "Livonia Center for Specialty Care - 8096",
+   "Cost_Electric": "48795.63",
+   "GSF": 5850,
+   "Reading_Total_Electric": "282618.78",
+   "building_id": 8096,
+   "latitude": "42.4326537",
+   "longitude": "-83.43272069999999"
+ },
+ {
+   "Address": "Livonia Health Center - 8155",
+   "Cost_Electric": "21763.57",
+   "GSF": 11130,
+   "Reading_Total_Electric": "130063.98000000001",
+   "building_id": 8155,
+   "latitude": "42.438784",
+   "longitude": "-83.376126"
+ },
+ {
+   "Address": "Lorch Hall - 0154",
+   "Cost_Electric": "74208.47000000002",
+   "GSF": 89808,
+   "Reading_Total_Electric": "645291.0",
+   "building_id": 154,
+   "latitude": "42.27372889999999",
+   "longitude": "-83.7374494"
+ },
+ {
+   "Address": "Lurie Bell Tower (aka Clock Tower) - 0394",
+   "Cost_Electric": "15667.49",
+   "GSF": 11452,
+   "Reading_Total_Electric": "136239.0",
+   "building_id": 394,
+   "latitude": "42.2920035",
+   "longitude": "-83.71622599999999"
+ },
+ {
+   "Address": "Lurie Biomedical Engineering (aka LBME, BME) - 0406",
+   "Cost_Electric": "225951.87",
+   "GSF": 65028,
+   "Reading_Total_Electric": "1964798.6800000002",
+   "building_id": 406,
+   "latitude": "42.2888497",
+   "longitude": "-83.71381079999999"
+ },
+ {
+   "Address": "Lurie Engineering Center - 0397",
+   "Cost_Electric": "96130.21500000001",
+   "GSF": 53878,
+   "Reading_Total_Electric": "835915.09",
+   "building_id": 397,
+   "latitude": "42.291525",
+   "longitude": "-83.71383689999999"
+ },
+ {
+   "Address": "M15 Medical Center Parking Structure - 0300",
+   "Cost_Electric": "42349.64",
+   "GSF": 340052,
+   "Reading_Total_Electric": "491904.0",
+   "building_id": 300,
+   "latitude": "42.28560179999999",
+   "longitude": "-83.7318196"
+ },
+ {
+   "Address": "M18 Medical Center Parking Structure - 0315",
+   "Cost_Electric": "76440.28",
+   "GSF": 684123,
+   "Reading_Total_Electric": "664698.0",
+   "building_id": 315,
+   "latitude": "42.2853435",
+   "longitude": "-83.7310198"
+ },
+ {
+   "Address": "M22 Simpson Circle Parking Structure - 0320",
+   "Cost_Electric": "93300.18000000001",
+   "GSF": 467374,
+   "Reading_Total_Electric": "811306.0",
+   "building_id": 320,
+   "latitude": "42.282068",
+   "longitude": "-83.72824159999999"
+ },
+ {
+   "Address": "M5 Catherine Parking Structure - 0258",
+   "Cost_Electric": "33949.05",
+   "GSF": 140168,
+   "Reading_Total_Electric": "295209.0",
+   "building_id": 258,
+   "latitude": "42.2829323",
+   "longitude": "-83.73478659999999"
+ },
+ {
+   "Address": "M61 Glen Ave Parking Structure - 0331",
+   "Cost_Electric": "23119.41",
+   "GSF": 332918,
+   "Reading_Total_Electric": "227725.44",
+   "building_id": 331,
+   "latitude": "42.283942",
+   "longitude": "-83.736019"
+ },
+ {
+   "Address": "M85 Cardio Vascular Center Parking Structure - 5146",
+   "Cost_Electric": "45403.02",
+   "GSF": 168596,
+   "Reading_Total_Electric": "394809.0",
+   "building_id": 5146,
+   "latitude": "42.2823503",
+   "longitude": "-83.7318305"
+ },
+ {
+   "Address": "M86 Ann Street Parking Structure - 5132",
+   "Cost_Electric": "33334.80500000001",
+   "GSF": 189202,
+   "Reading_Total_Electric": "289868.0",
+   "building_id": 5132,
+   "latitude": "42.2824559",
+   "longitude": "-83.7347652"
+ },
+ {
+   "Address": "M93 Wall St. East Parking Structure - 5193",
+   "Cost_Electric": "57230.369999999995",
+   "GSF": 249962,
+   "Reading_Total_Electric": "364012.0",
+   "building_id": 5193,
+   "latitude": "42.288418",
+   "longitude": "-83.7344449"
+ },
+ {
+   "Address": "MCity - 5381",
+   "Cost_Electric": "7718.02",
+   "GSF": 4463,
+   "Reading_Total_Electric": "67113.0",
+   "building_id": 5381,
+   "latitude": "42.2980353",
+   "longitude": "-83.70202019999999"
+ },
+ {
+   "Address": "MCity Storage - 5442",
+   "Cost_Electric": "5368.66",
+   "GSF": 3305,
+   "Reading_Total_Electric": "46684.0",
+   "building_id": 5442,
+   "latitude": "42.2974857",
+   "longitude": "-83.7042951"
+ },
+ {
+   "Address": "Mail Service Building - 0816",
+   "Cost_Electric": "7877.82",
+   "GSF": 5903,
+   "Reading_Total_Electric": "44687.68000000001",
+   "building_id": 816,
+   "latitude": "42.2682808",
+   "longitude": "-83.74785539999999"
+ },
+ {
+   "Address": "Martha Cook - 0052",
+   "Cost_Electric": "32061.65",
+   "GSF": 71974,
+   "Reading_Total_Electric": "278797.0",
+   "building_id": 52,
+   "latitude": "42.274525",
+   "longitude": "-83.73792329999999"
+ },
+ {
+   "Address": "Mary Markley Hall - 0060",
+   "Cost_Electric": "264866.62",
+   "GSF": 285877,
+   "Reading_Total_Electric": "2303188.0",
+   "building_id": 60,
+   "latitude": "42.2808891",
+   "longitude": "-83.7288791"
+ },
+ {
+   "Address": "Mary Sue Coleman Hall (aka LSI, Life Sciences Institute, MSCH) - 5036",
+   "Cost_Electric": "1399363.17",
+   "GSF": 298400,
+   "Reading_Total_Electric": "12168375.0",
+   "building_id": 5036,
+   "latitude": "42.2796388",
+   "longitude": "-83.73418559999999"
+ },
+ {
+   "Address": "Mason Hall - 0197",
+   "Cost_Electric": "148346.45",
+   "GSF": 136044,
+   "Reading_Total_Electric": "1289969.0",
+   "building_id": 197,
+   "latitude": "42.2767582",
+   "longitude": "-83.7407539"
+ },
+ {
+   "Address": "Matthaei Botanical Gardens Complex (aka Botanical Gardens, Botan, MBGNA) - 0982",
+   "Cost_Electric": "85153.48999999999",
+   "GSF": 91085,
+   "Reading_Total_Electric": "651662.72",
+   "building_id": 982,
+   "latitude": "42.2996921",
+   "longitude": "-83.66200180000001"
+ },
+ {
+   "Address": "Matthaei Botanical Gardens Supt Residence - 0985",
+   "Cost_Electric": "2406.25",
+   "GSF": 2928,
+   "Reading_Total_Electric": "11293.65",
+   "building_id": 985,
+   "latitude": "42.2996921",
+   "longitude": "-83.66200180000001"
+ },
+ {
+   "Address": "Mcity Auxiliary Building - 2502",
+   "Cost_Electric": "10766.59",
+   "GSF": 2893,
+   "Reading_Total_Electric": "56753.64",
+   "building_id": 2502,
+   "latitude": "42.30131",
+   "longitude": "-83.6966166"
+ },
+ {
+   "Address": "Med Inn (aka MIB) - 0308",
+   "Cost_Electric": "168798.37",
+   "GSF": 119437,
+   "Reading_Total_Electric": "1467812.0",
+   "building_id": 308,
+   "latitude": "42.2827998",
+   "longitude": "-83.7304379"
+ },
+ {
+   "Address": "Medical Professional Building (aka MPB) - 0319",
+   "Cost_Electric": "47411.25",
+   "GSF": 37298,
+   "Reading_Total_Electric": "412272.0",
+   "building_id": 319,
+   "latitude": "42.2827495",
+   "longitude": "-83.730322"
+ },
+ {
+   "Address": "Medical Science Unit 1 (aka Med Sci 1, MS1) - 0190",
+   "Cost_Electric": "812760.42",
+   "GSF": 298955,
+   "Reading_Total_Electric": "7067481.949999999",
+   "building_id": 190,
+   "latitude": "42.2839264",
+   "longitude": "-83.7322658"
+ },
+ {
+   "Address": "Medical Science Unit 2 (aka Med Sci 2, MS2) - 0200",
+   "Cost_Electric": "1082231.0049999997",
+   "GSF": 333599,
+   "Reading_Total_Electric": "9410704.64",
+   "building_id": 200,
+   "latitude": "42.2835033",
+   "longitude": "-83.7337068"
+ },
+ {
+   "Address": "Medical Sciences Research Bld1 (aka MSRB 1) - 0223",
+   "Cost_Electric": "651759.93",
+   "GSF": 144732,
+   "Reading_Total_Electric": "5667477.4",
+   "building_id": 223,
+   "latitude": "42.2849017",
+   "longitude": "-83.7324945"
+ },
+ {
+   "Address": "Medical Sciences Research Bld2 (aka MSRB 2) - 0213",
+   "Cost_Electric": "641097.4500000001",
+   "GSF": 163832,
+   "Reading_Total_Electric": "5574760.720000001",
+   "building_id": 213,
+   "latitude": "42.2849017",
+   "longitude": "-83.7324945"
+ },
+ {
+   "Address": "Medical Sciences Research Bld3 (aka MSRB 3) - 0229",
+   "Cost_Electric": "972737.22",
+   "GSF": 217818,
+   "Reading_Total_Electric": "8458584.440000001",
+   "building_id": 229,
+   "latitude": "42.2849017",
+   "longitude": "-83.7324945"
+ },
+ {
+   "Address": "Michigan League (aka Theater, Michigan League, LEAG) - 0191",
+   "Cost_Electric": "167723.14999999997",
+   "GSF": 130839,
+   "Reading_Total_Electric": "1458462.0",
+   "building_id": 191,
+   "latitude": "42.2793182",
+   "longitude": "-83.7377271"
+ },
+ {
+   "Address": "Michigan News - 0222",
+   "Cost_Electric": "4084.1",
+   "GSF": 7811,
+   "Reading_Total_Electric": "35514.0",
+   "building_id": 222,
+   "latitude": "42.277461",
+   "longitude": "-83.7422835"
+ },
+ {
+   "Address": "Michigan Square - 0819",
+   "Cost_Electric": "13969.710000000001",
+   "GSF": 14157,
+   "Reading_Total_Electric": "66983.98000000001",
+   "building_id": 819,
+   "latitude": "42.27920779999999",
+   "longitude": "-83.74477310000002"
+ },
+ {
+   "Address": "Michigan Stadium Complex - 0711",
+   "Cost_Electric": "1094840.285",
+   "GSF": 577124,
+   "Reading_Total_Electric": "9520350.0",
+   "building_id": 711,
+   "latitude": "42.2660981",
+   "longitude": "-83.7484659"
+ },
+ {
+   "Address": "Michigan Union (aka Union) - 0120",
+   "Cost_Electric": "339390.17000000004",
+   "GSF": 262717,
+   "Reading_Total_Electric": "2951218.9999999995",
+   "building_id": 120,
+   "latitude": "42.27522",
+   "longitude": "-83.7413201"
+ },
+ {
+   "Address": "Mitchell Field (aka Mitchell Recreation Fields) - 2500",
+   "Cost_Electric": "54627.990000000005",
+   "GSF": 1440,
+   "Reading_Total_Electric": "326984.92000000004",
+   "building_id": 2500,
+   "latitude": "42.2855135",
+   "longitude": "-83.72190599999999"
+ },
+ {
+   "Address": "Modern Languages Building (aka MLB) - 0207",
+   "Cost_Electric": "168165.87",
+   "GSF": 135378,
+   "Reading_Total_Electric": "1462312.0",
+   "building_id": 207,
+   "latitude": "42.2798442",
+   "longitude": "-83.7390533"
+ },
+ {
+   "Address": "Modular Aoss Newcomb Tract Facility - 5090",
+   "Cost_Electric": "879.4",
+   "GSF": 1404,
+   "Reading_Total_Electric": "2867.01",
+   "building_id": 5090,
+   "latitude": "42.416465",
+   "longitude": "-83.89976899999999"
+ },
+ {
+   "Address": "Mosher-Jordan Hall (aka MOJO) - 0061",
+   "Cost_Electric": "498893.95",
+   "GSF": 191152,
+   "Reading_Total_Electric": "4338208.0",
+   "building_id": 61,
+   "latitude": "42.2797959",
+   "longitude": "-83.7323653"
+ },
+ {
+   "Address": "Munger Graduate Residence - 5369",
+   "Cost_Electric": "331754.26999999996",
+   "GSF": 390215,
+   "Reading_Total_Electric": "2884820.0",
+   "building_id": 5369,
+   "latitude": "42.2747975",
+   "longitude": "-83.7437152"
+ },
+ {
+   "Address": "N13 Fletcher Parking Structure - 0254",
+   "Cost_Electric": "71938.49",
+   "GSF": 387276,
+   "Reading_Total_Electric": "625552.0",
+   "building_id": 254,
+   "latitude": "42.2801878",
+   "longitude": "-83.73646190000001"
+ },
+ {
+   "Address": "N26 Palmer Parking Structure - 0263",
+   "Cost_Electric": "150982.34000000003",
+   "GSF": 391303,
+   "Reading_Total_Electric": "1312890.0000000002",
+   "building_id": 263,
+   "latitude": "42.2801218",
+   "longitude": "-83.7345826"
+ },
+ {
+   "Address": "N4 Thayer Street Parking Structure - 0259",
+   "Cost_Electric": "12698.419999999998",
+   "GSF": 164936,
+   "Reading_Total_Electric": "110421.0",
+   "building_id": 259,
+   "latitude": "42.27975",
+   "longitude": "-83.7399337"
+ },
+ {
+   "Address": "NCRC Building 28 - 5264",
+   "Cost_Electric": "370292.78",
+   "GSF": 131476,
+   "Reading_Total_Electric": "0.0",
+   "building_id": 5264,
+   "latitude": "42.2998184",
+   "longitude": "-83.7049715"
+ },
+ {
+   "Address": "NCRC Building 550 - 5282",
+   "Cost_Electric": "265654.45",
+   "GSF": 236634,
+   "Reading_Total_Electric": "2384880.0",
+   "building_id": 5282,
+   "latitude": "42.3003717",
+   "longitude": "-83.70197859999999"
+ },
+ {
+   "Address": "Naval Architecture and Marine Engineering (aka NAME) - 0415",
+   "Cost_Electric": "148298.59000000003",
+   "GSF": 47002,
+   "Reading_Total_Electric": "1289552.62",
+   "building_id": 415,
+   "latitude": "42.2930703",
+   "longitude": "-83.7091513"
+ },
+ {
+   "Address": "New Ccrb - 5445",
+   "Cost_Electric": "42752.149999999994",
+   "GSF": 0,
+   "Reading_Total_Electric": "371758.0",
+   "building_id": 5445,
+   "latitude": "42.278294",
+   "longitude": "-83.73275029999999"
+ },
+ {
+   "Address": "New Pharmacy Building - 5492",
+   "Cost_Electric": "81294.59000000001",
+   "GSF": 500,
+   "Reading_Total_Electric": "532415.53",
+   "building_id": 5492,
+   "latitude": "42.2816111",
+   "longitude": "-83.73680590000001"
+ },
+ {
+   "Address": "Nicholas Arboretum Residence Complex - 0005",
+   "Cost_Electric": "2213.62",
+   "GSF": 3921,
+   "Reading_Total_Electric": "10506.16",
+   "building_id": 5,
+   "latitude": "42.278734",
+   "longitude": "-83.723292"
+ },
+ {
+   "Address": "North Campus Administrative Complex (aka NCAC, \"Toaster\") - 0399",
+   "Cost_Electric": "231396.56",
+   "GSF": 129114,
+   "Reading_Total_Electric": "2012144.0",
+   "building_id": 399,
+   "latitude": "42.2964028",
+   "longitude": "-83.702895"
+ },
+ {
+   "Address": "North Campus Auxiliary Service Building (aka NCASB, Data Center) - 5223",
+   "Cost_Electric": "1081257.46",
+   "GSF": 54428,
+   "Reading_Total_Electric": "9402239.0",
+   "building_id": 5223,
+   "latitude": "42.2921018",
+   "longitude": "-83.70708599999999"
+ },
+ {
+   "Address": "North Campus Ground Svc Facility - 2514",
+   "Cost_Electric": "28937.33",
+   "GSF": 28246,
+   "Reading_Total_Electric": "251629.0",
+   "building_id": 2514,
+   "latitude": "42.2922422",
+   "longitude": "-83.7077322"
+ },
+ {
+   "Address": "North Campus Housing Service Building - 0449",
+   "Cost_Electric": "12850.68",
+   "GSF": 31855,
+   "Reading_Total_Electric": "111745.0",
+   "building_id": 449,
+   "latitude": "42.297922",
+   "longitude": "-83.695437"
+ },
+ {
+   "Address": "North Campus Recreation Building (aka NCRB, North Rec) - 0427",
+   "Cost_Electric": "127054.54",
+   "GSF": 67512,
+   "Reading_Total_Electric": "1104821.98",
+   "building_id": 427,
+   "latitude": "42.2955073",
+   "longitude": "-83.7201345"
+ },
+ {
+   "Address": "North Campus Research Complex (aka NCRC) - 5273",
+   "Cost_Electric": "3006249.8200000003",
+   "GSF": 1562673,
+   "Reading_Total_Electric": "31515783.490000002",
+   "building_id": 5273,
+   "latitude": "42.2998184",
+   "longitude": "-83.7049715"
+ },
+ {
+   "Address": "North Campus Service Building #1 - 0418",
+   "Cost_Electric": "47417.27",
+   "GSF": 23191,
+   "Reading_Total_Electric": "412324.0",
+   "building_id": 418,
+   "latitude": "42.2967869",
+   "longitude": "-83.69778629999999"
+ },
+ {
+   "Address": "North Campus Storage Building - 0430",
+   "Cost_Electric": "10240.050000000001",
+   "GSF": 45750,
+   "Reading_Total_Electric": "89044.0",
+   "building_id": 430,
+   "latitude": "42.2982355",
+   "longitude": "-83.69674599999999"
+ },
+ {
+   "Address": "North Campus Support Facility (Eco Pod) - 5334",
+   "Cost_Electric": "357388.71",
+   "GSF": 2529,
+   "Reading_Total_Electric": "3107728.0",
+   "building_id": 5334,
+   "latitude": "42.2983945",
+   "longitude": "-83.7016987"
+ },
+ {
+   "Address": "North Quad (aka North Quad, NQ) - 5177",
+   "Cost_Electric": "394022.55999999994",
+   "GSF": 388563,
+   "Reading_Total_Electric": "3426282.9999999995",
+   "building_id": 5177,
+   "latitude": "42.2806065",
+   "longitude": "-83.7406428"
+ },
+ {
+   "Address": "Northville Health Center - 5341",
+   "Cost_Electric": "248870.58",
+   "GSF": 102228,
+   "Reading_Total_Electric": "2033794.0",
+   "building_id": 5341,
+   "latitude": "42.4222724",
+   "longitude": "-83.43773689999999"
+ },
+ {
+   "Address": "Northwood Community Center - 0600",
+   "Cost_Electric": "16739.39",
+   "GSF": 13744,
+   "Reading_Total_Electric": "145560.0",
+   "building_id": 600,
+   "latitude": "42.2973493",
+   "longitude": "-83.70907849999999"
+ },
+ {
+   "Address": "Northwood I Complex (aka NW1) - 0450",
+   "Cost_Electric": "29347.189999999995",
+   "GSF": 66104,
+   "Reading_Total_Electric": "255193.0",
+   "building_id": 450,
+   "latitude": "42.2957065",
+   "longitude": "-83.714168"
+ },
+ {
+   "Address": "Northwood II Complex (aka NW2) - 0457",
+   "Cost_Electric": "83094.51000000001",
+   "GSF": 184640,
+   "Reading_Total_Electric": "722561.0",
+   "building_id": 457,
+   "latitude": "42.297753",
+   "longitude": "-83.71381509999999"
+ },
+ {
+   "Address": "Northwood IV Complex (aka NW4) - 0601",
+   "Cost_Electric": "156792.15999999997",
+   "GSF": 529589,
+   "Reading_Total_Electric": "1363410.0",
+   "building_id": 601,
+   "latitude": "42.29674",
+   "longitude": "-83.70989999999999"
+ },
+ {
+   "Address": "Northwood V Apartments (aka NW5) - 2701",
+   "Cost_Electric": "184490.13000000003",
+   "GSF": 559838,
+   "Reading_Total_Electric": "1604262.0",
+   "building_id": 2701,
+   "latitude": "42.2946648",
+   "longitude": "-83.70055719999999"
+ },
+ {
+   "Address": "Observatory Lodge (aka Old Kinesiology) - 0851",
+   "Cost_Electric": "20559.480000000003",
+   "GSF": 30964,
+   "Reading_Total_Electric": "121245.17000000001",
+   "building_id": 851,
+   "latitude": "42.280197",
+   "longitude": "-83.7305806"
+ },
+ {
+   "Address": "Oosterbaan Bennie Field House - 0704",
+   "Cost_Electric": "81922.20000000001",
+   "GSF": 89001,
+   "Reading_Total_Electric": "712367.0",
+   "building_id": 704,
+   "latitude": "42.2658933",
+   "longitude": "-83.742351"
+ },
+ {
+   "Address": "Osborn Chase S. Reserve Complex - 4431",
+   "Cost_Electric": "661.1600000000001",
+   "GSF": 5922,
+   "Reading_Total_Electric": "356.0",
+   "building_id": 4431,
+   "latitude": "46.4838576",
+   "longitude": "-84.2829482"
+ },
+ {
+   "Address": "Oxford Commerce Park OR Mock Up - 5353",
+   "Cost_Electric": "990.54",
+   "GSF": 6192,
+   "Reading_Total_Electric": "5102.129999999999",
+   "building_id": 5353,
+   "latitude": "42.2275661",
+   "longitude": "-83.7429877"
+ },
+ {
+   "Address": "Oxford Houses Complex (Buildings #40-47) - 0040",
+   "Cost_Electric": "104473.08",
+   "GSF": 120842,
+   "Reading_Total_Electric": "884608.0",
+   "building_id": 40,
+   "latitude": "42.274901",
+   "longitude": "-83.72570449999999"
+ },
+ {
+   "Address": "Oxford Warehouse (aka Ellsworth Laundry Depot) - 5332",
+   "Cost_Electric": "13649.81",
+   "GSF": 19952,
+   "Reading_Total_Electric": "70146.6",
+   "building_id": 5332,
+   "latitude": "42.2273931",
+   "longitude": "-83.7439018"
+ },
+ {
+   "Address": "PRV RED BUILDING - 5602",
+   "Cost_Electric": "3957.64",
+   "GSF": 7200,
+   "Reading_Total_Electric": "44113.0",
+   "building_id": 5602,
+   "latitude": "43.0259378",
+   "longitude": "-102.5243131"
+ },
+ {
+   "Address": "Palmer Commons - 5047",
+   "Cost_Electric": "176833.185",
+   "GSF": 106471,
+   "Reading_Total_Electric": "1537680.0",
+   "building_id": 5047,
+   "latitude": "42.2806885",
+   "longitude": "-83.73387939999999"
+ },
+ {
+   "Address": "Palmer Field Temp Rec Facility - 5510",
+   "Cost_Electric": "64651.38999999999",
+   "GSF": 23854,
+   "Reading_Total_Electric": "562186.0",
+   "building_id": 5510,
+   "latitude": "42.2807741",
+   "longitude": "-83.73282019999999"
+ },
+ {
+   "Address": "Parking Services Bldg - 2506",
+   "Cost_Electric": "53713.51",
+   "GSF": 48588,
+   "Reading_Total_Electric": "467074.00000000006",
+   "building_id": 2506,
+   "latitude": "42.2985812",
+   "longitude": "-83.69787819999999"
+ },
+ {
+   "Address": "Performance Center - 5399",
+   "Cost_Electric": "299109.66",
+   "GSF": 300944,
+   "Reading_Total_Electric": "2448012.0",
+   "building_id": 5399,
+   "latitude": "42.251807",
+   "longitude": "-83.74185949999999"
+ },
+ {
+   "Address": "Perry Building (aka Perry, ISR-Perry) - 0890",
+   "Cost_Electric": "170266.06",
+   "GSF": 117904,
+   "Reading_Total_Electric": "1101929.62",
+   "building_id": 890,
+   "latitude": "42.2744606",
+   "longitude": "-83.7452996"
+ },
+ {
+   "Address": "Pharmacy - 0230",
+   "Cost_Electric": "193714.48",
+   "GSF": 56772,
+   "Reading_Total_Electric": "1684474.0",
+   "building_id": 230,
+   "latitude": "42.277565",
+   "longitude": "-83.73541670000002"
+ },
+ {
+   "Address": "Phoenix Memorial Laboratory (aka Phoenix) - 0404",
+   "Cost_Electric": "344292.26499999996",
+   "GSF": 46653,
+   "Reading_Total_Electric": "2993845.6199999996",
+   "building_id": 404,
+   "latitude": "42.2910896",
+   "longitude": "-83.7142918"
+ },
+ {
+   "Address": "Physical Properties Building - 0807",
+   "Cost_Electric": "6119.47",
+   "GSF": 7183,
+   "Reading_Total_Electric": "53213.0",
+   "building_id": 807,
+   "latitude": "42.26720299999999",
+   "longitude": "-83.7460942"
+ },
+ {
+   "Address": "Pierpont Commons (aka PIER) - 0442",
+   "Cost_Electric": "210323.64",
+   "GSF": 90488,
+   "Reading_Total_Electric": "1828900.9999999998",
+   "building_id": 442,
+   "latitude": "42.2911258",
+   "longitude": "-83.7174637"
+ },
+ {
+   "Address": "Plant Service Building - 0261",
+   "Cost_Electric": "21884.269999999997",
+   "GSF": 15183,
+   "Reading_Total_Electric": "190298.0",
+   "building_id": 261,
+   "latitude": "42.2805252",
+   "longitude": "-83.7351673"
+ },
+ {
+   "Address": "Portage Lk Observatory Complex - 3425",
+   "Cost_Electric": "5283.9400000000005",
+   "GSF": 3364,
+   "Reading_Total_Electric": "25620.149999999998",
+   "building_id": 3425,
+   "latitude": "42.3922918",
+   "longitude": "-83.9360651"
+ },
+ {
+   "Address": "Postma Family Clubhouse - 5385",
+   "Cost_Electric": "58394.259999999995",
+   "GSF": 25268,
+   "Reading_Total_Electric": "348149.67",
+   "building_id": 5385,
+   "latitude": "42.25916429999999",
+   "longitude": "-83.7451466"
+ },
+ {
+   "Address": "Power Center - 0180",
+   "Cost_Electric": "79278.92000000001",
+   "GSF": 73088,
+   "Reading_Total_Electric": "689382.0",
+   "building_id": 180,
+   "latitude": "42.2807444",
+   "longitude": "-83.7360898"
+ },
+ {
+   "Address": "Presidents Residence (aka President's House) - 0203",
+   "Cost_Electric": "18252.239999999998",
+   "GSF": 14705,
+   "Reading_Total_Electric": "158715.0",
+   "building_id": 203,
+   "latitude": "42.2753807",
+   "longitude": "-83.7384888"
+ },
+ {
+   "Address": "REC SPORTS ADV LEADERSHIP RENTAL CTR OFFICES TRLR - 5569",
+   "Cost_Electric": "19301.550000000003",
+   "GSF": 450,
+   "Reading_Total_Electric": "113463.89",
+   "building_id": 5569,
+   "latitude": "42.273593",
+   "longitude": "-83.746004"
+ },
+ {
+   "Address": "RP HOUSING MATT BOT GNDS HOUSE - 0976",
+   "Cost_Electric": "3316.0899999999997",
+   "GSF": 3650,
+   "Reading_Total_Electric": "17226.56",
+   "building_id": 976,
+   "latitude": "42.3062453",
+   "longitude": "-83.66248829999999"
+ },
+ {
+   "Address": "Rackham - 0172",
+   "Cost_Electric": "94111.29999999999",
+   "GSF": 157957,
+   "Reading_Total_Electric": "818359.0",
+   "building_id": 172,
+   "latitude": "42.2806637",
+   "longitude": "-83.738286"
+ },
+ {
+   "Address": "Rackham Educational Memorial - 1501",
+   "Cost_Electric": "58374.56",
+   "GSF": 71847,
+   "Reading_Total_Electric": "410655.0",
+   "building_id": 1501,
+   "latitude": "42.3582598",
+   "longitude": "-83.06313120000002"
+ },
+ {
+   "Address": "Radio Broadcasting Station Complex - 3414",
+   "Cost_Electric": "49887.770000000004",
+   "GSF": 3780,
+   "Reading_Total_Electric": "413026.30999999994",
+   "building_id": 3414,
+   "latitude": "42.40468000000001",
+   "longitude": "-83.916838"
+ },
+ {
+   "Address": "Radrick Farms Caretakers House - 0955",
+   "Cost_Electric": "14725.84",
+   "GSF": 8572,
+   "Reading_Total_Electric": "77568.62999999999",
+   "building_id": 955,
+   "latitude": "42.2830017",
+   "longitude": "-83.6659583"
+ },
+ {
+   "Address": "Radrick Farms Golf Clubhouse - 0963",
+   "Cost_Electric": "24534.13",
+   "GSF": 10725,
+   "Reading_Total_Electric": "134307.79",
+   "building_id": 963,
+   "latitude": "42.2786544",
+   "longitude": "-83.65282719999999"
+ },
+ {
+   "Address": "Radrick Farms Recreation Complex - 0953",
+   "Cost_Electric": "2315.01",
+   "GSF": 2587,
+   "Reading_Total_Electric": "11761.53",
+   "building_id": 953,
+   "latitude": "42.2898304",
+   "longitude": "-83.6654909"
+ },
+ {
+   "Address": "Randall Lab (aka Homer Neal Laboratory) - 0208",
+   "Cost_Electric": "805303.38",
+   "GSF": 216607,
+   "Reading_Total_Electric": "7002638.0",
+   "building_id": 208,
+   "latitude": "42.2761682",
+   "longitude": "-83.7365075"
+ },
+ {
+   "Address": "Research Museums Center (aka RMC, Varsity Drive Building) - 0812",
+   "Cost_Electric": "274139.19",
+   "GSF": 153375,
+   "Reading_Total_Electric": "2459114.0",
+   "building_id": 812,
+   "latitude": "42.2362026",
+   "longitude": "-83.7287806"
+ },
+ {
+   "Address": "Revelli Hall (aka Marching Band Building) - 0813",
+   "Cost_Electric": "25355.55",
+   "GSF": 15620,
+   "Reading_Total_Electric": "220483.0",
+   "building_id": 813,
+   "latitude": "42.2692477",
+   "longitude": "-83.74470199999999"
+ },
+ {
+   "Address": "Rogel Cancer Center (aka CC, Cancer Geriatrics Center, CGC) - 0301",
+   "Cost_Electric": "1081690.71",
+   "GSF": 278072,
+   "Reading_Total_Electric": "12417096.0",
+   "building_id": 301,
+   "latitude": "42.2827172",
+   "longitude": "-83.7267932"
+ },
+ {
+   "Address": "Ross School of Business (aka Ross, RSB) - 5188",
+   "Cost_Electric": "498717.32999999996",
+   "GSF": 292008,
+   "Reading_Total_Electric": "4336672.0",
+   "building_id": 5188,
+   "latitude": "42.2727776",
+   "longitude": "-83.737529"
+ },
+ {
+   "Address": "Ross Stephen M Academic Center - 5120",
+   "Cost_Electric": "71335.88",
+   "GSF": 45356,
+   "Reading_Total_Electric": "620312.0",
+   "building_id": 5120,
+   "latitude": "42.2684925",
+   "longitude": "-83.7410392"
+ },
+ {
+   "Address": "Ruthven (aka Ruthven Administration) - 0193",
+   "Cost_Electric": "127753.96",
+   "GSF": 152530,
+   "Reading_Total_Electric": "1110904.0",
+   "building_id": 193,
+   "latitude": "42.2783824",
+   "longitude": "-83.73444119999999"
+ },
+ {
+   "Address": "S Main Ortho - Huron Valley Professional - 8112",
+   "Cost_Electric": "26266.440000000002",
+   "GSF": 9020,
+   "Reading_Total_Electric": "157441.66",
+   "building_id": 8112,
+   "latitude": "42.255575",
+   "longitude": "-83.7507345"
+ },
+ {
+   "Address": "S8 Hill Parking Structure - 0253",
+   "Cost_Electric": "34560.75",
+   "GSF": 151175,
+   "Reading_Total_Electric": "300528.0",
+   "building_id": 253,
+   "latitude": "42.2722312",
+   "longitude": "-83.7371591"
+ },
+ {
+   "Address": "SOUTH HOUSE - 5599",
+   "Cost_Electric": "509.62",
+   "GSF": 2400,
+   "Reading_Total_Electric": "2756.0",
+   "building_id": 5599,
+   "latitude": "43.0640598",
+   "longitude": "-102.5682263"
+ },
+ {
+   "Address": "Saginaw Forest Residence Complex - 3541",
+   "Cost_Electric": "1064.3300000000002",
+   "GSF": 1249,
+   "Reading_Total_Electric": "4798.96",
+   "building_id": 3541,
+   "latitude": "42.2703128",
+   "longitude": "-83.8069792"
+ },
+ {
+   "Address": "Saline Health Center - 8121",
+   "Cost_Electric": "29962.940000000002",
+   "GSF": 8924,
+   "Reading_Total_Electric": "163676.03",
+   "building_id": 8121,
+   "latitude": "42.1841534",
+   "longitude": "-83.7823872"
+ },
+ {
+   "Address": "Salt Storage Building - 0268",
+   "Cost_Electric": "5583.85",
+   "GSF": 2385,
+   "Reading_Total_Electric": "23890.519999999997",
+   "building_id": 268,
+   "latitude": "42.2855818",
+   "longitude": "-83.73757169999999"
+ },
+ {
+   "Address": "Schembechler Glenn E Hall - 0705",
+   "Cost_Electric": "195502.41500000004",
+   "GSF": 91057,
+   "Reading_Total_Electric": "1700021.0",
+   "building_id": 705,
+   "latitude": "42.2676856",
+   "longitude": "-83.7409971"
+ },
+ {
+   "Address": "School of Education (aka Marsal Family School of Education) - 0221",
+   "Cost_Electric": "489686.39",
+   "GSF": 214981,
+   "Reading_Total_Electric": "4014121.7299999995",
+   "building_id": 221,
+   "latitude": "42.273571",
+   "longitude": "-83.7364037"
+ },
+ {
+   "Address": "School of Information North (aka SIN) - 0420",
+   "Cost_Electric": "156633.36",
+   "GSF": 30930,
+   "Reading_Total_Electric": "1362029.23",
+   "building_id": 420,
+   "latitude": "42.2889531",
+   "longitude": "-83.7144264"
+ },
+ {
+   "Address": "School of Kinesiology (aka Natural Sciences Building, Nat Sci, Kraus) - 0211",
+   "Cost_Electric": "317548.11",
+   "GSF": 228460,
+   "Reading_Total_Electric": "2761288.0",
+   "building_id": 211,
+   "latitude": "42.2781689",
+   "longitude": "-83.73892699999999"
+ },
+ {
+   "Address": "School of Nursing (New Building) (aka 426 N Ingalls) - 5347",
+   "Cost_Electric": "94403.95000000001",
+   "GSF": 80322,
+   "Reading_Total_Electric": "820904.0",
+   "building_id": 5347,
+   "latitude": "42.2850942",
+   "longitude": "-83.73855669999999"
+ },
+ {
+   "Address": "School of Nursing (Old Building) (aka 400 N Ingalls, NIB) - 0333",
+   "Cost_Electric": "161835.77000000002",
+   "GSF": 142005,
+   "Reading_Total_Electric": "1594078.08",
+   "building_id": 333,
+   "latitude": "42.28399890000001",
+   "longitude": "-83.7377703"
+ },
+ {
+   "Address": "School of Public Health I (aka SPH1, Henry Vaughan) - 0204",
+   "Cost_Electric": "529652.5",
+   "GSF": 210800,
+   "Reading_Total_Electric": "4605674.0",
+   "building_id": 204,
+   "latitude": "42.2808145",
+   "longitude": "-83.7303297"
+ },
+ {
+   "Address": "School of Public Health II (aka SPH 2, Thomas Francis) - 0234",
+   "Cost_Electric": "212529.31",
+   "GSF": 171543,
+   "Reading_Total_Electric": "1848081.0",
+   "building_id": 234,
+   "latitude": "42.2802247",
+   "longitude": "-83.7300132"
+ },
+ {
+   "Address": "School of Social Work (aka SSW) - 0219",
+   "Cost_Electric": "245380.71999999997",
+   "GSF": 143675,
+   "Reading_Total_Electric": "2133745.2700000005",
+   "building_id": 219,
+   "latitude": "42.2746694",
+   "longitude": "-83.7364652"
+ },
+ {
+   "Address": "Seismograph Station - 0999",
+   "Cost_Electric": "267.39",
+   "GSF": 576,
+   "Reading_Total_Electric": "274.5",
+   "building_id": 999,
+   "latitude": "42.31837489999999",
+   "longitude": "-83.6614045"
+ },
+ {
+   "Address": "Shapiro Library (aka UGLi, Undergraduate Library) - 0227",
+   "Cost_Electric": "234671.69",
+   "GSF": 175894,
+   "Reading_Total_Electric": "2040623.0",
+   "building_id": 227,
+   "latitude": "42.27561499999999",
+   "longitude": "-83.7371826"
+ },
+ {
+   "Address": "Shared Services Center - 5288",
+   "Cost_Electric": "112296.7",
+   "GSF": 52682,
+   "Reading_Total_Electric": "692666.11",
+   "building_id": 5288,
+   "latitude": "42.2387603",
+   "longitude": "-83.7320408"
+ },
+ {
+   "Address": "Sheep Research Facility Complex - 0942",
+   "Cost_Electric": "14013.3",
+   "GSF": 13048,
+   "Reading_Total_Electric": "72917.3",
+   "building_id": 942,
+   "latitude": "42.29090799999999",
+   "longitude": "-83.656989"
+ },
+ {
+   "Address": "Shepherd Womens Gymnastic - 5077",
+   "Cost_Electric": "36922.88",
+   "GSF": 22837,
+   "Reading_Total_Electric": "228093.15999999997",
+   "building_id": 5077,
+   "latitude": "42.252546",
+   "longitude": "-83.7420124"
+ },
+ {
+   "Address": "Simpson - 0212",
+   "Cost_Electric": "21428.63",
+   "GSF": 17769,
+   "Reading_Total_Electric": "186336.0",
+   "building_id": 212,
+   "latitude": "42.281894",
+   "longitude": "-83.7311148"
+ },
+ {
+   "Address": "South Quad (aka SQ) - 0063",
+   "Cost_Electric": "512609.52999999997",
+   "GSF": 371519,
+   "Reading_Total_Electric": "4457474.0",
+   "building_id": 63,
+   "latitude": "42.2736688",
+   "longitude": "-83.7421033"
+ },
+ {
+   "Address": "Stamps Auditorium - 5224",
+   "Cost_Electric": "13039.04",
+   "GSF": 13488,
+   "Reading_Total_Electric": "113383.0",
+   "building_id": 5224,
+   "latitude": "42.2919196",
+   "longitude": "-83.71749969999999"
+ },
+ {
+   "Address": "Stearns Building - 0445",
+   "Cost_Electric": "15712.57",
+   "GSF": 18261,
+   "Reading_Total_Electric": "90291.73000000001",
+   "building_id": 445,
+   "latitude": "42.2953942",
+   "longitude": "-83.7260005"
+ },
+ {
+   "Address": "Stinchfield Woods Complex - 3410",
+   "Cost_Electric": "1765.0700000000002",
+   "GSF": 11934,
+   "Reading_Total_Electric": "7793.47",
+   "building_id": 3410,
+   "latitude": "42.4082497",
+   "longitude": "-83.91996639999999"
+ },
+ {
+   "Address": "Stockwell Hall - 0064",
+   "Cost_Electric": "101574.56",
+   "GSF": 145204,
+   "Reading_Total_Electric": "883257.0",
+   "building_id": 64,
+   "latitude": "42.2787978",
+   "longitude": "-83.73146849999999"
+ },
+ {
+   "Address": "Student Activities Building (aka SAB) - 0215",
+   "Cost_Electric": "219981.90000000002",
+   "GSF": 119626,
+   "Reading_Total_Electric": "1912886.0",
+   "building_id": 215,
+   "latitude": "42.27672949999999",
+   "longitude": "-83.7425712"
+ },
+ {
+   "Address": "Survival Flight Helicopter Hanger - 8036",
+   "Cost_Electric": "12480.93",
+   "GSF": 26272,
+   "Reading_Total_Electric": "61720.369999999995",
+   "building_id": 8036,
+   "latitude": "42.225632",
+   "longitude": "-83.7445461"
+ },
+ {
+   "Address": "Tappan Hall - 0216",
+   "Cost_Electric": "45737.8",
+   "GSF": 37576,
+   "Reading_Total_Electric": "397720.0",
+   "building_id": 216,
+   "latitude": "42.2755455",
+   "longitude": "-83.7392696"
+ },
+ {
+   "Address": "Taubman (aka THC) - 0317",
+   "Cost_Electric": "581821.04",
+   "GSF": 410082,
+   "Reading_Total_Electric": "6712840.0",
+   "building_id": 317,
+   "latitude": "42.2853456",
+   "longitude": "-83.73104169999999"
+ },
+ {
+   "Address": "Taubman Library (aka THSL, Taub Lib) - 0209",
+   "Cost_Electric": "151576.88",
+   "GSF": 143973,
+   "Reading_Total_Electric": "1318059.67",
+   "building_id": 209,
+   "latitude": "42.2834941",
+   "longitude": "-83.7343702"
+ },
+ {
+   "Address": "Tisch Tennis Bldg - 0738",
+   "Cost_Electric": "89395.11",
+   "GSF": 89026,
+   "Reading_Total_Electric": "575227.4299999999",
+   "building_id": 738,
+   "latitude": "42.2535144",
+   "longitude": "-83.7434267"
+ },
+ {
+   "Address": "Towsley (aka Towsley, CEC) - 0313",
+   "Cost_Electric": "57397.54",
+   "GSF": 52332,
+   "Reading_Total_Electric": "499109.0",
+   "building_id": 313,
+   "latitude": "42.2820308",
+   "longitude": "-83.72823989999999"
+ },
+ {
+   "Address": "Towsley Children's House - 5240",
+   "Cost_Electric": "42512.87000000001",
+   "GSF": 25428,
+   "Reading_Total_Electric": "264981.26",
+   "building_id": 5240,
+   "latitude": "42.27340820000001",
+   "longitude": "-83.73359239999999"
+ },
+ {
+   "Address": "Transportation Services Building - 0808",
+   "Cost_Electric": "38219.229999999996",
+   "GSF": 40633,
+   "Reading_Total_Electric": "332341.0",
+   "building_id": 808,
+   "latitude": "42.2665237",
+   "longitude": "-83.7448435"
+ },
+ {
+   "Address": "Traverwood 1 - Turner Senior Resource - 8162",
+   "Cost_Electric": "25846.61",
+   "GSF": 17086,
+   "Reading_Total_Electric": "125848.47",
+   "building_id": 8162,
+   "latitude": "42.3019927",
+   "longitude": "-83.7137103"
+ },
+ {
+   "Address": "Trotter Multicultural Center - 5413",
+   "Cost_Electric": "23984.18",
+   "GSF": 20719,
+   "Reading_Total_Electric": "208558.0",
+   "building_id": 5413,
+   "latitude": "42.2770601",
+   "longitude": "-83.7411132"
+ },
+ {
+   "Address": "U-M Museum of Art (aka UMMA, Memorial Hall) - 0151",
+   "Cost_Electric": "291044.88",
+   "GSF": 99304,
+   "Reading_Total_Electric": "2530825.0",
+   "building_id": 151,
+   "latitude": "42.2754052",
+   "longitude": "-83.7400012"
+ },
+ {
+   "Address": "UH South 1 (aka Old Women's) - 0309",
+   "Cost_Electric": "28370.5",
+   "GSF": 67494,
+   "Reading_Total_Electric": "246700.0",
+   "building_id": 309,
+   "latitude": "42.2827184",
+   "longitude": "-83.7294416"
+ },
+ {
+   "Address": "UM Transportation Research Institute (aka UMTRI) - 0444",
+   "Cost_Electric": "87161.965",
+   "GSF": 81529,
+   "Reading_Total_Electric": "757930.0",
+   "building_id": 444,
+   "latitude": "42.297728",
+   "longitude": "-83.703023"
+ },
+ {
+   "Address": "Undergraduate Science Building (aka USB) - 5046",
+   "Cost_Electric": "282351.3400000001",
+   "GSF": 141749,
+   "Reading_Total_Electric": "2455229.0",
+   "building_id": 5046,
+   "latitude": "42.2798988",
+   "longitude": "-83.73530579999999"
+ },
+ {
+   "Address": "University Hospital (aka UH) - 0316",
+   "Cost_Electric": "6016058.02",
+   "GSF": 1721070,
+   "Reading_Total_Electric": "69190016.0",
+   "building_id": 316,
+   "latitude": "42.2827172",
+   "longitude": "-83.7267932"
+ },
+ {
+   "Address": "University Hospital Education Center (aka UHEC) - 0327",
+   "Cost_Electric": "8020.680000000001",
+   "GSF": 8349,
+   "Reading_Total_Electric": "39810.399999999994",
+   "building_id": 327,
+   "latitude": "42.2854418",
+   "longitude": "-83.73672289999999"
+ },
+ {
+   "Address": "Victor Vaughan (aka VV) - 0065",
+   "Cost_Electric": "30705.93",
+   "GSF": 51518,
+   "Reading_Total_Electric": "267008.0",
+   "building_id": 65,
+   "latitude": "42.2836793",
+   "longitude": "-83.7350565"
+ },
+ {
+   "Address": "W3 Thompson Parking Structure - 0255",
+   "Cost_Electric": "72614.09999999999",
+   "GSF": 365996,
+   "Reading_Total_Electric": "594624.0",
+   "building_id": 255,
+   "latitude": "42.2754613",
+   "longitude": "-83.74362239999999"
+ },
+ {
+   "Address": "Walgreen Drama Center - 5059",
+   "Cost_Electric": "133379.9",
+   "GSF": 84149,
+   "Reading_Total_Electric": "1159824.98",
+   "building_id": 5059,
+   "latitude": "42.2919196",
+   "longitude": "-83.71749969999999"
+ },
+ {
+   "Address": "Wallace House - 8067",
+   "Cost_Electric": "2932.34",
+   "GSF": 7863,
+   "Reading_Total_Electric": "14012.64",
+   "building_id": 8067,
+   "latitude": "42.2746001",
+   "longitude": "-83.72643029999999"
+ },
+ {
+   "Address": "Weidenbach Hall - 0731",
+   "Cost_Electric": "25791.599999999995",
+   "GSF": 23229,
+   "Reading_Total_Electric": "224275.0",
+   "building_id": 731,
+   "latitude": "42.2694294",
+   "longitude": "-83.7414378"
+ },
+ {
+   "Address": "Weill Hall (aka Gerald R. Ford School of Public Policy, Joan & Sanford) - 5101",
+   "Cost_Electric": "113438.97",
+   "GSF": 97989,
+   "Reading_Total_Electric": "986426.0",
+   "building_id": 5101,
+   "latitude": "42.27229759999999",
+   "longitude": "-83.7403873"
+ },
+ {
+   "Address": "Weiser Hall (aka Dennison) - 0165",
+   "Cost_Electric": "125138.29",
+   "GSF": 145518,
+   "Reading_Total_Electric": "1088159.0",
+   "building_id": 165,
+   "latitude": "42.2768901",
+   "longitude": "-83.734888"
+ },
+ {
+   "Address": "West Ann Arbor Health Center Parkland PLZ - 5388",
+   "Cost_Electric": "162906.24",
+   "GSF": 75260,
+   "Reading_Total_Electric": "1297489.3800000001",
+   "building_id": 5388,
+   "latitude": "42.2797369",
+   "longitude": "-83.8151056"
+ },
+ {
+   "Address": "West Hall - 0167",
+   "Cost_Electric": "194114.04",
+   "GSF": 166528,
+   "Reading_Total_Electric": "1687948.0",
+   "building_id": 167,
+   "latitude": "42.2757341",
+   "longitude": "-83.73621589999999"
+ },
+ {
+   "Address": "West Quad (aka WQ) - 0066",
+   "Cost_Electric": "277837.25",
+   "GSF": 386265,
+   "Reading_Total_Electric": "2415976.0",
+   "building_id": 66,
+   "latitude": "42.2748013",
+   "longitude": "-83.7428968"
+ },
+ {
+   "Address": "West Shore Urology - 5428",
+   "Cost_Electric": "14652.730000000001",
+   "GSF": 10727,
+   "Reading_Total_Electric": "72217.0",
+   "building_id": 5428,
+   "latitude": "43.2070064",
+   "longitude": "-86.21251339999999"
+ },
+ {
+   "Address": "Willow Run Complex - 2201",
+   "Cost_Electric": "10788.630000000001",
+   "GSF": 18570,
+   "Reading_Total_Electric": "58328.0",
+   "building_id": 2201,
+   "latitude": "42.2424402",
+   "longitude": "-83.49968919999999"
+ },
+ {
+   "Address": "Wolverine Tower (aka WoTo) - 8090",
+   "Cost_Electric": "317900.51",
+   "GSF": 224981,
+   "Reading_Total_Electric": "2287194.0",
+   "building_id": 8090,
+   "latitude": "42.243225",
+   "longitude": "-83.73724059999999"
+ },
+ {
+   "Address": "Wyly Hall - 0135",
+   "Cost_Electric": "93062.93499999998",
+   "GSF": 82855,
+   "Reading_Total_Electric": "809243.0",
+   "building_id": 135,
+   "latitude": "42.2724266",
+   "longitude": "-83.7360334"
+ },
+ {
+   "Address": "Yost Ice Arena - 0709",
+   "Cost_Electric": "268334.78500000003",
+   "GSF": 124755,
+   "Reading_Total_Electric": "2333346.0",
+   "building_id": 709,
+   "latitude": "42.2675741",
+   "longitude": "-83.7410082"
+ },
+ {
+   "Address": "Ypsi Kellogg - River Place Offices - 5340",
+   "Cost_Electric": "30964.0",
+   "GSF": 7124,
+   "Reading_Total_Electric": "191528.31",
+   "building_id": 5340,
+   "latitude": "42.2593423",
+   "longitude": "-83.64476909999999"
+ }
+]
