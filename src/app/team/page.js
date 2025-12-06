@@ -26,7 +26,7 @@ export default function Team() {
             data and technology driven projects.
           </p>
           {/* images */}
-          <div className="flex flex-row m-10 justify-between flex-wrap">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center m-10">
             <ProfileCard
               headshot="/headshots/tisya.jpeg"
               fullname="Tisya  Mukherjee"
