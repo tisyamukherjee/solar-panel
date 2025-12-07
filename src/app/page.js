@@ -1,11 +1,44 @@
+'use client'
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from './Home.module.css';
+import {useEffect, useState} from "react";
+import Papa from "papaparse";
+import EnergyMap3D from "@/components/EnergyUseMap";
 
 export default function Home() {
+    const [buildingsData, setBuildingsData] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        fetch('/buildings_with_coordinates.csv')
+            .then(response => response.text())
+            .then(csvText => {
+                Papa.parse(csvText, {
+                    header: true,
+                    dynamicTyping: true,
+                    complete: (results) => {
+                        const filtered = results.data.filter(
+                            (row) =>
+                                row.latitude &&
+                                row.longitude &&
+                                row.Reading_Total_Electric > 0
+                        );
+                        setBuildingsData(filtered);
+                        setLoading(false);
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading CSV:', error);
+                setLoading(false);
+            });
+    }, []);
+
   return (
     <div className="text-white font-montserrat">
       {/* Hero Section */}
@@ -133,6 +166,9 @@ export default function Home() {
             />
           </a>
         </div>
+          <div className="">
+              <EnergyMap3D buildingsData={buildingsData} />
+          </div>
       </section>
 
        {/* Partners Section */}
