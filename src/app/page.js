@@ -76,41 +76,33 @@ export default function Home() {
           </p>
         </div>
       </section>
-      
 
-      
-      
-      
-      
-      
-      
-  <section className="-mt-8 bg-white text-[#00274C] pt-32 px-6 md:px-16 shadow-xl">
-  <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
-    
-    {/* LEFT: text */}
-    <div className="md:w-1/2">
-      <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
-      <p className="text-xl leading-relaxed max-w-3xl">
-        We are committed to transforming the University of Michigan with clean solar energy.
-        With over 70 solar panel systems across campus, we aim to make solar energy
-        education accessible and engaging through learning modules.
-      </p>
-    </div>
+        <section className="-mt-8 bg-white text-[#00274C] pt-32 px-6 md:px-16 shadow-xl">
+        <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
+          
+          {/* LEFT: text */}
+          <div className="md:w-1/2">
+            <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
+            <p className="text-xl leading-relaxed max-w-3xl">
+              We are committed to transforming the University of Michigan with clean solar energy.
+              With over 70 solar panel systems across campus, we aim to make solar energy
+              education accessible and engaging through learning modules.
+            </p>
+          </div>
 
-    {/* RIGHT: image */}
-    <div className="md:w-1/2 flex justify-center md:justify-end">
-      <Image
-        className={styles.missionGraph}
-        src="/locations/dude.jpg"
-        alt="Aerial View of Panels"
-        width={375}
-        height={100}
-      />
-    </div>
+          {/* RIGHT: image */}
+          <div className="md:w-1/2 flex justify-center md:justify-end">
+            <Image
+              className={styles.missionGraph}
+              src="/locations/dude.jpg"
+              alt="Aerial View of Panels"
+              width={375}
+              height={100}
+            />
+          </div>
 
-  </div>
-</section>
-  
+        </div>
+      </section>
 
       {/* Stats Section */}
       <section className="px-6 pb-32 pt-16 md:px-16 bg-white text-[#00274C]">
@@ -166,8 +158,13 @@ export default function Home() {
             />
           </a>
         </div>
-          <div className="">
-              <EnergyMap3D buildingsData={buildingsData} />
+          <div className="mt-15 mb-5">
+            <h1 className={styles.graphHeader}>Energy Consumption Across Campus Buildings</h1>
+            <p className="mb-5">An interactive campus-wide map displaying each university building’s total energy use, cost, square footage, and energy use per square foot.</p>
+            <EnergyMap3D buildingsData={buildingsData} />
+            <figcaption className="text-sm text-gray-300 mt-2">
+              Source: Office of Campus Sustainability
+            </figcaption>
           </div>
       </section>
 
