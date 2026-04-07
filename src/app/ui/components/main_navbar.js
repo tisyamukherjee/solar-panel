@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { headers } from 'next/headers';
+import { auth } from '@/lib/auth';
 import { LoginLogoutButton } from '@/components/ui/LoginLogout';
 
-export default function Navbar() {
+export default async function Navbar() {
+    const session = await auth.api.getSession({ headers: await headers() });
     return (
         <header className="bg-[#00274C]">
             {/* <div className="max-w-5xl flex items-center justify-between px-6 py-4 font-montserrat"> */}
@@ -31,7 +34,7 @@ export default function Navbar() {
                     <Link href="/education/prequiz" className="hover:text-yellow-400 transition px-5">Get Educated</Link>
                     {/* <Link href="/contact" className="hover:text-yellow-400 transition px-6">Contact</Link> */}
                     <Link href="/team" className="hover:text-yellow-400 transition px-5">Team</Link>
-                    <LoginLogoutButton/>
+                    <LoginLogoutButton initialSession={session} />
                 </nav>
             </div>
         </header>

@@ -1,51 +1,29 @@
 'use client'
 
-import {authClient} from "@/lib/auth-client";
+import { useRouter } from 'next/navigation';
+import { authClient } from "@/lib/auth-client";
 
 async function signInWithGoogle() {
     await authClient.signIn.social({
-        /**
-         * The social provider ID
-         * @example "GitHub", "google", "apple"
-         */
         provider: "google",
-        /**
-         * A URL to redirect after the user authenticates with the provider
-         * @default "/"
-         */
         callbackURL: "/",
-        /**
-         * A URL to redirect if an error occurs during the sign in process
-         */
         errorCallbackURL: "/",
-        /**
-         * A URL to redirect if the user is newly registered
-         */
         newUserCallbackURL: "/",
-        /**
-         * disable the automatic redirect to the provider.
-         * @default false
-         */
         disableRedirect: false,
     });
 }
 
-async function handleSignOut() {
-    await authClient.signOut();
-}
+export function LoginLogoutButton({ initialSession }: { initialSession: any }) {
+    const router = useRouter();
 
-export function LoginLogoutButton() {
-    const {
-        data: session,
-        isPending, //loading state
-        error, //error object
-        refetch //refetch the session
-    } = authClient.useSession()
+    async function handleSignOut() {
+        await authClient.signOut();
+        router.refresh(); // re-renders the server Navbar with the cleared cookie
+    }
 
-    if (!session) {
-        return <p className="px-6 hover:text-yellow-400 transition" onClick={signInWithGoogle}>Login</p>
+    if (!initialSession) {
+        return <p className="px-6 hover:text-yellow-400 transition cursor-pointer" onClick={signInWithGoogle}>Login</p>
     }
-    else {
-        return <p className="px-6 hover:text-yellow-400 transition" onClick={handleSignOut}>Logout</p>
-    }
+
+    return <p className="px-6 hover:text-yellow-400 transition cursor-pointer" onClick={handleSignOut}>Logout</p>
 }

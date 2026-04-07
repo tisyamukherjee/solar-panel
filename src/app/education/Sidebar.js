@@ -2,15 +2,16 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { useProgress } from '@/context/ProgressContext';
 
 const sidebarData = [
   {
     title: 'Environmental Sustainability',
     submodules: [
-      { name: '1.1 - The Rise of Solar Panel', href: '/education/environmental/environmental_1' },
-      { name: '1.2 - What is Sustainability?', href: '/education/environmental/environmental_2' },
-      { name: '1.3 - What Makes Solar Energy Sustainable?', href: '/education/environmental/environmental_3' },
-      { name: '1.4 - Greenhouse Gas Emissions', href: '/education/environmental/environmental_4' },
+      { name: '1.1 - The Rise of Solar Panel', href: '/education/environmental/environmental_1', lessonId: 'environmental_1' },
+      { name: '1.2 - What is Sustainability?', href: '/education/environmental/environmental_2', lessonId: 'environmental_2' },
+      { name: '1.3 - What Makes Solar Energy Sustainable?', href: '/education/environmental/environmental_3', lessonId: 'environmental_3' },
+      { name: '1.4 - Greenhouse Gas Emissions', href: '/education/environmental/environmental_4', lessonId: 'environmental_4' },
       { name: '1.5 - The Supply Chain', href: '/lesson1/basics' },
       { name: '1.6 - Supply Chain Continued', href: '/lesson1/basics' },
       { name: '1.7 - Disposal, Recycling, and Reuse of Solar Panels', href: '/lesson1/basics' },
@@ -35,15 +36,14 @@ const sidebarData = [
 
 export default function Sidebar() {
   const [openLesson, setOpenLesson] = useState(null);
+  const { completedLessons } = useProgress();
 
   const toggleLesson = (index) => {
     setOpenLesson(openLesson === index ? null : index);
   };
 
   return (
-    <div className="w-60 text-black p-10 top-0 left-0 overflow-y-auto font-montserrat bg-[#FFCB05]">
-      {/* <h1 className="text-2xl font-bold mb-8">Education Modules</h1> */}
-
+    <div className="w-60 shrink-0 text-black p-10 sticky top-0 h-screen overflow-y-auto font-montserrat bg-[#FFCB05]">
       {/* prequiz */}
       <div>
         <Link href="/education/prequiz">
@@ -52,6 +52,7 @@ export default function Sidebar() {
           </button>
         </Link>
       </div>
+
       {sidebarData.map((lesson, index) => (
         <div className="py-4" key={index}>
           <button
@@ -65,14 +66,18 @@ export default function Sidebar() {
           {openLesson === index && (
             <div className="ml-4 mt-2 space-y-1">
               {lesson.submodules.map((sub, subIndex) => (
-                <Link key={subIndex} href={sub.href} className="block py-1 text-sm hover:text-white">
-                  {sub.name}
+                <Link key={subIndex} href={sub.href} className="flex items-center justify-between py-1 text-sm hover:text-white">
+                  <span>{sub.name}</span>
+                  {sub.lessonId && completedLessons.has(sub.lessonId) && (
+                    <span className="text-green-700 font-bold ml-2">✓</span>
+                  )}
                 </Link>
               ))}
             </div>
           )}
         </div>
       ))}
+
       {/* post quiz */}
       <div>
         <Link href="/education/postquiz">

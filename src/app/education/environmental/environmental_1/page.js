@@ -1,12 +1,18 @@
 "use client";
 
-import Image from 'next/image'; 
-import { useState } from "react";
+import Image from 'next/image';
+import { useState, useEffect } from "react";
+import { logResourceAccess } from "@/lib/actions/tracking";
+import LessonCompleteButton from "@/components/LessonCompleteButton";
 
 export default function Environmental_1() {
   const [selected, setSelected] = useState(null);
 
   const correctAnswer = "False";
+
+  useEffect(() => {
+    logResourceAccess("lesson", "environmental_1");
+  }, []);
 
   const handleSelect = (value) => {
     setSelected(value);
@@ -108,6 +114,8 @@ export default function Environmental_1() {
             </div>
           </div>
       </div>
+
+      <LessonCompleteButton lessonId="environmental_1" nextHref="/education/environmental/environmental_2" />
     </div>
   );
 }
