@@ -61,14 +61,13 @@ export default async function AdminPage() {
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 py-10">
         <h1 className="text-4xl font-bold text-[#00274C] font-montserrat mb-2">Admin Panel</h1>
-        <p className="text-gray-500 mb-10">Educational module engagement overview</p>
+        <p className="text-gray-500 mb-8">Educational module engagement overview</p>
 
-        {/* Summary cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-12">
-          <StatCard label="Total Users" value={totalUsers} />
-          <StatCard label="Lesson Visits" value={totalAccesses} />
-          <StatCard label="Lesson Completions" value={totalCompletions} />
-        </div>
+        <SummaryStats
+          totalUsers={totalUsers}
+          totalAccesses={totalAccesses}
+          totalCompletions={totalCompletions}
+        />
 
         <AdminCharts accessData={accessData} completionData={completionData} />
       </div>
@@ -76,11 +75,20 @@ export default async function AdminPage() {
   );
 }
 
-function StatCard({ label, value }) {
+function SummaryStats({ totalUsers, totalAccesses, totalCompletions }) {
+  const stats = [
+    { label: "Total Users", value: totalUsers },
+    { label: "Lesson Visits", value: totalAccesses },
+    { label: "Lesson Completions", value: totalCompletions },
+  ];
   return (
-    <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-      <p className="text-sm font-medium text-gray-500 uppercase tracking-wide">{label}</p>
-      <p className="text-4xl font-bold text-[#00274C] mt-1">{value.toLocaleString()}</p>
+    <div className="rounded-xl mb-10 flex divide-x divide-gray-200">
+      {stats.map(({ label, value }) => (
+        <div key={label} className="flex-1 px-6 first:pl-0 last:pr-0">
+          <p className="text-sm font-medium text-gray-500 uppercase tracking-wide">{label}</p>
+          <p className="text-4xl font-bold text-[#00274C] mt-1">{value.toLocaleString()}</p>
+        </div>
+      ))}
     </div>
   );
 }

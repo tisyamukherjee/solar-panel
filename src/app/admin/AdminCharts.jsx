@@ -3,19 +3,21 @@
 import { useEffect, useRef } from "react";
 import * as Plot from "@observablehq/plot";
 
+const BAR_WIDTH = 60; // px per bar, drives the scrollable canvas width
+
 export default function AdminCharts({ accessData, completionData }) {
   return (
-    <div className="space-y-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <ChartCard
         title="Lesson Visits"
-        description="Total number of times each lesson was accessed (includes unauthenticated visitors)"
+        description="Total times each lesson was accessed, including unauthenticated visitors"
       >
         <AccessChart data={accessData} />
       </ChartCard>
 
       <ChartCard
-        title="Average Completion Rate per Lesson"
-        description="Percentage of users who marked each lesson as complete out of those who visited"
+        title="Completion Rate per Lesson"
+        description="Percentage of users who marked each lesson complete out of those who visited"
       >
         <CompletionChart data={completionData} />
       </ChartCard>
@@ -25,7 +27,7 @@ export default function AdminCharts({ accessData, completionData }) {
 
 function ChartCard({ title, description, children }) {
   return (
-    <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+    <div className="rounded-xl">
       <h2 className="text-xl font-semibold text-[#00274C] mb-1">{title}</h2>
       <p className="text-sm text-gray-500 mb-6">{description}</p>
       {children}
@@ -39,37 +41,39 @@ function AccessChart({ data }) {
   useEffect(() => {
     if (!ref.current || !data.length) return;
 
+    const chartWidth = Math.max(data.length * BAR_WIDTH + 80, 400);
+
     const chart = Plot.plot({
-      marginLeft: 140,
-      marginBottom: 50,
-      width: ref.current.clientWidth || 700,
-      height: 280,
+      width: chartWidth,
+      height: 300,
+      marginBottom: 60,
+      marginLeft: 50,
       x: {
-        label: "Number of visits →",
-        grid: true,
-      },
-      y: {
         label: null,
         tickFormat: (d) => formatLesson(d),
+        tickRotate: -30,
+      },
+      y: {
+        label: "Visits",
+        grid: true,
       },
       marks: [
-        Plot.barX(data, {
-          x: "visits",
-          y: "lesson",
+        Plot.barY(data, {
+          x: "lesson",
+          y: "visits",
           fill: "#00274C",
-          sort: { y: "-x" },
           rx: 4,
+          sort: { x: "x" },
         }),
         Plot.text(data, {
-          x: "visits",
-          y: "lesson",
+          x: "lesson",
+          y: "visits",
           text: (d) => d.visits,
-          dx: 8,
+          dy: -14,
           fill: "#374151",
-          fontSize: 13,
-          textAnchor: "start",
+          fontSize: 15,
         }),
-        Plot.ruleX([0]),
+        Plot.ruleY([0]),
       ],
     });
 
@@ -77,11 +81,9 @@ function AccessChart({ data }) {
     return () => chart.remove();
   }, [data]);
 
-  if (!data.length) {
-    return <EmptyState message="No lesson visit data yet." />;
-  }
+  if (!data.length) return <EmptyState message="No lesson visit data yet." />;
 
-  return <div ref={ref} className="w-full overflow-x-auto" />;
+  return <div className="overflow-x-auto"><div ref={ref} /></div>;
 }
 
 function CompletionChart({ data }) {
@@ -90,38 +92,40 @@ function CompletionChart({ data }) {
   useEffect(() => {
     if (!ref.current || !data.length) return;
 
+    const chartWidth = Math.max(data.length * BAR_WIDTH + 80, 400);
+
     const chart = Plot.plot({
-      marginLeft: 140,
-      marginBottom: 50,
-      width: ref.current.clientWidth || 700,
-      height: 280,
+      width: chartWidth,
+      height: 300,
+      marginBottom: 60,
+      marginLeft: 50,
       x: {
-        label: "Completion rate (%) →",
+        label: null,
+        tickFormat: (d) => formatLesson(d),
+        tickRotate: -30,
+      },
+      y: {
+        label: "Completion %",
         domain: [0, 100],
         grid: true,
       },
-      y: {
-        label: null,
-        tickFormat: (d) => formatLesson(d),
-      },
       marks: [
-        Plot.barX(data, {
-          x: "completionRate",
-          y: "lesson",
+        Plot.barY(data, {
+          x: "lesson",
+          y: "completionRate",
           fill: (d) => (d.completionRate >= 50 ? "#1a7a4a" : "#FFCB05"),
-          sort: { y: "-x" },
           rx: 4,
+          sort: { x: "x" },
         }),
         Plot.text(data, {
-          x: "completionRate",
-          y: "lesson",
-          text: (d) => `${d.completionRate}%  (${d.completed}/${d.total})`,
-          dx: 8,
+          x: "lesson",
+          y: "completionRate",
+          text: (d) => `${d.completionRate}%`,
+          dy: -14,
           fill: "#374151",
-          fontSize: 12,
-          textAnchor: "start",
+          fontSize: 15,
         }),
-        Plot.ruleX([0]),
+        Plot.ruleY([0]),
       ],
     });
 
@@ -129,11 +133,9 @@ function CompletionChart({ data }) {
     return () => chart.remove();
   }, [data]);
 
-  if (!data.length) {
-    return <EmptyState message="No lesson completion data yet." />;
-  }
+  if (!data.length) return <EmptyState message="No lesson completion data yet." />;
 
-  return <div ref={ref} className="w-full overflow-x-auto" />;
+  return <div className="overflow-x-auto"><div ref={ref} /></div>;
 }
 
 function EmptyState({ message }) {
@@ -144,11 +146,10 @@ function EmptyState({ message }) {
   );
 }
 
-// "environmental_1" → "Env. 1", etc.
 function formatLesson(id) {
   if (!id) return id;
   return id
-    .replace("environmental_", "Environmental ")
+    .replace("environmental_", "Env. ")
     .replace(/_/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
