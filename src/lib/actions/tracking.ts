@@ -10,13 +10,18 @@ async function getSession() {
 
 export async function logResourceAccess(resourceType: string, resourceId: string) {
   const session = await getSession();
-  if (!session?.user?.id) return;
+  const headersList = await headers();
+  const ip =
+    headersList.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+    headersList.get("x-real-ip") ??
+    null;
 
   await prisma.resourceAccess.create({
     data: {
-      userId: session.user.id,
+      userId: session?.user?.id ?? null,
       resourceType,
       resourceId,
+      ipAddress: ip,
     },
   });
 }

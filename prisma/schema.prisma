@@ -12,6 +12,10 @@ datasource db {
   provider = "postgresql"
 }
 
+enum Role {
+  USER
+  ADMIN
+}
 
 model User {
   id               String           @id @default(uuid())
@@ -21,6 +25,7 @@ model User {
   updatedAt        DateTime         @updatedAt
   emailVerified    Boolean          @default(false)
   image            String?
+  role             Role             @default(USER)
   sessions         Session[]
   accounts         Account[]
   resourceAccesses ResourceAccess[]
@@ -31,11 +36,12 @@ model User {
 
 model ResourceAccess {
   id           String   @id @default(uuid())
-  userId       String
-  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId       String?
+  user         User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
   resourceType String
   resourceId   String
   accessedAt   DateTime @default(now())
+  ipAddress    String?
 
   @@index([userId])
   @@index([resourceId])

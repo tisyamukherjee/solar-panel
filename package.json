@@ -12,6 +12,7 @@
     "@deck.gl/layers": "9.1.10",
     "@deck.gl/react": "9.1.10",
     "@googlemaps/js-api-loader": "^1.16.8",
+    "@observablehq/plot": "^0.6.17",
     "@prisma/adapter-pg": "^7.5.0",
     "@prisma/client": "^7.5.0",
     "@radix-ui/react-slot": "^1.1.2",
